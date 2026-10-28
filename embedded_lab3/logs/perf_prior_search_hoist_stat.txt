@@ -1,0 +1,19 @@
+
+ Performance counter stats for '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/embedded_lab3/apps/perf_target 2000':
+
+           1614.94 msec task-clock                                                            
+                76      context-switches                                                      
+                 3      cpu-migrations                                                        
+               373      page-faults                                                           
+        5476056211      cycles                                                                
+       14627660196      instructions                                                          
+          10709453      cache-misses                                                          
+        2004747296      branches                                                              
+           2940471      branch-misses                                                         
+
+       1.620314537 seconds time elapsed
+
+       1.612755000 seconds user
+       0.002997000 seconds sys
+
+

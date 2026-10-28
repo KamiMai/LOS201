@@ -1,0 +1,20 @@
+/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/embedded_lab3/apps/perf_target: Segmentation fault
+
+ Performance counter stats for '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/embedded_lab3/apps/perf_target 2000':
+
+           1659.04 msec task-clock                                                            
+                98      context-switches                                                      
+                12      cpu-migrations                                                        
+               367      page-faults                                                           
+        5625628020      cycles                                                                
+       14620322662      instructions                                                          
+           7487474      cache-misses                                                          
+        2003337172      branches                                                              
+           7326843      branch-misses                                                         
+
+       1.807626855 seconds time elapsed
+
+       1.659199000 seconds user
+       0.001262000 seconds sys
+
+

@@ -1,0 +1,44 @@
+/ # time /tmp/perf_target_arm 50
+=== Perf Target App – LAB-03 ===
+[1] CPU-intensive computation...
+    Result: 11433083166.074631
+[2] Linear search (1000 times)...
+    Search checksum: 99991021
+[3] I/O intensive (write 10000 lines)...
+Done.
+real	0m 1.93s
+user	0m 1.89s
+sys	0m 0.03s
+/ # strace -c /tmp/perf_target_arm 50
+=== Perf Target App – LAB-03 ===
+[1] CPU-intensive computation...
+    Result: 11433083166.074631
+[2] Linear search (1000 times)...
+    Search checksum: 99991021
+[3] I/O intensive (write 10000 lines)...
+Done.
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 43.28    0.007636        3818         2           munmap
+ 20.45    0.003608          47        76           write
+ 12.50    0.002205        2205         1           execve
+  4.40    0.000777         777         1           rseq
+  4.11    0.000725         145         5           brk
+  3.25    0.000574         574         1           readlinkat
+  1.64    0.000289         144         2           mmap2
+  1.56    0.000276         276         1           ioctl
+  1.51    0.000267         267         1           set_tls
+  1.45    0.000255         127         2           statx
+  1.33    0.000234         117         2           clock_gettime64
+  0.95    0.000168         168         1           ugetrlimit
+  0.94    0.000166         166         1           set_tid_address
+  0.94    0.000165         165         1           mprotect
+  0.83    0.000146         146         1         1 getrandom
+  0.74    0.000131         131         1           set_robust_list
+  0.10    0.000017          17         1           unlink
+  0.02    0.000004           4         1           close
+  0.00    0.000000           0         1           fcntl64
+  0.00    0.000000           0         1           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.017643         171       103         1 total
+/ # echo __VERIFIED_PROFILE_END__

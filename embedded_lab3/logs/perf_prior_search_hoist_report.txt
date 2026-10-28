@@ -1,0 +1,51 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 164  of event 'cycles:u'
+# Event count (approx.): 5365200499
+#
+# Overhead  Command      Shared Object  Symbol               
+# ........  ...........  .............  .....................
+#
+    56.88%  perf_target  libm.so.6      [.] __ieee754_log_fma
+            |          
+            |--56.26%--__ieee754_log_fma
+            |          main
+            |          __libc_start_call_main
+            |          call_init (inlined)
+            |          __libc_start_main_impl (inlined)
+            |          _start
+            |          
+             --0.63%--top16 (inlined)
+                       __ieee754_log_fma
+                       main
+                       __libc_start_call_main
+                       call_init (inlined)
+                       __libc_start_main_impl (inlined)
+                       _start
+
+    37.48%  perf_target  perf_target    [.] heavy_compute
+            |
+            ---heavy_compute
+               main
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+     5.64%  perf_target  libm.so.6      [.] log@@GLIBC_2.29
+            |
+            ---__log (inlined)
+               main
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

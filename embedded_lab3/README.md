@@ -11,7 +11,7 @@ This lab adds remote application debugging with GDB, memory analysis with Valgri
 - [x] Capture remote GDB evidence for three application bugs.
 - [x] Capture Valgrind results before and after fixes.
 - [x] Observe ARM process memory while the process is alive.
-- [ ] Collect host and ARM strace results and host perf profiles.
+- [x] Collect host and ARM strace results and host perf profiles.
 - [ ] Measure host latency at idle and under load and plot histograms.
 - [ ] Complete the report and submission archive.
 
@@ -48,3 +48,13 @@ The original `leaky_app.c` is unchanged from the assignment. Memcheck reported 1
 The fixed program frees `name` and `scores` before freeing each record, releases message buffers after use, and cleans up partial allocation failures. Memcheck recorded 352 allocations, 352 frees, zero bytes at exit and zero errors.
 
 `memory_observe_arm leaky|fixed` repeats the assignment workload with explicit 5-second and 8-second observation windows. Run `/usr/bin/observe_memory.sh` in QEMU. In this small-workload run, both modes showed VmSize=624 kB, VmRSS=4 kB and VmData=152 kB before and after. These coarse process counters did not expose the 16900-byte leak; Memcheck is the direct evidence. Freeing memory need not return its arena to the OS. See `logs/arm_memory.txt`.
+
+## Profiling results
+
+The measured workload keeps the original math function, consumes search results and varies each query to prevent loop-invariant hoisting. An optional integer argument selects 1-10000 compute iterations; default is 50. `perf_target_original.c` retains the assignment version.
+
+Use `bash embedded_lab3/scripts/profile-host.sh` for host timing/strace and `sudo bash embedded_lab3/scripts/measure-host.sh` for perf and scheduling latency. Perf uses 2000 compute iterations and samples `cycles:u` at 997 Hz; timing/strace and ARM comparison use 50 iterations. Do not compare the two iteration counts as equal workloads.
+
+Final record/report/script/stat completed successfully on perf 7.0.14. The dominant symbols are libm log and heavy_compute, with linear_search now also sampled. The earlier apparent perf failures were target-program crashes: unchecked fopen of a shared /tmp filename failed under sudo with fs.protected_regular=2. The measured program now uses mkstemp and checks I/O. Original failure transcripts are retained.
+
+Rootfs includes memory and profiling apps. The ARM program was checked after the final source change; checksum is 99991021. Gnuplot and FlameGraph outputs are based on the saved raw captures; FlameGraph's upstream commit is recorded.

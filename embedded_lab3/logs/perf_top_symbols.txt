@@ -1,0 +1,8 @@
+    50.91%  perf_target  libm.so.6         [.] __ieee754_log_fma
+    37.36%  perf_target  perf_target       [.] heavy_compute
+     7.48%  perf_target  libm.so.6         [.] log@@GLIBC_2.29
+     4.02%  perf_target  perf_target       [.] linear_search
+     0.11%  perf_target  perf_target       [.] log@plt
+     0.05%  perf_target  [unknown]         [k] 0xffffffff8da00ef0
+     0.05%  perf_target  libc.so.6         [.] __vfprintf_internal
+     0.01%  perf_target  perf_target       [.] main

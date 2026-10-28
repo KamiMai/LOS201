@@ -1,0 +1,9 @@
+=== Perf Target App – LAB-03 ===
+[1] CPU-intensive computation...
+    Result: 457323326642.973694
+[2] Linear search (1000 times)...
+    Search checksum: 99991021
+[3] I/O intensive (write 10000 lines)...
+Done.
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.170 MB /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/embedded_lab3/logs/perf.data ]

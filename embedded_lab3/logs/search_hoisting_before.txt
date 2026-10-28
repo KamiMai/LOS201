@@ -1,0 +1,134 @@
+
+embedded_lab3/apps/perf_target:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .plt.got:
+
+Disassembly of section .plt.sec:
+
+Disassembly of section .text:
+
+00000000000014fc <main>:
+    14fc:	f3 0f 1e fa          	endbr64
+    1500:	55                   	push   %rbp
+    1501:	48 89 e5             	mov    %rsp,%rbp
+    1504:	41 56                	push   %r14
+    1506:	41 55                	push   %r13
+    1508:	41 54                	push   %r12
+    150a:	53                   	push   %rbx
+    150b:	48 83 ec 20          	sub    $0x20,%rsp
+    150f:	89 fb                	mov    %edi,%ebx
+    1511:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    1518:	00 00 
+    151a:	48 89 45 d8          	mov    %rax,-0x28(%rbp)
+    151e:	31 c0                	xor    %eax,%eax
+    1520:	83 ff 02             	cmp    $0x2,%edi
+    1523:	0f 84 5f 01 00 00    	je     1688 <main+0x18c>
+    1529:	b8 02 00 00 00       	mov    $0x2,%eax
+    152e:	83 ff 01             	cmp    $0x1,%edi
+    1531:	0f 85 35 01 00 00    	jne    166c <main+0x170>
+    1537:	41 bd 32 00 00 00    	mov    $0x32,%r13d
+    153d:	48 8d 3d 1c 0b 00 00 	lea    0xb1c(%rip),%rdi        # 2060 <_IO_stdin_used+0x60>
+    1544:	e8 07 fc ff ff       	call   1150 <puts@plt>
+    1549:	bf 00 35 0c 00       	mov    $0xc3500,%edi
+    154e:	e8 5d fc ff ff       	call   11b0 <malloc@plt>
+    1553:	48 89 c3             	mov    %rax,%rbx
+    1556:	bf 80 1a 06 00       	mov    $0x61a80,%edi
+    155b:	e8 50 fc ff ff       	call   11b0 <malloc@plt>
+    1560:	49 89 c4             	mov    %rax,%r12
+    1563:	48 85 db             	test   %rbx,%rbx
+    1566:	0f 84 51 01 00 00    	je     16bd <main+0x1c1>
+    156c:	b8 00 00 00 00       	mov    $0x0,%eax
+    1571:	4d 85 e4             	test   %r12,%r12
+    1574:	0f 84 43 01 00 00    	je     16bd <main+0x1c1>
+    157a:	8d 50 01             	lea    0x1(%rax),%edx
+    157d:	66 0f ef c0          	pxor   %xmm0,%xmm0
+    1581:	f2 0f 2a c2          	cvtsi2sd %edx,%xmm0
+    1585:	f2 0f 11 04 c3       	movsd  %xmm0,(%rbx,%rax,8)
+    158a:	41 89 04 84          	mov    %eax,(%r12,%rax,4)
+    158e:	48 83 c0 01          	add    $0x1,%rax
+    1592:	48 3d a0 86 01 00    	cmp    $0x186a0,%rax
+    1598:	75 e0                	jne    157a <main+0x7e>
+    159a:	48 8d 3d e7 0a 00 00 	lea    0xae7(%rip),%rdi        # 2088 <_IO_stdin_used+0x88>
+    15a1:	e8 aa fb ff ff       	call   1150 <puts@plt>
+    15a6:	41 be 00 00 00 00    	mov    $0x0,%r14d
+    15ac:	48 c7 45 c8 00 00 00 	movq   $0x0,-0x38(%rbp)
+    15b3:	00 
+    15b4:	be a0 86 01 00       	mov    $0x186a0,%esi
+    15b9:	48 89 df             	mov    %rbx,%rdi
+    15bc:	e8 48 fd ff ff       	call   1309 <heavy_compute>
+    15c1:	f2 0f 58 45 c8       	addsd  -0x38(%rbp),%xmm0
+    15c6:	f2 0f 11 45 c8       	movsd  %xmm0,-0x38(%rbp)
+    15cb:	41 83 c6 01          	add    $0x1,%r14d
+    15cf:	45 39 f5             	cmp    %r14d,%r13d
+    15d2:	75 e0                	jne    15b4 <main+0xb8>
+    15d4:	48 8d 35 55 0a 00 00 	lea    0xa55(%rip),%rsi        # 2030 <_IO_stdin_used+0x30>
+    15db:	bf 02 00 00 00       	mov    $0x2,%edi
+    15e0:	b8 01 00 00 00       	mov    $0x1,%eax
+    15e5:	e8 f6 fb ff ff       	call   11e0 <__printf_chk@plt>
+    15ea:	48 8d 3d bf 0a 00 00 	lea    0xabf(%rip),%rdi        # 20b0 <_IO_stdin_used+0xb0>
+    15f1:	e8 5a fb ff ff       	call   1150 <puts@plt>
+    15f6:	ba 9f 86 01 00       	mov    $0x1869f,%edx
+    15fb:	be a0 86 01 00       	mov    $0x186a0,%esi
+    1600:	4c 89 e7             	mov    %r12,%rdi
+    1603:	e8 9e fd ff ff       	call   13a6 <linear_search>
+    1608:	ba e8 03 00 00       	mov    $0x3e8,%edx
+    160d:	83 ea 01             	sub    $0x1,%edx
+    1610:	75 fb                	jne    160d <main+0x111>
+    1612:	69 d0 e8 03 00 00    	imul   $0x3e8,%eax,%edx
+    1618:	48 8d 35 21 0a 00 00 	lea    0xa21(%rip),%rsi        # 2040 <_IO_stdin_used+0x40>
+    161f:	bf 02 00 00 00       	mov    $0x2,%edi
+    1624:	b8 00 00 00 00       	mov    $0x0,%eax
+    1629:	e8 b2 fb ff ff       	call   11e0 <__printf_chk@plt>
+    162e:	48 8d 3d a3 0a 00 00 	lea    0xaa3(%rip),%rdi        # 20d8 <_IO_stdin_used+0xd8>
+    1635:	e8 16 fb ff ff       	call   1150 <puts@plt>
+    163a:	bf 10 27 00 00       	mov    $0x2710,%edi
+    163f:	e8 8c fd ff ff       	call   13d0 <io_intensive>
+    1644:	41 89 c5             	mov    %eax,%r13d
+    1647:	48 89 df             	mov    %rbx,%rdi
+    164a:	e8 e1 fa ff ff       	call   1130 <free@plt>
+    164f:	4c 89 e7             	mov    %r12,%rdi
+    1652:	e8 d9 fa ff ff       	call   1130 <free@plt>
+    1657:	48 8d 3d fb 09 00 00 	lea    0x9fb(%rip),%rdi        # 2059 <_IO_stdin_used+0x59>
+    165e:	e8 ed fa ff ff       	call   1150 <puts@plt>
+    1663:	45 85 ed             	test   %r13d,%r13d
+    1666:	0f 95 c0             	setne  %al
+    1669:	0f b6 c0             	movzbl %al,%eax
+    166c:	48 8b 55 d8          	mov    -0x28(%rbp),%rdx
+    1670:	64 48 2b 14 25 28 00 	sub    %fs:0x28,%rdx
+    1677:	00 00 
+    1679:	75 59                	jne    16d4 <main+0x1d8>
+    167b:	48 83 c4 20          	add    $0x20,%rsp
+    167f:	5b                   	pop    %rbx
+    1680:	41 5c                	pop    %r12
+    1682:	41 5d                	pop    %r13
+    1684:	41 5e                	pop    %r14
+    1686:	5d                   	pop    %rbp
+    1687:	c3                   	ret
+    1688:	48 8d 45 d0          	lea    -0x30(%rbp),%rax
+    168c:	48 8b 7e 08          	mov    0x8(%rsi),%rdi
+    1690:	ba 0a 00 00 00       	mov    $0xa,%edx
+    1695:	48 89 c6             	mov    %rax,%rsi
+    1698:	e8 03 fb ff ff       	call   11a0 <strtol@plt>
+    169d:	49 89 c5             	mov    %rax,%r13
+    16a0:	48 8b 45 d0          	mov    -0x30(%rbp),%rax
+    16a4:	80 38 00             	cmpb   $0x0,(%rax)
+    16a7:	75 10                	jne    16b9 <main+0x1bd>
+    16a9:	49 8d 45 ff          	lea    -0x1(%r13),%rax
+    16ad:	48 3d 0f 27 00 00    	cmp    $0x270f,%rax
+    16b3:	0f 86 84 fe ff ff    	jbe    153d <main+0x41>
+    16b9:	89 d8                	mov    %ebx,%eax
+    16bb:	eb af                	jmp    166c <main+0x170>
+    16bd:	48 89 df             	mov    %rbx,%rdi
+    16c0:	e8 6b fa ff ff       	call   1130 <free@plt>
+    16c5:	4c 89 e7             	mov    %r12,%rdi
+    16c8:	e8 63 fa ff ff       	call   1130 <free@plt>
+    16cd:	b8 01 00 00 00       	mov    $0x1,%eax
+    16d2:	eb 98                	jmp    166c <main+0x170>
+    16d4:	e8 97 fa ff ff       	call   1170 <__stack_chk_fail@plt>
+
+Disassembly of section .fini:

@@ -1,0 +1,6 @@
+2026-10-28T15:41:33+07:00
+perf version 7.0.14
+/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/embedded_lab3/scripts/recover-perf.sh: line 13: 14732 Segmentation fault      (core dumped) "$perf_bin" record -B -N -e cycles:u -F 99 -g -o "$logs/perf.data" -- "$lab/apps/perf_target" 2000 > "$logs/perf_record.txt" 2>&1
+record_exit_status=139
+report_exit_status=255 script_exit_status=255 stat_exit_status=139
+One or more perf commands failed; preserve logs and inspect before reporting success.

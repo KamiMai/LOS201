@@ -1,0 +1,105 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 1K of event 'cycles:u'
+# Event count (approx.): 6095273030
+#
+# Overhead  Command      Shared Object     Symbol                 
+# ........  ...........  ................  .......................
+#
+    50.91%  perf_target  libm.so.6         [.] __ieee754_log_fma
+            |          
+            |--50.48%--__ieee754_log_fma
+            |          main
+            |          __libc_start_call_main
+            |          call_init (inlined)
+            |          __libc_start_main_impl (inlined)
+            |          _start
+            |          
+            |--0.22%--top16 (inlined)
+            |          __ieee754_log_fma
+            |          main
+            |          __libc_start_call_main
+            |          call_init (inlined)
+            |          __libc_start_main_impl (inlined)
+            |          _start
+            |          
+             --0.22%--asuint64 (inlined)
+                       __ieee754_log_fma
+                       main
+                       __libc_start_call_main
+                       call_init (inlined)
+                       __libc_start_main_impl (inlined)
+                       _start
+
+    37.36%  perf_target  perf_target       [.] heavy_compute
+            |
+            ---heavy_compute
+               main
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+     7.48%  perf_target  libm.so.6         [.] log@@GLIBC_2.29
+            |
+            ---__log (inlined)
+               main
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+     4.02%  perf_target  perf_target       [.] linear_search
+            |
+            ---linear_search
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+     0.11%  perf_target  perf_target       [.] log@plt
+            |
+            ---log@plt
+               main
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+     0.05%  perf_target  [unknown]         [k] 0xffffffff8da00ef0
+            |
+            ---0xffffffff8da00ef0
+               heavy_compute
+               main
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+     0.05%  perf_target  libc.so.6         [.] __vfprintf_internal
+            |
+            ---__vfprintf_internal
+               ___fprintf_chk (inlined)
+               io_intensive
+               main
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+     0.01%  perf_target  perf_target       [.] main
+            |
+            ---main
+               __libc_start_call_main
+               call_init (inlined)
+               __libc_start_main_impl (inlined)
+               _start
+
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

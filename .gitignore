@@ -28,3 +28,10 @@ embedded_lab1/rootfs/busybox-*/
 .env.*
 *.pem
 *.key
+
+# Temporary measurement markers and superseded captures
+embedded_lab3/logs/*.complete
+embedded_lab3/logs/*.failed
+embedded_lab3/logs/*.data.old
+embedded_lab3/logs/perf_failed_capture.data
+embedded_lab3/logs/perf_debug.data

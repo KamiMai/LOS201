@@ -1,0 +1,4 @@
+Sampling event: cycles:u
+Iterations: 2000
+Frequency: 997 Hz
+Build-id collection/cache disabled

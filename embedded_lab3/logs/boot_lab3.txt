@@ -237,3 +237,31 @@ Exiting
 / # gdbserver 0.0.0.0:1234 /usr/bin/buggy_app
 Process /usr/bin/buggy_app created; pid = 79
 Listening on port 1234
+Remote debugging from host 10.0.2.2, port 42566
+=== Buggy App v1.0 – LAB-03 Debug Target ===
+[TEST1] Processing array of 5 elements
+Sum = 1561474710
+[TEST2] Creating message
+Message: g
+[TEST3] Integer calculation
+calculate(100000, 100000) = 1410065408
+Done.
+
+Child exited with status 0
+/ # gdbserver 0.0.0.0:1234 /usr/bin/buggy_app
+Process /usr/bin/buggy_app created; pid = 82
+Listening on port 1234
+Remote debugging from host 10.0.2.2, port 56446
+=== Buggy App v1.0 – LAB-03 Debug Target ===
+[TEST1] Processing array of 5 elements
+Sum = 886274966
+[TEST2] Creating message
+Message: g
+[TEST3] Integer calculation
+calculate(100000, 100000) = 1410065408
+Done.
+
+Child exited with status 0
+/ # QEMU: Terminated
+
+Script done on 2026-10-28 15:31:32+07:00 [COMMAND_EXIT_CODE="0"]

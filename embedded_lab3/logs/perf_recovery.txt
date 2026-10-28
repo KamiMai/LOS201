@@ -1,0 +1,4 @@
+2026-10-28T15:43:46+07:00
+perf version 7.0.14
+record_exit_status=0
+report_exit_status=0 script_exit_status=0 stat_exit_status=0
