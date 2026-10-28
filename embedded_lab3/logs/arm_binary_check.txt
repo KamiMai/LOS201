@@ -1,0 +1,3 @@
+embedded_lab3/rootfs/initramfs/usr/bin/gdbserver: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, BuildID[sha1]=64168a5b453a155c63cea554f8a3ba93a37e4614, for GNU/Linux 3.2.0, stripped
+embedded_lab3/rootfs/initramfs/usr/bin/strace:    ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, BuildID[sha1]=8353a611c23d5a0ecb77fa9000e5a097fec5451b, for GNU/Linux 3.2.0, stripped
+embedded_lab3/apps/buggy_app:                     ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, BuildID[sha1]=3985c18e4fad9ba0d1b5559f7104b16083c016a9, for GNU/Linux 3.2.0, with debug_info, not stripped

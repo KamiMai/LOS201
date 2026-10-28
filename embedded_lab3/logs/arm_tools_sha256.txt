@@ -1,0 +1,2 @@
+6e77c2ffe342552d014026f174ee4d08ad0cfec66127a689edba90be43be62df  /home/kaymai/Documents/Codex/2026-10-28/tao/work/lab3/packages/gdbserver_armhf.deb
+a79f931361577752e321928d3850f1caf75bd0840393d187c257830b1e64519a  /home/kaymai/Documents/Codex/2026-10-28/tao/work/lab3/packages/strace_armhf.deb
