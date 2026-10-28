@@ -15,7 +15,9 @@ status=$?
 printf 'record_exit_status=%s\n' "$status"
 printf 'Sampling event: cycles:u\nFrequency: 99 Hz\nIterations: 2000\nBuild-id collection/cache disabled (-B -N)\nRecord exit status: %s\n' "$status" > "$logs/perf_method.txt"
 if [[ $status -ne 0 ]]; then
-    gdb -q -batch -ex run -ex 'thread apply all bt' --args "$perf_bin" record -B -N -e cpu-clock:u -F 99 -g -o "$logs/perf_debug.data" -- "$lab/apps/perf_target" 2000 > "$logs/perf_tool_backtrace.txt" 2>&1
+    perf_executable="$perf_bin"
+    if [[ "$perf_bin" == perf ]]; then perf_executable="/usr/lib/linux-tools/$(uname -r)/perf"; fi
+    gdb -q -batch -ex run -ex 'thread apply all bt' --args "$perf_executable" record -B -N -e cpu-clock:u -F 99 -g -o "$logs/perf_debug.data" -- "$lab/apps/perf_target" 2000 > "$logs/perf_tool_backtrace.txt" 2>&1
 fi
 "$perf_bin" report -f --stdio --no-children --percent-limit 0 -i "$logs/perf.data" > "$logs/perf_report.txt" 2> "$logs/perf_report_errors.txt"
 report_status=$?

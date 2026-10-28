@@ -13,7 +13,7 @@ This lab adds remote application debugging with GDB, memory analysis with Valgri
 - [x] Observe ARM process memory while the process is alive.
 - [x] Collect host and ARM strace results and host perf profiles.
 - [x] Measure host latency at idle and under load and plot histograms.
-- [ ] Complete the report and submission archive.
+- [x] Complete the report and submission archive.
 
 The real-time section follows D.5: measurements use the current host kernel; PREEMPT_RT is compared theoretically. No RT kernel installation or reboot is required. Recorded maxima are observed results, not guaranteed worst-case bounds.
 
@@ -69,3 +69,13 @@ The final runs used 4 FIFO threads at priority 80, CPU affinity 0-3, interval 10
 | loaded | 3 | 8.88 | 863 | 45 | 240000 | 0 |
 
 These are observations, not guaranteed upper bounds. Loaded mean/P99 increased, while the observed maximum was lower than the baseline maximum; rare events and finite sampling matter. PREEMPT_RT was not installed or measured. `scripts/analyze-latency.py` and `scripts/plot-latency.gnuplot` reproduce the JSON summary and plot. Run gnuplot from embedded_lab3/.
+
+## Report and submission
+
+The 11-page Vietnamese report is `report/LAB03_BaoCao.pdf`; its generator reads the saved logs. Rebuild with Python 3 plus reportlab after generating `logs/latency_summary.json` and the gnuplot image. DejaVu Sans/Mono fonts are required.
+
+Run `python3 embedded_lab3/scripts/package.py` to create `output/MaiTheTam_Lab03.tar.gz` and its SHA-256 sidecar. The archive includes apps, configs, scripts, actual logs, the initramfs and the PDF under bao_cao/. It does not duplicate the LAB01 kernel. After extracting, run scripts/run-qemu.sh with LAB1_OUTPUT set to a directory containing zImage and vexpress-v2p-ca9.dtb; the original ~/embedded_lab1/output is also detected.
+
+MSSV and class/group were not supplied. Fill those fields in the report source, rebuild the PDF and archive, and rename the submission using the required MSSV_HoTen convention before handing it in. PREEMPT_RT remains a theoretical comparison as allowed by D.5.
+
+Final checks are recorded in logs/final_validation.txt. The packaged image was booted again: the fixed memory app and profiling app returned zero, DHCP/module loading worked, and the ARM binary checksum matched the host build.

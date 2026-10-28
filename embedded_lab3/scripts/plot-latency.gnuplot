@@ -13,5 +13,6 @@ plot 'logs/hist_standard.txt' using 1:(($2+$3+$4+$5)>0?($2+$3+$4+$5):1/0) with l
      'logs/hist_loaded.txt' using 1:(($2+$3+$4+$5)>0?($2+$3+$4+$5):1/0) with lines lw 2 title 'CPU + I/O + memory stress'
 set xrange [0:4000]
 set title 'Tail including the observed maximum'
-replot
+plot 'logs/hist_standard.txt' using 1:(($2+$3+$4+$5)>0?($2+$3+$4+$5):1/0) with points pt 7 ps 0.35 title 'No injected stress', \
+     'logs/hist_loaded.txt' using 1:(($2+$3+$4+$5)>0?($2+$3+$4+$5):1/0) with points pt 7 ps 0.35 title 'CPU + I/O + memory stress'
 unset multiplot

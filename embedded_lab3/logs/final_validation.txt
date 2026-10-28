@@ -1,0 +1,7 @@
+Shell scripts: syntax OK
+Application ELF architectures: correct
+Cyclictest counts + overflow: consistent
+Fixed Valgrind: no leaks or memory errors
+Final image: boots, DHCP/module OK, ARM apps exit 0, binary SHA matches
+Perf: final workload complete, record/report/stat present, no lost samples
+GitHub file size limit: OK
