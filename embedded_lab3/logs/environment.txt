@@ -1,0 +1,40 @@
+Recorded: 2026-10-28T15:33:23+07:00
+Linux v 7.0.0-34-generic #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+Host architecture: x86_64
+
+Compiler
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+
+ARM compiler
+arm-linux-gnueabihf-gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+
+Kernel configuration
+CONFIG_HIGH_RES_TIMERS=y
+CONFIG_PREEMPT_BUILD=y
+CONFIG_PREEMPT_LAZY=y
+CONFIG_PREEMPT_COUNT=y
+CONFIG_PREEMPTION=y
+CONFIG_PREEMPT_DYNAMIC=y
+CONFIG_PREEMPT_RCU=y
+CONFIG_PERF_EVENTS=y
+CONFIG_PREEMPT_NOTIFIERS=y
+
+Tools
+/usr/bin/qemu-system-arm
+/usr/bin/gdb-multiarch
+/usr/bin/gdbserver
+/usr/bin/valgrind
+/usr/bin/strace
+/usr/bin/perf
+/usr/bin/cyclictest
+/usr/bin/gnuplot
+/usr/bin/stress-ng
+
+CPU
+Architecture:                            x86_64
+CPU(s):                                  8
+Model name:                              Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      4
+NUMA node0 CPU(s):                       0-7

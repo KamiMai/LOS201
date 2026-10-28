@@ -9,8 +9,8 @@ This lab adds remote application debugging with GDB, memory analysis with Valgri
 - [x] Record the initial host environment.
 - [x] Prepare ARM tools and boot the debugging rootfs.
 - [x] Capture remote GDB evidence for three application bugs.
-- [ ] Capture Valgrind results before and after fixes (baseline recorded).
-- [ ] Observe ARM process memory while the process is alive.
+- [x] Capture Valgrind results before and after fixes.
+- [x] Observe ARM process memory while the process is alive.
 - [ ] Collect host and ARM strace results and host perf profiles.
 - [ ] Measure host latency at idle and under load and plot histograms.
 - [ ] Complete the report and submission archive.
@@ -42,3 +42,9 @@ Run `bash embedded_lab3/scripts/debug.sh` after starting gdbserver in the guest.
 ## Valgrind baseline
 
 The original `leaky_app.c` is unchanged from the assignment. Memcheck reported 16900 bytes definitely lost in 250 blocks: 2100 bytes of names, 2000 bytes of scores and 12800 bytes of message buffers. Indirectly lost was zero. The intentional failing run returned the configured exit code 99. See `logs/valgrind_report.txt`, `logs/valgrind_run.txt` and `logs/leaky_app_output.txt`.
+
+## Memory fixes and ARM observation
+
+The fixed program frees `name` and `scores` before freeing each record, releases message buffers after use, and cleans up partial allocation failures. Memcheck recorded 352 allocations, 352 frees, zero bytes at exit and zero errors.
+
+`memory_observe_arm leaky|fixed` repeats the assignment workload with explicit 5-second and 8-second observation windows. Run `/usr/bin/observe_memory.sh` in QEMU. In this small-workload run, both modes showed VmSize=624 kB, VmRSS=4 kB and VmData=152 kB before and after. These coarse process counters did not expose the 16900-byte leak; Memcheck is the direct evidence. Freeing memory need not return its arena to the OS. See `logs/arm_memory.txt`.

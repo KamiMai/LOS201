@@ -10,6 +10,18 @@ buggy_app: buggy_app.c
 leaky_app: leaky_app.c
 	$(CC) $(DEBUG_FLAGS) -o $@ $<
 
+leaky_app_fixed: leaky_app_fixed.c
+	$(CC) $(DEBUG_FLAGS) -o $@ $<
+
+leaky_app_arm: leaky_app.c
+	$(ARM_CC) $(DEBUG_FLAGS) $(ARM_FLAGS) -o $@ $<
+
+leaky_app_fixed_arm: leaky_app_fixed.c
+	$(ARM_CC) $(DEBUG_FLAGS) $(ARM_FLAGS) -o $@ $<
+
+memory_observe_arm: memory_observe.c
+	$(ARM_CC) $(DEBUG_FLAGS) $(ARM_FLAGS) -o $@ $<
+
 perf_target: perf_target.c
 	$(CC) $(PROFILE_FLAGS) -o $@ $< -lm
 

@@ -1,0 +1,66 @@
+PID=73 MODE=leaky PHASE=before
+=== MODE=leaky BEFORE PID=73 ===
+VmSize:	     624 kB
+VmRSS:	       4 kB
+VmData:	     152 kB
+00010000-0005f000 r-xp 00000000 00:02 271        /usr/bin/memory_observe_arm
+0005f000-00062000 r--p 0004f000 00:02 271        /usr/bin/memory_observe_arm
+00062000-00063000 rw-p 00052000 00:02 271        /usr/bin/memory_observe_arm
+00063000-00088000 rw-p 00000000 00:00 0          [heap]
+7ed33000-7ed54000 rw-p 00000000 00:00 0          [stack]
+7ee3b000-7ee3c000 r-xp 00000000 00:00 0          [sigpage]
+7ee3c000-7ee3d000 r--p 00000000 00:00 0          [vvar]
+7ee3d000-7ee3e000 r-xp 00000000 00:00 0          [vdso]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
+Processed: Message #0: data payload here
+Processed: Message #10: data payload here
+Processed: Message #20: data payload here
+Processed: Message #30: data payload here
+Processed: Message #40: data payload here
+PID=73 MODE=leaky PHASE=after
+=== MODE=leaky AFTER PID=73 ===
+VmSize:	     624 kB
+VmRSS:	       4 kB
+VmData:	     152 kB
+00010000-0005f000 r-xp 00000000 00:02 271        /usr/bin/memory_observe_arm
+0005f000-00062000 r--p 0004f000 00:02 271        /usr/bin/memory_observe_arm
+00062000-00063000 rw-p 00052000 00:02 271        /usr/bin/memory_observe_arm
+00063000-00088000 rw-p 00000000 00:00 0          [heap]
+7ed33000-7ed54000 rw-p 00000000 00:00 0          [stack]
+7ee3b000-7ee3c000 r-xp 00000000 00:00 0          [sigpage]
+7ee3c000-7ee3d000 r--p 00000000 00:00 0          [vvar]
+7ee3d000-7ee3e000 r-xp 00000000 00:00 0          [vdso]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
+PID=80 MODE=fixed PHASE=before
+=== MODE=fixed BEFORE PID=80 ===
+VmSize:	     624 kB
+VmRSS:	       4 kB
+VmData:	     152 kB
+00010000-0005f000 r-xp 00000000 00:02 271        /usr/bin/memory_observe_arm
+0005f000-00062000 r--p 0004f000 00:02 271        /usr/bin/memory_observe_arm
+00062000-00063000 rw-p 00052000 00:02 271        /usr/bin/memory_observe_arm
+00063000-00088000 rw-p 00000000 00:00 0          [heap]
+7ed16000-7ed37000 rw-p 00000000 00:00 0          [stack]
+7ef8b000-7ef8c000 r-xp 00000000 00:00 0          [sigpage]
+7ef8c000-7ef8d000 r--p 00000000 00:00 0          [vvar]
+7ef8d000-7ef8e000 r-xp 00000000 00:00 0          [vdso]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
+Processed: Message #0: data payload here
+Processed: Message #10: data payload here
+Processed: Message #20: data payload here
+Processed: Message #30: data payload here
+Processed: Message #40: data payload here
+PID=80 MODE=fixed PHASE=after
+=== MODE=fixed AFTER PID=80 ===
+VmSize:	     624 kB
+VmRSS:	       4 kB
+VmData:	     152 kB
+00010000-0005f000 r-xp 00000000 00:02 271        /usr/bin/memory_observe_arm
+0005f000-00062000 r--p 0004f000 00:02 271        /usr/bin/memory_observe_arm
+00062000-00063000 rw-p 00052000 00:02 271        /usr/bin/memory_observe_arm
+00063000-00088000 rw-p 00000000 00:00 0          [heap]
+7ed16000-7ed37000 rw-p 00000000 00:00 0          [stack]
+7ef8b000-7ef8c000 r-xp 00000000 00:00 0          [sigpage]
+7ef8c000-7ef8d000 r--p 00000000 00:00 0          [vvar]
+7ef8d000-7ef8e000 r-xp 00000000 00:00 0          [vdso]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
