@@ -1,0 +1,98 @@
+{
+  "idle": {
+    "start": "Wed, 28 Oct 2026 15:48:05 +0700",
+    "end": "Wed, 28 Oct 2026 15:49:05 +0700",
+    "min_us": 2,
+    "avg_us": 4.360002750045834,
+    "max_us": 2982,
+    "cycles": 239996,
+    "histogram_count": 239996,
+    "overflow_count": 0,
+    "p50_us": 3,
+    "p95_us": 9,
+    "p99_us": 19,
+    "below_50_percent": 99.78791313188553,
+    "threads": [
+      {
+        "cycles": 60000,
+        "min": 2,
+        "max": 181,
+        "avg": 4.03,
+        "cpu": 0,
+        "node": 0
+      },
+      {
+        "cycles": 59998,
+        "min": 2,
+        "max": 2982,
+        "avg": 4.28,
+        "cpu": 1,
+        "node": 0
+      },
+      {
+        "cycles": 59998,
+        "min": 2,
+        "max": 2478,
+        "avg": 4.11,
+        "cpu": 2,
+        "node": 0
+      },
+      {
+        "cycles": 60000,
+        "min": 2,
+        "max": 346,
+        "avg": 5.02,
+        "cpu": 3,
+        "node": 0
+      }
+    ]
+  },
+  "loaded": {
+    "start": "Wed, 28 Oct 2026 15:49:10 +0700",
+    "end": "Wed, 28 Oct 2026 15:50:10 +0700",
+    "min_us": 3,
+    "avg_us": 8.875,
+    "max_us": 863,
+    "cycles": 240000,
+    "histogram_count": 240000,
+    "overflow_count": 0,
+    "p50_us": 7,
+    "p95_us": 18,
+    "p99_us": 45,
+    "below_50_percent": 99.12166666666667,
+    "threads": [
+      {
+        "cycles": 60000,
+        "min": 3,
+        "max": 863,
+        "avg": 7.45,
+        "cpu": 0,
+        "node": 0
+      },
+      {
+        "cycles": 60000,
+        "min": 3,
+        "max": 694,
+        "avg": 8.01,
+        "cpu": 1,
+        "node": 0
+      },
+      {
+        "cycles": 60000,
+        "min": 3,
+        "max": 218,
+        "avg": 10.82,
+        "cpu": 2,
+        "node": 0
+      },
+      {
+        "cycles": 60000,
+        "min": 3,
+        "max": 347,
+        "avg": 9.22,
+        "cpu": 3,
+        "node": 0
+      }
+    ]
+  }
+}

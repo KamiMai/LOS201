@@ -1,0 +1,18 @@
+Started: 2026-10-28T15:47:45+07:00
+Linux v 7.0.0-34-generic #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+perf version 7.0.14
+cyclictest V 2.50
+perf_event_paranoid=4
+
+=== PERF RECORD ===
+Perf collection completed.
+Settling for 15 seconds before latency measurements.
+
+=== IDLE LATENCY ===
+2026-10-28T15:48:05+07:00
+
+=== LOADED LATENCY ===
+2026-10-28T15:49:10+07:00
+
+Completed: 2026-10-28T15:50:15+07:00
+No sysctl or kernel changes were made.

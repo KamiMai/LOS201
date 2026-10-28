@@ -12,7 +12,7 @@ This lab adds remote application debugging with GDB, memory analysis with Valgri
 - [x] Capture Valgrind results before and after fixes.
 - [x] Observe ARM process memory while the process is alive.
 - [x] Collect host and ARM strace results and host perf profiles.
-- [ ] Measure host latency at idle and under load and plot histograms.
+- [x] Measure host latency at idle and under load and plot histograms.
 - [ ] Complete the report and submission archive.
 
 The real-time section follows D.5: measurements use the current host kernel; PREEMPT_RT is compared theoretically. No RT kernel installation or reboot is required. Recorded maxima are observed results, not guaranteed worst-case bounds.
@@ -58,3 +58,14 @@ Use `bash embedded_lab3/scripts/profile-host.sh` for host timing/strace and `sud
 Final record/report/script/stat completed successfully on perf 7.0.14. The dominant symbols are libm log and heavy_compute, with linear_search now also sampled. The earlier apparent perf failures were target-program crashes: unchecked fopen of a shared /tmp filename failed under sudo with fs.protected_regular=2. The measured program now uses mkstemp and checks I/O. Original failure transcripts are retained.
 
 Rootfs includes memory and profiling apps. The ARM program was checked after the final source change; checksum is 99991021. Gnuplot and FlameGraph outputs are based on the saved raw captures; FlameGraph's upstream commit is recorded.
+
+## Host latency
+
+The final runs used 4 FIFO threads at priority 80, CPU affinity 0-3, interval 1000 us, mlockall, 60 seconds per run and 10000 histogram bins. QEMU and the temporary HTTP server were stopped before these runs. The loaded run used stress-ng cpu=8/io=2/vm=2 with 256M VM bytes and a 5-second warm-up. Desktop/background services remained active.
+
+| Run | Min us | Weighted Avg us | Observed Max us | P99 us | Samples | Overflow |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| idle | 2 | 4.36 | 2982 | 19 | 239996 | 0 |
+| loaded | 3 | 8.88 | 863 | 45 | 240000 | 0 |
+
+These are observations, not guaranteed upper bounds. Loaded mean/P99 increased, while the observed maximum was lower than the baseline maximum; rare events and finite sampling matter. PREEMPT_RT was not installed or measured. `scripts/analyze-latency.py` and `scripts/plot-latency.gnuplot` reproduce the JSON summary and plot. Run gnuplot from embedded_lab3/.
