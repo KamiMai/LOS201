@@ -1,0 +1,2 @@
+# Terminal transcripts retain their original CRLF/PTY output.
+embedded_lab3/logs/** -whitespace

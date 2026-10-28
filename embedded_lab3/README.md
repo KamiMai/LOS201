@@ -8,7 +8,7 @@ This lab adds remote application debugging with GDB, memory analysis with Valgri
 
 - [x] Record the initial host environment.
 - [x] Prepare ARM tools and boot the debugging rootfs.
-- [ ] Capture remote GDB evidence for three application bugs.
+- [x] Capture remote GDB evidence for three application bugs.
 - [ ] Capture Valgrind results before and after fixes.
 - [ ] Observe ARM process memory while the process is alive.
 - [ ] Collect host and ARM strace results and host perf profiles.
@@ -34,3 +34,7 @@ The guest receives 10.0.2.15 through DHCP. Host localhost TCP 1234 is forwarded 
 Logs retain boot warnings from the inherited kernel; successful module loading, DHCP and application/tool execution must be checked separately.
 
 The minimal rootfs lacks resolver configuration; bind gdbserver explicitly to `0.0.0.0:1234`. The shorthand `:1234` failed name resolution in this image.
+
+## GDB results
+
+Run `bash embedded_lab3/scripts/debug.sh` after starting gdbserver in the guest. The command file captures an out-of-bounds access (`i == len == 5`), a software watchpoint, the same buffer address before/after free, and signed integer overflow. The observed 32-bit product was 1410065408 instead of 10000000000. This buggy run exited normally: absence of a crash does not imply memory safety. Full commands and values are in `logs/gdb_session.txt`.

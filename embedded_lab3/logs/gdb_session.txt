@@ -1,0 +1,84 @@
+The target architecture is set to "arm".
+0x00010340 in _start ()
+Breakpoint 1 at 0x10580: file outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c, line 29.
+
+Breakpoint 1, main (argc=1, argv=0x7efffe94) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:29
+29	int main(int argc, char *argv[]) {
+30	    printf("=== Buggy App v1.0 – LAB-03 Debug Target ===\n");
+33	    int arr[5] = {10, 20, 30, 40, 50};
+34	    printf("[TEST1] Processing array of 5 elements\n");
+$1 = {10, 20, 30, 40, 50}
+pc             0x105cc             0x105cc <main+96>
+sp             0x7efffd10          0x7efffd10
+lr             0x478f0             293104
+Breakpoint 2 at 0x10468: file outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c, line 9.
+
+Breakpoint 2, process_data (data=0x7efffd20, len=5) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:9
+9	        sum += data[i];                 /* Out-of-bounds khi i==len */
+
+=== ARRAY OUT OF BOUNDS ===
+$2 = 5
+$3 = 5
+$4 = {10, 20, 30, 40, 50}
+$5 = (int *) 0x7efffd34
+Watchpoint 3: i
+8	    for (int i = 0; i <= len; i++) {   /* Bug: <= thay vi < */
+
+Watchpoint 3: i
+
+Old value = 5
+New value = 6
+0x00010494 in process_data (data=0x7efffd20, len=5) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:8
+8	    for (int i = 0; i <= len; i++) {   /* Bug: <= thay vi < */
+#0  0x00010494 in process_data (data=0x7efffd20, len=5) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:8
+#1  0x000105ec in main (argc=1, argv=0x7efffe94) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:35
+pc             0x10494             0x10494 <process_data+84>
+sp             0x7efffcf8          0x7efffcf8
+lr             0x105ec             67052
+Breakpoint 4 at 0x10504: file outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c, line 18.
+
+Breakpoint 4, create_message (text=0x47894 "Hello Embedded Linux") at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:18
+18	    free(buf);
+
+=== BEFORE FREE ===
+$6 = 0x67da8 "Hello Embedded Linux"
+0x67da8:	"Hello Embedded Linux"
+19	    return buf;   /* Bug: tra ve pointer da bi free */
+
+=== AFTER FREE ===
+$7 = 0x67da8 "g"
+0x67da8:	"g"
+#0  create_message (text=0x47894 "Hello Embedded Linux") at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:19
+#1  0x0001060c in main (argc=1, argv=0x7efffe94) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:39
+Breakpoint 5 at 0x10530: file outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c, line 24.
+
+Breakpoint 5, calculate (a=100000, b=100000) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:24
+24	    int result = a * b;   /* Bug: a*b co the overflow int */
+
+=== INTEGER OVERFLOW ===
+$8 = 100000
+$9 = 100000
+$10 = 10000000000
+25	    printf("calculate(%d, %d) = %d\n", a, b, result);
+$11 = 1410065408
+r0             0x186a0             100000
+r1             0x186a0             100000
+r2             0x186a0             100000
+r3             0x540be400          1410065408
+r4             0x1                 1
+r5             0x5fde0             392672
+r6             0x1                 1
+r7             0x7efffe94          2130706068
+r8             0x7efffe9c          2130706076
+r9             0x62010             401424
+r10            0x1                 1
+r11            0x7efffd0c          2130705676
+r12            0x4                 4
+sp             0x7efffcf8          0x7efffcf8
+lr             0x10648             67144
+pc             0x10540             0x10540 <calculate+36>
+cpsr           0x20070010          537329680
+fpscr          0x0                 0
+#0  calculate (a=100000, b=100000) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:25
+#1  0x00010648 in main (argc=1, argv=0x7efffe94) at outputs/embedded-linux-labs/embedded_lab3/apps/buggy_app.c:44
+[Inferior 1 (process 82) exited normally]
