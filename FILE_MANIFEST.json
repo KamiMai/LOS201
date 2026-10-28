@@ -1,0 +1,122 @@
+[
+  {
+    "path": "embedded_lab1/configs/busybox.config",
+    "sha256": "14073744f41ed68c5e732f6e7a793f66f93d2d012fb9ca0cd61595c2feaf304d"
+  },
+  {
+    "path": "embedded_lab1/configs/kernel.config",
+    "sha256": "c8305e7e14ba6ef6d217617d2ec50a3a4c29956f12941a2c2b43cb1b53480496"
+  },
+  {
+    "path": "embedded_lab1/output/initramfs.cpio.gz",
+    "sha256": "90725ae74950ca5e76f31fcd3805024589031963526fd9d8d5959599d2056657"
+  },
+  {
+    "path": "embedded_lab1/output/u-boot",
+    "sha256": "c21932cf09bb6c227963572b2005c41b509b58330897435c2b471eb6138ad016"
+  },
+  {
+    "path": "embedded_lab1/output/vexpress-v2p-ca9.dtb",
+    "sha256": "b67cd4033bd04010e49068691f8a1241b7cb91071798bdbb6375ea00ee01ad71"
+  },
+  {
+    "path": "embedded_lab1/output/zImage",
+    "sha256": "4cc8a2ce5eacc12199f01dd0718d53211bfc300f5947842084cce0645308f21c"
+  },
+  {
+    "path": "embedded_lab1/rootfs/initramfs/bin/busybox",
+    "sha256": "d41535cdc28b896c49fff84951f2bc932cf93f33eface677c160fc5d4956ed4a"
+  },
+  {
+    "path": "embedded_lab1/rootfs/initramfs/etc/hostname",
+    "sha256": "1fa3ed109570f4a77a4e423133307d92480d14598a50bed6a16ea93f935f32b1"
+  },
+  {
+    "path": "embedded_lab1/rootfs/initramfs/etc/init.d/rcS",
+    "sha256": "af4a0431101babcd5a832c8c7e2ea4063e49355b1a631e2be7f532399132d70b"
+  },
+  {
+    "path": "embedded_lab1/rootfs/initramfs/etc/inittab",
+    "sha256": "efa411ac17950cb9085d981f288ce8ab695e4e85c52a2f5b778de52f8f033a4f"
+  },
+  {
+    "path": "embedded_lab1/rootfs/initramfs/etc/passwd",
+    "sha256": "79492b90d473e2387338ef1518dfbceb9e3392ae5740235a6696621e42218efa"
+  },
+  {
+    "path": "embedded_lab1/rootfs/initramfs/init",
+    "sha256": "fee645271b8adf9c45b4214040a849ec4625f7a88c450eb537d48a7582e80e9b"
+  },
+  {
+    "path": "embedded_lab2/configs/busybox.config",
+    "sha256": "14073744f41ed68c5e732f6e7a793f66f93d2d012fb9ca0cd61595c2feaf304d"
+  },
+  {
+    "path": "embedded_lab2/configs/kernel.config",
+    "sha256": "c8305e7e14ba6ef6d217617d2ec50a3a4c29956f12941a2c2b43cb1b53480496"
+  },
+  {
+    "path": "embedded_lab2/output/initramfs_lab2.cpio.gz",
+    "sha256": "fffe0824549f81a54030b1a14ebc1ca75963897bde4ffe68f2f916027e947944"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/bin/busybox",
+    "sha256": "d41535cdc28b896c49fff84951f2bc932cf93f33eface677c160fc5d4956ed4a"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/etc/hostname",
+    "sha256": "1fa3ed109570f4a77a4e423133307d92480d14598a50bed6a16ea93f935f32b1"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/etc/init.d/rcS",
+    "sha256": "4d17ff9c018baff12174d3132df0012f26e30ae7155c7db1646b4783f4e74306"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/etc/inittab",
+    "sha256": "025775c5b877a8fc25a5e84dbebaa6b332d92796be8913508a6167e3d8db6bb8"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/etc/passwd",
+    "sha256": "79492b90d473e2387338ef1518dfbceb9e3392ae5740235a6696621e42218efa"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/init",
+    "sha256": "fee645271b8adf9c45b4214040a849ec4625f7a88c450eb537d48a7582e80e9b"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/lib/modules/5.15.0/lab2_driver.ko",
+    "sha256": "f374a37257ff11c7fee4b022f61ec6bf082c40584d5b8e0ecfc59dc60569787d"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/usr/bin/test_driver.sh",
+    "sha256": "a6115da16f2a8670d568eb47913140c75d9af2ab3930916132414e8a5446eb60"
+  },
+  {
+    "path": "embedded_lab2/rootfs/initramfs/usr/bin/test_procfs.sh",
+    "sha256": "08af01ae2652527db8db91d34b65863f58c12fdac49f3b29c07f7c786fc9d528"
+  },
+  {
+    "path": "embedded_lab2/driver/lab2_driver.c",
+    "sha256": "4edc87d09a974277d9d7e4de2410490e7d54f2381fcd215569852799d2927976"
+  },
+  {
+    "path": "embedded_lab2/driver/Makefile",
+    "sha256": "72329f9d17a0df4f6e1169883b8a0e71bf4fa1cc36ed40d553b0eb20658dede2"
+  },
+  {
+    "path": "embedded_lab2/driver/lab2_driver.ko",
+    "sha256": "f374a37257ff11c7fee4b022f61ec6bf082c40584d5b8e0ecfc59dc60569787d"
+  },
+  {
+    "path": "embedded_lab1/configs/uboot.config",
+    "sha256": "f199de8f233a401593035437536e25682def8ac59adcc48d43a5484c594ae6e5"
+  },
+  {
+    "path": "third-party-licenses/BusyBox-LICENSE.txt",
+    "sha256": "bbfc9843646d483c334664f651c208b9839626891d8f17604db2146962f43548"
+  },
+  {
+    "path": "third-party-licenses/Linux-GPL-2.0.txt",
+    "sha256": "f6b78c087c3ebdf0f3c13415070dd480a3f35d8fc76f3d02180a407c1c812f79"
+  }
+]

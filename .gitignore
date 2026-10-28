@@ -1,0 +1,30 @@
+# Local build products
+*.o
+*.mod
+*.mod.c
+.*.cmd
+Module.symvers
+modules.order
+*.swp
+*.swo
+*~
+.vscode/
+
+# Runtime pseudo filesystems and device nodes cannot be tracked by Git.
+**/rootfs/initramfs/dev/
+**/rootfs/initramfs/proc/
+**/rootfs/initramfs/sys/
+**/rootfs/initramfs/tmp/
+
+# Downloaded upstream sources and build trees
+embedded_lab1/kernel/
+embedded_lab1/uboot/
+embedded_lab1/rootfs/busybox-*/
+*.tar.xz
+*.tar.bz2
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
