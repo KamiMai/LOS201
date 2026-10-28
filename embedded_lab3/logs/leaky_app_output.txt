@@ -1,0 +1,10 @@
+=== Leaky App – LAB-03 Memory Analysis ===
+[1] Creating 100 records...
+[2] Deleting records (with leak)...
+[3] Processing messages (with leak)...
+  Processed: Message #0: data payload here
+  Processed: Message #10: data payload here
+  Processed: Message #20: data payload here
+  Processed: Message #30: data payload here
+  Processed: Message #40: data payload here
+Program finished – check valgrind output!

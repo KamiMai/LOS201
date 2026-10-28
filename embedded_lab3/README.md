@@ -9,7 +9,7 @@ This lab adds remote application debugging with GDB, memory analysis with Valgri
 - [x] Record the initial host environment.
 - [x] Prepare ARM tools and boot the debugging rootfs.
 - [x] Capture remote GDB evidence for three application bugs.
-- [ ] Capture Valgrind results before and after fixes.
+- [ ] Capture Valgrind results before and after fixes (baseline recorded).
 - [ ] Observe ARM process memory while the process is alive.
 - [ ] Collect host and ARM strace results and host perf profiles.
 - [ ] Measure host latency at idle and under load and plot histograms.
@@ -38,3 +38,7 @@ The minimal rootfs lacks resolver configuration; bind gdbserver explicitly to `0
 ## GDB results
 
 Run `bash embedded_lab3/scripts/debug.sh` after starting gdbserver in the guest. The command file captures an out-of-bounds access (`i == len == 5`), a software watchpoint, the same buffer address before/after free, and signed integer overflow. The observed 32-bit product was 1410065408 instead of 10000000000. This buggy run exited normally: absence of a crash does not imply memory safety. Full commands and values are in `logs/gdb_session.txt`.
+
+## Valgrind baseline
+
+The original `leaky_app.c` is unchanged from the assignment. Memcheck reported 16900 bytes definitely lost in 250 blocks: 2100 bytes of names, 2000 bytes of scores and 12800 bytes of message buffers. Indirectly lost was zero. The intentional failing run returned the configured exit code 99. See `logs/valgrind_report.txt`, `logs/valgrind_run.txt` and `logs/leaky_app_output.txt`.
