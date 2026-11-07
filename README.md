@@ -103,3 +103,12 @@ Các phần mềm upstream giữ nguyên bản quyền và giấy phép tương 
 ## LAB03
 
 [LAB03](embedded_lab3/README.md) contains remote GDB debugging, Valgrind before/after fixes, host/ARM profiling and host cyclictest measurements. See the [report](embedded_lab3/report/LAB03_BaoCao.pdf) and the [submission archive](embedded_lab3/output/MaiTheTam_Lab03.tar.gz).
+
+## Assignments
+
+- [Assignment 01 - ioctl and misc counter](assignment01/README.md)
+- [Assignment 02 - Sensor Monitoring System](assignment02/README.md)
+- [Shared ARM build and QEMU environment](assignment_support/README.md)
+
+Student: Mai Thế Tâm - SE205068 - LOS201. Assignment reports and captures
+are stored alongside their source; the original lab folders are separate.
