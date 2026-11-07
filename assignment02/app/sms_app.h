@@ -11,7 +11,7 @@
 #define JITTER_CAPACITY 100000
 #define SENSOR_PRIORITY 50
 #define SENSOR_STACK (256 * 1024)
-typedef struct { uint64_t timestamp; int type; double value,threshold; } Alarm;
+typedef struct { uint64_t timestamp; int type, reserved; double value,threshold; } Alarm;
 typedef struct {
     unsigned interval_ms,duration,sample_limit;
     double temp_threshold,humidity_threshold;
@@ -36,5 +36,5 @@ void *logger_thread(void *);
 void app_error(App *,const char *);
 int app_log(App *,const char *,...);
 struct timespec deadline_after_ms(unsigned);
-long timespec_diff_us(const struct timespec *,const struct timespec *);
+int64_t timespec_diff_us(const struct timespec *,const struct timespec *);
 #endif

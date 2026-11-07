@@ -1,0 +1,7 @@
+invalid ['-i', '0']: exit=2
+invalid ['-i', '-1']: exit=2
+invalid ['-t', 'nan']: exit=2
+invalid ['-d', 'bad']: exit=2
+invalid ['extra']: exit=2
+invalid ['--other', '--device', '/missing']: exit=1
+rotation over 1 MiB: PASS

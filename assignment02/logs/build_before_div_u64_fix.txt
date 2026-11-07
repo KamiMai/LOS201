@@ -1,0 +1,35 @@
+make: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl'
+make -C /home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15 M=/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- modules
+make[1]: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+  CC [M]  /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl/asgn1_driver.o
+/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl/asgn1_driver.c: In function ‘asgn_write’:
+/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl/asgn1_driver.c:61:1: warning: the frame size of 1032 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+   61 | }
+      | ^
+  MODPOST /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl/Module.symvers
+  CC [M]  /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl/asgn1_driver.mod.o
+  LD [M]  /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl/asgn1_driver.ko
+make[1]: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+arm-linux-gnueabihf-gcc -Wall -Wextra -Werror -g -static -o ioctl_test ioctl_test.c
+make: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl'
+make: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc'
+make -C /home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15 M=/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- modules
+make[1]: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+  CC [M]  /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc/counter_driver.o
+  MODPOST /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc/Module.symvers
+  CC [M]  /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc/counter_driver.mod.o
+  LD [M]  /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc/counter_driver.ko
+make[1]: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+make: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc'
+make: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver'
+make -C /home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15 M=/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- KCFLAGS=-march=armv7-a modules
+make[1]: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+  CC [M]  /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver/sms_sensor_driver.o
+  MODPOST /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver/Module.symvers
+ERROR: modpost: "__aeabi_uldivmod" [/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver/sms_sensor_driver.ko] undefined!
+make[2]: *** [scripts/Makefile.modpost:134: /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver/Module.symvers] Error 1
+make[2]: *** Deleting file '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver/Module.symvers'
+make[1]: *** [Makefile:1783: modules] Error 2
+make[1]: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+make: *** [Makefile:7: all] Error 2
+make: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver'

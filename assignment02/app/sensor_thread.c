@@ -34,7 +34,8 @@ void *sensor_thread(void *arg)
     clock_gettime(CLOCK_MONOTONIC,&expected);
     while (!atomic_load(&a->stop)) {
         SensorData d;
-        expected.tv_nsec+=(long)a->config.interval_ms*1000000L;
+        expected.tv_sec+=a->config.interval_ms/1000;
+        expected.tv_nsec+=(long)(a->config.interval_ms%1000)*1000000L;
         expected.tv_sec+=expected.tv_nsec/1000000000L;
         expected.tv_nsec%=1000000000L;
         do { rc=clock_nanosleep(CLOCK_MONOTONIC,TIMER_ABSTIME,&expected,NULL); }

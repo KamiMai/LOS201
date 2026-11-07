@@ -1,0 +1,26 @@
+==24616== Memcheck, a memory error detector
+==24616== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==24616== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==24616== Command: /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/app/sms_app_x86 --simulate --other -d 0 -i 100 --log /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/logs/host_valgrind_sms.log
+==24616== Parent PID: 24613
+==24616== 
+==24616== Thread 4:
+==24616== Syscall param mq_timedsend(msg_ptr) points to uninitialised byte(s)
+==24616==    at 0x491889C: mq_timedsend@@GLIBC_2.34 (mq_timedsend.c:35)
+==24616==    by 0x10C957: detect_alert (processor_thread.c:21)
+==24616==    by 0x10CBA8: processor_thread (processor_thread.c:40)
+==24616==    by 0x490CB83: start_thread (pthread_create.c:447)
+==24616==    by 0x4999CC3: clone (clone.S:100)
+==24616==  Address 0x4f47cbc is on thread 4's stack
+==24616==  in frame #1, created by detect_alert (processor_thread.c:10)
+==24616== 
+==24616== 
+==24616== HEAP SUMMARY:
+==24616==     in use at exit: 0 bytes in 0 blocks
+==24616==   total heap usage: 19 allocs, 19 frees, 818,523 bytes allocated
+==24616== 
+==24616== All heap blocks were freed -- no leaks are possible
+==24616== 
+==24616== Use --track-origins=yes to see where uninitialised values come from
+==24616== For lists of detected and suppressed errors, rerun with: -s
+==24616== ERROR SUMMARY: 308 errors from 1 contexts (suppressed: 0 from 0)

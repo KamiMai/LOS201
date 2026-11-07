@@ -8,18 +8,21 @@
 /* Keep this function separate for GDB's alert-injection experiment. */
 static void detect_alert(App *a, SensorData sample, double previous, bool have_previous)
 {
-    Alarm alarms[3];
+    Alarm alarms[3] = {0};
     size_t count=0;
     double temperature=sample.temperature;
     if (temperature>a->config.temp_threshold)
-        alarms[count++]=(Alarm){sample.timestamp,0,temperature,a->config.temp_threshold};
+        alarms[count++]=(Alarm){sample.timestamp,0,0,temperature,a->config.temp_threshold};
     if (sample.humidity>a->config.humidity_threshold)
-        alarms[count++]=(Alarm){sample.timestamp,1,sample.humidity,a->config.humidity_threshold};
+        alarms[count++]=(Alarm){sample.timestamp,1,0,sample.humidity,a->config.humidity_threshold};
     if (have_previous && fabs(temperature-previous)>5.0)
-        alarms[count++]=(Alarm){sample.timestamp,2,fabs(temperature-previous),5.0};
+        alarms[count++]=(Alarm){sample.timestamp,2,0,fabs(temperature-previous),5.0};
     for (size_t i=0;i<count;i++) {
-        while (mq_send(a->alarms,(const char *)&alarms[i],sizeof(Alarm),0)<0) {
+        for (;;) {
+            struct timespec deadline=deadline_after_ms(100);
+            if (!mq_timedsend(a->alarms,(const char *)&alarms[i],sizeof(Alarm),0,&deadline)) break;
             if (errno==EINTR) continue;
+            if (errno==ETIMEDOUT && !atomic_load(&a->alert_done)) continue;
             app_error(a,"alarm mq_send"); return;
         }
     }

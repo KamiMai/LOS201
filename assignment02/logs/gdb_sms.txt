@@ -1,0 +1,94 @@
+Breakpoint 1 at 0x46e5: file processor_thread.c, line 10.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+STATE INIT -> RUNNING
+[New Thread 0x7ffff7edd6c0 (LWP 32124)]
+[New Thread 0x7ffff7e9c6c0 (LWP 32125)]
+[New Thread 0x7ffff7e5b6c0 (LWP 32126)]
+[New Thread 0x7ffff7bff6c0 (LWP 32127)]
+SENSOR policy=OTHER priority=0 backend=HOST_SIMULATOR
+[Switching to Thread 0x7ffff7e5b6c0 (LWP 32126)]
+
+Thread 4 "sms_app_x86" hit Breakpoint 1, detect_alert (a=0x7fffffffd870, sample=..., previous=0, have_previous=false) at processor_thread.c:10
+10	{
+  Id   Target Id                                       Frame 
+  1    Thread 0x7ffff7fa2740 (LWP 32103) "sms_app_x86" 0x00007ffff7cecbdf in __GI___clock_nanosleep (clock_id=clock_id@entry=0, flags=flags@entry=0, req=0x7fffffffd690, rem=0x0) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:78
+  2    Thread 0x7ffff7edd6c0 (LWP 32124) "sms_app_x86" 0x00007ffff7ca87ed in ___mq_timedreceive_time64 (abs_timeout=0x7ffff7edbcd0, msg_prio=0x0, msg_len=320, msg_ptr=0x7ffff7edbd70 "Sensor started policy=0 priority=0", mqdes=4) at ../sysdeps/unix/sysv/linux/mq_timedreceive.c:35
+  3    Thread 0x7ffff7e9c6c0 (LWP 32125) "sms_app_x86" 0x00007ffff7ca87ed in ___mq_timedreceive_time64 (abs_timeout=0x7ffff7e9be70, msg_prio=0x0, msg_len=32, msg_ptr=0x7ffff7e9be80 "stack: 32125", mqdes=3) at ../sysdeps/unix/sysv/linux/mq_timedreceive.c:35
+* 4    Thread 0x7ffff7e5b6c0 (LWP 32126) "sms_app_x86" detect_alert (a=0x7fffffffd870, sample=..., previous=0, have_previous=false) at processor_thread.c:10
+  5    Thread 0x7ffff7bff6c0 (LWP 32127) "sms_app_x86" 0x00007ffff7cecbdf in __GI___clock_nanosleep (clock_id=1, flags=1, req=0x7ffff7bfede0, rem=0x0) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:78
+
+Thread 5 (Thread 0x7ffff7bff6c0 (LWP 32127) "sms_app_x86"):
+#0  0x00007ffff7cecbdf in __GI___clock_nanosleep (clock_id=1, flags=1, req=0x7ffff7bfede0, rem=0x0) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:78
+#1  0x0000555555558252 in sensor_thread (arg=0x7fffffffd870) at sensor_thread.c:40
+#2  0x00007ffff7c9cb84 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#3  0x00007ffff7d29ecc in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 4 (Thread 0x7ffff7e5b6c0 (LWP 32126) "sms_app_x86"):
+#0  detect_alert (a=0x7fffffffd870, sample=..., previous=0, have_previous=false) at processor_thread.c:10
+#1  0x0000555555558c54 in processor_thread (arg=0x7fffffffd870) at processor_thread.c:43
+#2  0x00007ffff7c9cb84 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#3  0x00007ffff7d29ecc in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 3 (Thread 0x7ffff7e9c6c0 (LWP 32125) "sms_app_x86"):
+#0  0x00007ffff7ca87ed in ___mq_timedreceive_time64 (abs_timeout=0x7ffff7e9be70, msg_prio=0x0, msg_len=32, msg_ptr=0x7ffff7e9be80 "stack: 32125", mqdes=3) at ../sysdeps/unix/sysv/linux/mq_timedreceive.c:35
+#1  ___mq_timedreceive_time64 (mqdes=3, msg_ptr=0x7ffff7e9be80 "stack: 32125", msg_len=32, msg_prio=0x0, abs_timeout=0x7ffff7e9be70) at ../sysdeps/unix/sysv/linux/mq_timedreceive.c:26
+#2  0x0000555555558e46 in alert_thread (arg=0x7fffffffd870) at alert_thread.c:15
+#3  0x00007ffff7c9cb84 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#4  0x00007ffff7d29ecc in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 2 (Thread 0x7ffff7edd6c0 (LWP 32124) "sms_app_x86"):
+#0  0x00007ffff7ca87ed in ___mq_timedreceive_time64 (abs_timeout=0x7ffff7edbcd0, msg_prio=0x0, msg_len=320, msg_ptr=0x7ffff7edbd70 "Sensor started policy=0 priority=0", mqdes=4) at ../sysdeps/unix/sysv/linux/mq_timedreceive.c:35
+#1  ___mq_timedreceive_time64 (mqdes=4, msg_ptr=0x7ffff7edbd70 "Sensor started policy=0 priority=0", msg_len=320, msg_prio=0x0, abs_timeout=0x7ffff7edbcd0) at ../sysdeps/unix/sysv/linux/mq_timedreceive.c:26
+#2  0x000055555555913c in logger_thread (arg=0x7fffffffd870) at logger_thread.c:23
+#3  0x00007ffff7c9cb84 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#4  0x00007ffff7d29ecc in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 1 (Thread 0x7ffff7fa2740 (LWP 32103) "sms_app_x86"):
+#0  0x00007ffff7cecbdf in __GI___clock_nanosleep (clock_id=clock_id@entry=0, flags=flags@entry=0, req=0x7fffffffd690, rem=0x0) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:78
+#1  0x00007ffff7cf9b27 in __GI___nanosleep (req=<optimized out>, rem=<optimized out>) at ../sysdeps/unix/sysv/linux/nanosleep.c:25
+#2  0x0000555555557b58 in main (argc=9, argv=0x7fffffffdb48) at sms_app.c:167
+$1 = {timestamp = 819591, temperature = 44.600000000000001, humidity = 71.200000000000003}
+$2 = {timestamp = 819591, temperature = 45, humidity = 71.200000000000003}
+11	    Alarm alarms[3] = {0};
+12	    size_t count=0;
+13	    double temperature=sample.temperature;
+$3 = 0
+[ALERT][819591] TYPE: TEMP_HIGH VALUE: 45.0 THRESHOLD: 40.0
+[ALERT][819691] TYPE: TEMP_SPIKE VALUE: 21.2 THRESHOLD: 5.0
+[ALERT][819791] TYPE: TEMP_HIGH VALUE: 43.9 THRESHOLD: 40.0
+[ALERT][819791] TYPE: TEMP_SPIKE VALUE: 20.5 THRESHOLD: 5.0
+[ALERT][819892] TYPE: TEMP_SPIKE VALUE: 24.9 THRESHOLD: 5.0
+[ALERT][820091] TYPE: TEMP_SPIKE VALUE: 9.3 THRESHOLD: 5.0
+[ALERT][820191] TYPE: TEMP_HIGH VALUE: 43.5 THRESHOLD: 40.0
+[ALERT][820191] TYPE: TEMP_SPIKE VALUE: 16.3 THRESHOLD: 5.0
+[ALERT][820291] TYPE: TEMP_SPIKE VALUE: 25.6 THRESHOLD: 5.0
+[ALERT][820391] TYPE: TEMP_HIGH VALUE: 44.3 THRESHOLD: 40.0
+[ALERT][820391] TYPE: TEMP_SPIKE VALUE: 26.4 THRESHOLD: 5.0
+[ALERT][820491] TYPE: TEMP_SPIKE VALUE: 26.7 THRESHOLD: 5.0
+[ALERT][820591] TYPE: HUMID_HIGH VALUE: 85.5 THRESHOLD: 80.0
+[ALERT][820591] TYPE: TEMP_SPIKE VALUE: 7.7 THRESHOLD: 5.0
+[ALERT][820891] TYPE: HUMID_HIGH VALUE: 85.8 THRESHOLD: 80.0
+[ALERT][820891] TYPE: TEMP_SPIKE VALUE: 12.2 THRESHOLD: 5.0
+[ALERT][820991] TYPE: TEMP_SPIKE VALUE: 8.6 THRESHOLD: 5.0
+[ALERT][821291] TYPE: TEMP_HIGH VALUE: 43.8 THRESHOLD: 40.0
+[ALERT][821291] TYPE: TEMP_SPIKE VALUE: 13.1 THRESHOLD: 5.0
+[ALERT][821391] TYPE: TEMP_HIGH VALUE: 41.9 THRESHOLD: 40.0
+[ALERT][821491] TYPE: TEMP_SPIKE VALUE: 18.3 THRESHOLD: 5.0
+[ALERT][821591] TYPE: TEMP_SPIKE VALUE: 15.9 THRESHOLD: 5.0
+[ALERT][821691] TYPE: TEMP_SPIKE VALUE: 6.7 THRESHOLD: 5.0
+[ALERT][821791] TYPE: TEMP_SPIKE VALUE: 16.1 THRESHOLD: 5.0
+[ALERT][821991] TYPE: TEMP_SPIKE VALUE: 14.7 THRESHOLD: 5.0
+[ALERT][822091] TYPE: HUMID_HIGH VALUE: 81.3 THRESHOLD: 80.0
+[ALERT][822091] TYPE: TEMP_SPIKE VALUE: 12.2 THRESHOLD: 5.0
+[ALERT][822391] TYPE: TEMP_SPIKE VALUE: 17.4 THRESHOLD: 5.0
+STATE RUNNING -> SHUTDOWN
+[Thread 0x7ffff7bff6c0 (LWP 32127) exited]
+[Thread 0x7ffff7e5b6c0 (LWP 32126) exited]
+[Thread 0x7ffff7e9c6c0 (LWP 32125) exited]
+SUMMARY produced=30 consumed=30 overflow=0 current=0 TEMP_HIGH=6 HUMID_HIGH=3 TEMP_SPIKE=19 uptime=3.204
+backend=HOST_SIMULATOR policy=OTHER interval_ms=100 samples=30
+min_us=61 avg_us=160.367 max_us=1076 p99_us=1076
+[0,100)us=17 [100,500)us=11 [500,1000)us=1 [1000,+inf)us=1
+[Thread 0x7ffff7edd6c0 (LWP 32124) exited]
+[Inferior 1 (process 32103) exited normally]

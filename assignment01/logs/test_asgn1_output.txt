@@ -1,0 +1,39 @@
+/opt/asgn1/task1_ioctl/test_asgn1.sh; echo EXIT=$?
+asgn1_driver: loading out-of-tree module taints kernel.
+asgn1: loaded major=241 mode=echo
+read verified: [echo]
+asgn1: ioctl cmd=0x40045402 nr=2 size=4
+read verified: [[KERNEL]test]
+asgn1: ioctl cmd=0x80145401 nr=1 size=20
+open_count=3 write_count=2 read_count=2 buffer_len=12 last_write_size=4
+asgn1: ioctl cmd=0x80405403 nr=3 size=64
+version=asgn1_driver v1.0 - SE205068; stats_size=20 cmd=0x80145401
+asgn1: ioctl cmd=0x40045402 nr=2 size=4
+asgn1: ioctl cmd=0x5463 nr=99 size=0
+asgn1: ioctl cmd=0x80145401 nr=1 size=20
+asgn1: ioctl cmd=0x5400 nr=0 size=0
+asgn1: ioctl cmd=0x80145401 nr=1 size=20
+read verified: []
+asgn1: ioctl cmd=0x40045402 nr=2 size=4
+IOCTL TEST PASSED
+open_count: 4
+write_count: 0
+read_count: 0
+buffer_len: 0
+last_write_size: 0
+mode: 1
+asgn1: unloaded
+asgn1_driver: loading out-of-tree module taints kernel.
+asgn1: loaded major=241 mode=echo
+asgn1: ioctl cmd=0x40045402 nr=2 size=4
+asgn1: ioctl cmd=0x80145401 nr=1 size=20
+asgn1: ioctl cmd=0x80405403 nr=3 size=64
+asgn1: ioctl cmd=0x40045402 nr=2 size=4
+asgn1: ioctl cmd=0x5463 nr=99 size=0
+asgn1: ioctl cmd=0x80145401 nr=1 size=20
+asgn1: ioctl cmd=0x5400 nr=0 size=0
+asgn1: ioctl cmd=0x80145401 nr=1 size=20
+asgn1: ioctl cmd=0x40045402 nr=2 size=4
+asgn1: unloaded
+TASK1 PASSED
+EXIT=0

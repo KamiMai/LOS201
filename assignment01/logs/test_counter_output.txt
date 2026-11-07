@@ -1,0 +1,20 @@
+/opt/asgn1/task2_misc/test_counter.sh; echo EXIT=$?
+counter: loaded major=10 minor=125
+counter: 0
+total_reads: 0
+total_writes: 0
+counter: 100
+total_reads: 2
+total_writes: 1
+counter: 0
+total_reads: 3
+total_writes: 2
+sh: write error: Invalid argument
+sh: write error: Invalid argument
+random: fast init done
+counter: unloaded
+hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 counters available
+counter: loaded major=10 minor=125
+counter: unloaded
+TASK2 PASSED
+EXIT=0

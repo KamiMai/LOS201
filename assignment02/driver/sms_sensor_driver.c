@@ -7,6 +7,8 @@
 #include <linux/uaccess.h>
 #include <linux/random.h>
 #include <linux/ktime.h>
+#include <linux/timekeeping.h>
+#include <linux/math64.h>
 #include <linux/mutex.h>
 #include <linux/slab.h>
 #include <linux/proc_fs.h>
@@ -39,7 +41,7 @@ static ssize_t sensor_read(struct file *file, char __user *buf, size_t count, lo
     if (!count) return 0;
     mutex_lock(&sensor_lock);
     if (*pos == 0) {
-        now = ktime_get_ms();
+        now = ktime_to_ms(ktime_get());
         if (read_count && now - last_ms < interval_ms) {
             mutex_unlock(&sensor_lock);
             return -EAGAIN;
@@ -74,7 +76,7 @@ static int sensor_show(struct seq_file *m, void *unused)
     mutex_lock(&sensor_lock);
     seq_printf(m, "read_count: %llu\nlast_temperature: %d.%d\nlast_humidity: %d.%d\nuptime_seconds: %llu\ninterval_ms: %u\n",
             read_count, last_temp/10,last_temp%10,last_humid/10,last_humid%10,
-            (ktime_get_ms()-start_ms)/1000,interval_ms);
+            div_u64(ktime_to_ms(ktime_get())-start_ms, 1000),interval_ms);
     mutex_unlock(&sensor_lock);
     return 0;
 }
@@ -95,7 +97,7 @@ static struct miscdevice sensor_device = {
 static int __init sensor_init(void)
 {
     int ret;
-    start_ms = ktime_get_ms();
+    start_ms = ktime_to_ms(ktime_get());
     ret = misc_register(&sensor_device);
     if (ret) return ret;
     proc_entry = proc_create("sms_stats",0444,NULL,&proc_ops);

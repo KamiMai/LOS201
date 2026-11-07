@@ -15,9 +15,9 @@
 #include <math.h>
 static volatile sig_atomic_t interrupted;
 static void on_signal(int sig) { (void)sig; interrupted=1; }
-long timespec_diff_us(const struct timespec *a,const struct timespec *b)
+int64_t timespec_diff_us(const struct timespec *a,const struct timespec *b)
 {
-    return (a->tv_sec-b->tv_sec)*1000000L+(a->tv_nsec-b->tv_nsec)/1000;
+    return (int64_t)(a->tv_sec-b->tv_sec)*1000000LL+(a->tv_nsec-b->tv_nsec)/1000;
 }
 struct timespec deadline_after_ms(unsigned ms)
 {
@@ -163,7 +163,7 @@ int main(int argc,char **argv)
     pthread_attr_destroy(&thread_attr);
     while (started==4 && !atomic_load(&a.stop) && !atomic_load(&a.sensor_done) && !interrupted) {
         clock_gettime(CLOCK_MONOTONIC,&now);
-        if (a.config.duration && timespec_diff_us(&now,&begin)>=(long)a.config.duration*1000000L) break;
+        if (a.config.duration && timespec_diff_us(&now,&begin)>=(int64_t)a.config.duration*1000000LL) break;
         struct timespec wait={0,50000000}; nanosleep(&wait,NULL);
     }
     puts("STATE RUNNING -> SHUTDOWN");

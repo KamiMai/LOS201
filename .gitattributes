@@ -1,3 +1,5 @@
 # Terminal transcripts retain their original CRLF/PTY output.
 embedded_lab3/logs/** -whitespace
 *.pdf binary -whitespace
+assignment01/logs/** -whitespace
+assignment02/logs/** -whitespace
