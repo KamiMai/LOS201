@@ -1,0 +1,1837 @@
+Logger started
+2026-11-07T12:37:21.312 Alert started
+2026-11-07T12:37:21.374 Processor started
+2026-11-07T12:37:21.379 Sensor started policy=0 priority=0
+2026-11-07T12:37:21.514 Processor sample=719846 temp=44.6 humid=71.2 rolling_temp=44.600 rolling_humid=71.200 n=1
+2026-11-07T12:37:21.516 Alert TYPE=TEMP_HIGH VALUE=44.6 THRESHOLD=40.0
+2026-11-07T12:37:21.575 Processor sample=719945 temp=23.4 humid=34.3 rolling_temp=34.000 rolling_humid=52.750 n=2
+2026-11-07T12:37:21.577 Alert TYPE=TEMP_SPIKE VALUE=21.2 THRESHOLD=5.0
+2026-11-07T12:37:21.674 Processor sample=720045 temp=43.9 humid=70.6 rolling_temp=37.300 rolling_humid=58.700 n=3
+2026-11-07T12:37:21.674 Alert TYPE=TEMP_HIGH VALUE=43.9 THRESHOLD=40.0
+2026-11-07T12:37:21.674 Alert TYPE=TEMP_SPIKE VALUE=20.5 THRESHOLD=5.0
+2026-11-07T12:37:21.773 Processor sample=720145 temp=19.0 humid=49.6 rolling_temp=32.725 rolling_humid=56.425 n=4
+2026-11-07T12:37:21.773 Alert TYPE=TEMP_SPIKE VALUE=24.9 THRESHOLD=5.0
+2026-11-07T12:37:21.873 Processor sample=720245 temp=17.9 humid=31.0 rolling_temp=29.760 rolling_humid=51.340 n=5
+2026-11-07T12:37:21.973 Processor sample=720345 temp=27.2 humid=42.2 rolling_temp=29.333 rolling_humid=49.817 n=6
+2026-11-07T12:37:21.974 Alert TYPE=TEMP_SPIKE VALUE=9.3 THRESHOLD=5.0
+2026-11-07T12:37:22.073 Processor sample=720445 temp=43.5 humid=70.8 rolling_temp=31.357 rolling_humid=52.814 n=7
+2026-11-07T12:37:22.075 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:37:22.075 Alert TYPE=TEMP_SPIKE VALUE=16.3 THRESHOLD=5.0
+2026-11-07T12:37:22.173 Processor sample=720545 temp=17.9 humid=48.2 rolling_temp=29.675 rolling_humid=52.237 n=8
+2026-11-07T12:37:22.173 Alert TYPE=TEMP_SPIKE VALUE=25.6 THRESHOLD=5.0
+2026-11-07T12:37:22.273 Processor sample=720645 temp=44.3 humid=33.3 rolling_temp=31.300 rolling_humid=50.133 n=9
+2026-11-07T12:37:22.274 Alert TYPE=TEMP_HIGH VALUE=44.3 THRESHOLD=40.0
+2026-11-07T12:37:22.274 Alert TYPE=TEMP_SPIKE VALUE=26.4 THRESHOLD=5.0
+2026-11-07T12:37:22.373 Processor sample=720745 temp=17.6 humid=31.3 rolling_temp=29.930 rolling_humid=48.250 n=10
+2026-11-07T12:37:22.373 Alert TYPE=TEMP_SPIKE VALUE=26.7 THRESHOLD=5.0
+2026-11-07T12:37:22.475 Processor sample=720845 temp=25.3 humid=85.5 rolling_temp=28.000 rolling_humid=49.680 n=10
+2026-11-07T12:37:22.475 Alert TYPE=HUMID_HIGH VALUE=85.5 THRESHOLD=80.0
+2026-11-07T12:37:22.475 Alert TYPE=TEMP_SPIKE VALUE=7.7 THRESHOLD=5.0
+2026-11-07T12:37:22.573 Processor sample=720945 temp=21.8 humid=73.9 rolling_temp=27.840 rolling_humid=53.640 n=10
+2026-11-07T12:37:22.673 Processor sample=721045 temp=18.7 humid=49.8 rolling_temp=25.320 rolling_humid=51.560 n=10
+2026-11-07T12:37:22.773 Processor sample=721145 temp=30.9 humid=85.8 rolling_temp=26.510 rolling_humid=55.180 n=10
+2026-11-07T12:37:22.773 Alert TYPE=HUMID_HIGH VALUE=85.8 THRESHOLD=80.0
+2026-11-07T12:37:22.774 Alert TYPE=TEMP_SPIKE VALUE=12.2 THRESHOLD=5.0
+2026-11-07T12:37:22.873 Processor sample=721245 temp=39.5 humid=60.5 rolling_temp=28.670 rolling_humid=58.130 n=10
+2026-11-07T12:37:22.873 Alert TYPE=TEMP_SPIKE VALUE=8.6 THRESHOLD=5.0
+2026-11-07T12:37:22.973 Processor sample=721345 temp=35.6 humid=76.7 rolling_temp=29.510 rolling_humid=61.580 n=10
+2026-11-07T12:37:23.073 Processor sample=721445 temp=30.7 humid=31.8 rolling_temp=28.230 rolling_humid=57.680 n=10
+2026-11-07T12:37:23.173 Processor sample=721545 temp=43.8 humid=53.1 rolling_temp=30.820 rolling_humid=58.170 n=10
+2026-11-07T12:37:23.173 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:37:23.174 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:37:23.273 Processor sample=721645 temp=41.9 humid=40.8 rolling_temp=30.580 rolling_humid=58.920 n=10
+2026-11-07T12:37:23.273 Alert TYPE=TEMP_HIGH VALUE=41.9 THRESHOLD=40.0
+2026-11-07T12:37:23.373 Processor sample=721745 temp=23.6 humid=49.6 rolling_temp=31.180 rolling_humid=60.750 n=10
+2026-11-07T12:37:23.373 Alert TYPE=TEMP_SPIKE VALUE=18.3 THRESHOLD=5.0
+2026-11-07T12:37:23.473 Processor sample=721845 temp=39.5 humid=49.1 rolling_temp=32.600 rolling_humid=57.110 n=10
+2026-11-07T12:37:23.473 Alert TYPE=TEMP_SPIKE VALUE=15.9 THRESHOLD=5.0
+2026-11-07T12:37:23.573 Processor sample=721945 temp=32.8 humid=33.6 rolling_temp=33.700 rolling_humid=53.080 n=10
+2026-11-07T12:37:23.573 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:37:23.673 Processor sample=722045 temp=16.7 humid=69.3 rolling_temp=33.500 rolling_humid=55.030 n=10
+2026-11-07T12:37:23.673 Alert TYPE=TEMP_SPIKE VALUE=16.1 THRESHOLD=5.0
+2026-11-07T12:37:23.773 Processor sample=722145 temp=15.9 humid=64.5 rolling_temp=32.000 rolling_humid=52.900 n=10
+2026-11-07T12:37:23.873 Processor sample=722245 temp=30.6 humid=77.9 rolling_temp=31.110 rolling_humid=54.640 n=10
+2026-11-07T12:37:23.873 Alert TYPE=TEMP_SPIKE VALUE=14.7 THRESHOLD=5.0
+2026-11-07T12:37:23.973 Processor sample=722345 temp=18.4 humid=81.3 rolling_temp=29.390 rolling_humid=55.100 n=10
+2026-11-07T12:37:23.973 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:37:23.974 Alert TYPE=TEMP_SPIKE VALUE=12.2 THRESHOLD=5.0
+2026-11-07T12:37:24.073 Processor sample=722445 temp=15.1 humid=57.2 rolling_temp=27.830 rolling_humid=57.640 n=10
+2026-11-07T12:37:24.173 Processor sample=722545 temp=17.8 humid=51.3 rolling_temp=25.230 rolling_humid=57.460 n=10
+2026-11-07T12:37:24.273 Processor sample=722645 temp=35.2 humid=72.9 rolling_temp=24.560 rolling_humid=60.670 n=10
+2026-11-07T12:37:24.273 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:37:24.373 Processor sample=722745 temp=35.6 humid=43.6 rolling_temp=25.760 rolling_humid=60.070 n=10
+2026-11-07T12:37:24.473 Processor sample=722845 temp=39.3 humid=67.1 rolling_temp=25.740 rolling_humid=61.870 n=10
+2026-11-07T12:37:24.573 Processor sample=722945 temp=36.1 humid=81.2 rolling_temp=26.070 rolling_humid=66.630 n=10
+2026-11-07T12:37:24.573 Alert TYPE=HUMID_HIGH VALUE=81.2 THRESHOLD=80.0
+2026-11-07T12:37:24.673 Processor sample=723045 temp=29.6 humid=52.7 rolling_temp=27.360 rolling_humid=64.970 n=10
+2026-11-07T12:37:24.673 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:37:24.773 Processor sample=723145 temp=40.7 humid=86.6 rolling_temp=29.840 rolling_humid=67.180 n=10
+2026-11-07T12:37:24.773 Alert TYPE=TEMP_HIGH VALUE=40.7 THRESHOLD=40.0
+2026-11-07T12:37:24.774 Alert TYPE=HUMID_HIGH VALUE=86.6 THRESHOLD=80.0
+2026-11-07T12:37:24.774 Alert TYPE=TEMP_SPIKE VALUE=11.1 THRESHOLD=5.0
+2026-11-07T12:37:24.873 Processor sample=723245 temp=44.5 humid=79.4 rolling_temp=31.230 rolling_humid=67.330 n=10
+2026-11-07T12:37:24.873 Alert TYPE=TEMP_HIGH VALUE=44.5 THRESHOLD=40.0
+2026-11-07T12:37:24.973 Processor sample=723345 temp=18.6 humid=42.6 rolling_temp=31.250 rolling_humid=63.460 n=10
+2026-11-07T12:37:24.973 Alert TYPE=TEMP_SPIKE VALUE=25.9 THRESHOLD=5.0
+2026-11-07T12:37:25.073 Processor sample=723445 temp=26.4 humid=51.6 rolling_temp=32.380 rolling_humid=62.900 n=10
+2026-11-07T12:37:25.073 Alert TYPE=TEMP_SPIKE VALUE=7.8 THRESHOLD=5.0
+2026-11-07T12:37:25.173 Processor sample=723545 temp=35.6 humid=77.3 rolling_temp=34.160 rolling_humid=65.500 n=10
+2026-11-07T12:37:25.173 Alert TYPE=TEMP_SPIKE VALUE=9.2 THRESHOLD=5.0
+2026-11-07T12:37:25.274 Processor sample=723645 temp=44.8 humid=77.8 rolling_temp=35.120 rolling_humid=65.990 n=10
+2026-11-07T12:37:25.274 Alert TYPE=TEMP_HIGH VALUE=44.8 THRESHOLD=40.0
+2026-11-07T12:37:25.274 Alert TYPE=TEMP_SPIKE VALUE=9.2 THRESHOLD=5.0
+2026-11-07T12:37:25.373 Processor sample=723745 temp=15.2 humid=36.6 rolling_temp=33.080 rolling_humid=65.290 n=10
+2026-11-07T12:37:25.373 Alert TYPE=TEMP_SPIKE VALUE=29.6 THRESHOLD=5.0
+2026-11-07T12:37:25.473 Processor sample=723845 temp=21.3 humid=41.6 rolling_temp=31.280 rolling_humid=62.740 n=10
+2026-11-07T12:37:25.473 Alert TYPE=TEMP_SPIKE VALUE=6.1 THRESHOLD=5.0
+2026-11-07T12:37:25.573 Processor sample=723945 temp=25.4 humid=82.6 rolling_temp=30.210 rolling_humid=62.880 n=10
+2026-11-07T12:37:25.573 Alert TYPE=HUMID_HIGH VALUE=82.6 THRESHOLD=80.0
+2026-11-07T12:37:25.673 Processor sample=724045 temp=17.2 humid=65.2 rolling_temp=28.970 rolling_humid=64.130 n=10
+2026-11-07T12:37:25.676 Alert TYPE=TEMP_SPIKE VALUE=8.2 THRESHOLD=5.0
+2026-11-07T12:37:25.773 Processor sample=724145 temp=16.7 humid=34.1 rolling_temp=26.570 rolling_humid=58.880 n=10
+2026-11-07T12:37:25.874 Processor sample=724245 temp=15.5 humid=66.1 rolling_temp=23.670 rolling_humid=57.550 n=10
+2026-11-07T12:37:25.973 Processor sample=724345 temp=36.1 humid=60.9 rolling_temp=25.420 rolling_humid=59.380 n=10
+2026-11-07T12:37:25.973 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:37:26.073 Processor sample=724445 temp=38.1 humid=44.0 rolling_temp=26.590 rolling_humid=58.620 n=10
+2026-11-07T12:37:26.173 Processor sample=724545 temp=44.8 humid=80.7 rolling_temp=27.510 rolling_humid=58.960 n=10
+2026-11-07T12:37:26.173 Alert TYPE=TEMP_HIGH VALUE=44.8 THRESHOLD=40.0
+2026-11-07T12:37:26.174 Alert TYPE=HUMID_HIGH VALUE=80.7 THRESHOLD=80.0
+2026-11-07T12:37:26.174 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:37:26.273 Processor sample=724645 temp=35.5 humid=77.9 rolling_temp=26.580 rolling_humid=58.970 n=10
+2026-11-07T12:37:26.273 Alert TYPE=TEMP_SPIKE VALUE=9.3 THRESHOLD=5.0
+2026-11-07T12:37:26.373 Processor sample=724745 temp=26.7 humid=36.6 rolling_temp=27.730 rolling_humid=58.970 n=10
+2026-11-07T12:37:26.373 Alert TYPE=TEMP_SPIKE VALUE=8.8 THRESHOLD=5.0
+2026-11-07T12:37:26.473 Processor sample=724845 temp=22.2 humid=66.0 rolling_temp=27.820 rolling_humid=61.410 n=10
+2026-11-07T12:37:26.573 Processor sample=724945 temp=41.2 humid=75.4 rolling_temp=29.400 rolling_humid=60.690 n=10
+2026-11-07T12:37:26.574 Alert TYPE=TEMP_HIGH VALUE=41.2 THRESHOLD=40.0
+2026-11-07T12:37:26.574 Alert TYPE=TEMP_SPIKE VALUE=19.0 THRESHOLD=5.0
+2026-11-07T12:37:26.673 Processor sample=725045 temp=37.2 humid=67.3 rolling_temp=31.400 rolling_humid=60.900 n=10
+2026-11-07T12:37:26.773 Processor sample=725145 temp=34.9 humid=43.4 rolling_temp=33.220 rolling_humid=61.830 n=10
+2026-11-07T12:37:26.873 Processor sample=725245 temp=37.8 humid=66.8 rolling_temp=35.450 rolling_humid=61.900 n=10
+2026-11-07T12:37:26.974 Alert TYPE=HUMID_HIGH VALUE=86.8 THRESHOLD=80.0
+2026-11-07T12:37:26.974 Processor sample=725345 temp=31.4 humid=86.8 rolling_temp=34.980 rolling_humid=64.490 n=10
+2026-11-07T12:37:26.974 Alert TYPE=TEMP_SPIKE VALUE=6.4 THRESHOLD=5.0
+2026-11-07T12:37:27.073 Processor sample=725445 temp=45.0 humid=61.1 rolling_temp=35.670 rolling_humid=66.200 n=10
+2026-11-07T12:37:27.073 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:37:27.074 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:37:27.173 Processor sample=725545 temp=33.4 humid=41.1 rolling_temp=34.530 rolling_humid=62.240 n=10
+2026-11-07T12:37:27.173 Alert TYPE=TEMP_SPIKE VALUE=11.6 THRESHOLD=5.0
+2026-11-07T12:37:27.273 Processor sample=725645 temp=32.5 humid=68.1 rolling_temp=34.230 rolling_humid=61.260 n=10
+2026-11-07T12:37:27.373 Processor sample=725745 temp=43.9 humid=53.7 rolling_temp=35.950 rolling_humid=62.970 n=10
+2026-11-07T12:37:27.374 Alert TYPE=TEMP_HIGH VALUE=43.9 THRESHOLD=40.0
+2026-11-07T12:37:27.374 Alert TYPE=TEMP_SPIKE VALUE=11.4 THRESHOLD=5.0
+2026-11-07T12:37:27.473 Processor sample=725845 temp=27.5 humid=51.4 rolling_temp=36.480 rolling_humid=61.510 n=10
+2026-11-07T12:37:27.473 Alert TYPE=TEMP_SPIKE VALUE=16.4 THRESHOLD=5.0
+2026-11-07T12:37:27.573 Processor sample=725945 temp=19.4 humid=56.4 rolling_temp=34.300 rolling_humid=59.610 n=10
+2026-11-07T12:37:27.573 Alert TYPE=TEMP_SPIKE VALUE=8.1 THRESHOLD=5.0
+2026-11-07T12:37:27.677 Processor sample=726047 temp=23.8 humid=60.4 rolling_temp=32.960 rolling_humid=58.920 n=10
+2026-11-07T12:37:27.773 Processor sample=726145 temp=33.2 humid=33.6 rolling_temp=32.790 rolling_humid=57.940 n=10
+2026-11-07T12:37:27.773 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:37:27.873 Processor sample=726245 temp=19.1 humid=64.5 rolling_temp=30.920 rolling_humid=57.710 n=10
+2026-11-07T12:37:27.873 Alert TYPE=TEMP_SPIKE VALUE=14.1 THRESHOLD=5.0
+2026-11-07T12:37:27.973 Processor sample=726345 temp=28.8 humid=49.2 rolling_temp=30.660 rolling_humid=53.950 n=10
+2026-11-07T12:37:27.973 Alert TYPE=TEMP_SPIKE VALUE=9.7 THRESHOLD=5.0
+2026-11-07T12:37:28.073 Processor sample=726445 temp=37.7 humid=49.9 rolling_temp=29.930 rolling_humid=52.830 n=10
+2026-11-07T12:37:28.073 Alert TYPE=TEMP_SPIKE VALUE=8.9 THRESHOLD=5.0
+2026-11-07T12:37:28.173 Processor sample=726545 temp=19.7 humid=79.5 rolling_temp=28.560 rolling_humid=56.670 n=10
+2026-11-07T12:37:28.173 Alert TYPE=TEMP_SPIKE VALUE=18.0 THRESHOLD=5.0
+2026-11-07T12:37:28.273 Processor sample=726645 temp=17.8 humid=44.6 rolling_temp=27.090 rolling_humid=54.320 n=10
+2026-11-07T12:37:28.373 Processor sample=726745 temp=32.4 humid=53.9 rolling_temp=25.940 rolling_humid=54.340 n=10
+2026-11-07T12:37:28.373 Alert TYPE=TEMP_SPIKE VALUE=14.6 THRESHOLD=5.0
+2026-11-07T12:37:28.473 Processor sample=726845 temp=31.5 humid=40.5 rolling_temp=26.340 rolling_humid=53.250 n=10
+2026-11-07T12:37:28.573 Processor sample=726945 temp=34.7 humid=44.7 rolling_temp=27.870 rolling_humid=52.080 n=10
+2026-11-07T12:37:28.673 Processor sample=727045 temp=28.0 humid=52.5 rolling_temp=28.290 rolling_humid=51.290 n=10
+2026-11-07T12:37:28.673 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:37:28.773 Processor sample=727145 temp=41.6 humid=72.0 rolling_temp=29.130 rolling_humid=55.130 n=10
+2026-11-07T12:37:28.773 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:37:28.774 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:37:28.873 Processor sample=727245 temp=24.8 humid=79.5 rolling_temp=29.700 rolling_humid=56.630 n=10
+2026-11-07T12:37:28.873 Alert TYPE=TEMP_SPIKE VALUE=16.8 THRESHOLD=5.0
+2026-11-07T12:37:28.973 Processor sample=727345 temp=19.9 humid=67.9 rolling_temp=28.810 rolling_humid=58.500 n=10
+2026-11-07T12:37:29.073 Processor sample=727445 temp=18.9 humid=41.9 rolling_temp=26.930 rolling_humid=57.700 n=10
+2026-11-07T12:37:29.173 Processor sample=727545 temp=22.5 humid=46.0 rolling_temp=27.210 rolling_humid=54.350 n=10
+2026-11-07T12:37:29.273 Processor sample=727645 temp=33.4 humid=68.8 rolling_temp=28.770 rolling_humid=56.770 n=10
+2026-11-07T12:37:29.273 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:37:29.373 Processor sample=727745 temp=43.8 humid=86.0 rolling_temp=29.910 rolling_humid=59.980 n=10
+2026-11-07T12:37:29.373 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:37:29.374 Alert TYPE=HUMID_HIGH VALUE=86.0 THRESHOLD=80.0
+2026-11-07T12:37:29.374 Alert TYPE=TEMP_SPIKE VALUE=10.4 THRESHOLD=5.0
+2026-11-07T12:37:29.473 Processor sample=727845 temp=25.9 humid=89.1 rolling_temp=29.350 rolling_humid=64.840 n=10
+2026-11-07T12:37:29.473 Alert TYPE=HUMID_HIGH VALUE=89.1 THRESHOLD=80.0
+2026-11-07T12:37:29.474 Alert TYPE=TEMP_SPIKE VALUE=17.9 THRESHOLD=5.0
+2026-11-07T12:37:29.573 Processor sample=727945 temp=15.0 humid=48.7 rolling_temp=27.380 rolling_humid=65.240 n=10
+2026-11-07T12:37:29.573 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:37:29.673 Processor sample=728045 temp=33.5 humid=62.5 rolling_temp=27.930 rolling_humid=66.240 n=10
+2026-11-07T12:37:29.673 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:37:29.773 Processor sample=728145 temp=18.5 humid=71.4 rolling_temp=25.620 rolling_humid=66.180 n=10
+2026-11-07T12:37:29.773 Alert TYPE=TEMP_SPIKE VALUE=15.0 THRESHOLD=5.0
+2026-11-07T12:37:29.873 Processor sample=728245 temp=15.9 humid=59.9 rolling_temp=24.730 rolling_humid=64.220 n=10
+2026-11-07T12:37:29.973 Processor sample=728345 temp=25.3 humid=61.1 rolling_temp=25.270 rolling_humid=63.540 n=10
+2026-11-07T12:37:29.973 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:37:30.074 Processor sample=728445 temp=32.3 humid=34.0 rolling_temp=26.610 rolling_humid=62.750 n=10
+2026-11-07T12:37:30.074 Alert TYPE=TEMP_SPIKE VALUE=7.0 THRESHOLD=5.0
+2026-11-07T12:37:30.173 Processor sample=728545 temp=38.4 humid=70.2 rolling_temp=28.200 rolling_humid=65.170 n=10
+2026-11-07T12:37:30.173 Alert TYPE=TEMP_SPIKE VALUE=6.1 THRESHOLD=5.0
+2026-11-07T12:37:30.273 Processor sample=728645 temp=42.4 humid=61.5 rolling_temp=29.100 rolling_humid=64.440 n=10
+2026-11-07T12:37:30.273 Alert TYPE=TEMP_HIGH VALUE=42.4 THRESHOLD=40.0
+2026-11-07T12:37:30.374 Processor sample=728745 temp=38.4 humid=57.6 rolling_temp=28.560 rolling_humid=61.600 n=10
+2026-11-07T12:37:30.473 Processor sample=728845 temp=38.7 humid=81.3 rolling_temp=29.840 rolling_humid=60.820 n=10
+2026-11-07T12:37:30.473 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:37:30.573 Processor sample=728945 temp=23.9 humid=83.6 rolling_temp=30.730 rolling_humid=64.310 n=10
+2026-11-07T12:37:30.573 Alert TYPE=HUMID_HIGH VALUE=83.6 THRESHOLD=80.0
+2026-11-07T12:37:30.574 Alert TYPE=TEMP_SPIKE VALUE=14.8 THRESHOLD=5.0
+2026-11-07T12:37:30.673 Processor sample=729045 temp=36.0 humid=60.2 rolling_temp=30.980 rolling_humid=64.080 n=10
+2026-11-07T12:37:30.673 Alert TYPE=TEMP_SPIKE VALUE=12.1 THRESHOLD=5.0
+2026-11-07T12:37:30.773 Processor sample=729145 temp=33.7 humid=68.0 rolling_temp=32.500 rolling_humid=63.740 n=10
+2026-11-07T12:37:30.873 Processor sample=729245 temp=31.0 humid=45.5 rolling_temp=34.010 rolling_humid=62.300 n=10
+2026-11-07T12:37:30.973 Processor sample=729345 temp=42.1 humid=65.8 rolling_temp=35.690 rolling_humid=62.770 n=10
+2026-11-07T12:37:30.973 Alert TYPE=TEMP_HIGH VALUE=42.1 THRESHOLD=40.0
+2026-11-07T12:37:30.974 Alert TYPE=TEMP_SPIKE VALUE=11.1 THRESHOLD=5.0
+2026-11-07T12:37:31.073 Processor sample=729445 temp=27.2 humid=40.3 rolling_temp=35.180 rolling_humid=63.400 n=10
+2026-11-07T12:37:31.073 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:37:31.173 Processor sample=729545 temp=31.7 humid=56.3 rolling_temp=34.510 rolling_humid=62.010 n=10
+2026-11-07T12:37:31.273 Processor sample=729645 temp=44.4 humid=35.6 rolling_temp=34.710 rolling_humid=59.420 n=10
+2026-11-07T12:37:31.273 Alert TYPE=TEMP_HIGH VALUE=44.4 THRESHOLD=40.0
+2026-11-07T12:37:31.274 Alert TYPE=TEMP_SPIKE VALUE=12.7 THRESHOLD=5.0
+2026-11-07T12:37:31.373 Processor sample=729745 temp=19.2 humid=39.6 rolling_temp=32.790 rolling_humid=57.620 n=10
+2026-11-07T12:37:31.373 Alert TYPE=TEMP_SPIKE VALUE=25.2 THRESHOLD=5.0
+2026-11-07T12:37:31.473 Processor sample=729845 temp=30.5 humid=57.4 rolling_temp=31.970 rolling_humid=55.230 n=10
+2026-11-07T12:37:31.473 Alert TYPE=TEMP_SPIKE VALUE=11.3 THRESHOLD=5.0
+2026-11-07T12:37:31.573 Processor sample=729945 temp=29.8 humid=81.3 rolling_temp=32.560 rolling_humid=55.000 n=10
+2026-11-07T12:37:31.573 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:37:31.673 Processor sample=730045 temp=38.9 humid=50.4 rolling_temp=32.850 rolling_humid=54.020 n=10
+2026-11-07T12:37:31.673 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:37:31.773 Alert TYPE=TEMP_SPIKE VALUE=20.9 THRESHOLD=5.0
+2026-11-07T12:37:31.773 Processor sample=730145 temp=18.0 humid=76.2 rolling_temp=31.280 rolling_humid=54.840 n=10
+2026-11-07T12:37:31.873 Processor sample=730245 temp=23.8 humid=57.2 rolling_temp=30.560 rolling_humid=56.010 n=10
+2026-11-07T12:37:31.873 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:37:31.973 Processor sample=730345 temp=19.4 humid=57.6 rolling_temp=28.290 rolling_humid=55.190 n=10
+2026-11-07T12:37:32.073 Processor sample=730445 temp=40.0 humid=75.6 rolling_temp=29.570 rolling_humid=58.720 n=10
+2026-11-07T12:37:32.073 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:37:32.174 Processor sample=730546 temp=29.2 humid=74.5 rolling_temp=29.320 rolling_humid=60.540 n=10
+2026-11-07T12:37:32.174 Alert TYPE=TEMP_SPIKE VALUE=10.8 THRESHOLD=5.0
+2026-11-07T12:37:32.273 Processor sample=730645 temp=41.6 humid=55.6 rolling_temp=29.040 rolling_humid=62.540 n=10
+2026-11-07T12:37:32.274 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:37:32.274 Alert TYPE=TEMP_SPIKE VALUE=12.4 THRESHOLD=5.0
+2026-11-07T12:37:32.373 Processor sample=730745 temp=18.1 humid=66.9 rolling_temp=28.930 rolling_humid=65.270 n=10
+2026-11-07T12:37:32.373 Alert TYPE=TEMP_SPIKE VALUE=23.5 THRESHOLD=5.0
+2026-11-07T12:37:32.473 Processor sample=730845 temp=36.4 humid=65.8 rolling_temp=29.520 rolling_humid=66.110 n=10
+2026-11-07T12:37:32.473 Alert TYPE=TEMP_SPIKE VALUE=18.3 THRESHOLD=5.0
+2026-11-07T12:37:32.573 Processor sample=730945 temp=19.7 humid=40.8 rolling_temp=28.510 rolling_humid=62.060 n=10
+2026-11-07T12:37:32.573 Alert TYPE=TEMP_SPIKE VALUE=16.7 THRESHOLD=5.0
+2026-11-07T12:37:32.673 Processor sample=731045 temp=22.5 humid=61.4 rolling_temp=26.870 rolling_humid=63.160 n=10
+2026-11-07T12:37:32.773 Processor sample=731145 temp=38.1 humid=87.4 rolling_temp=28.880 rolling_humid=64.280 n=10
+2026-11-07T12:37:32.773 Alert TYPE=HUMID_HIGH VALUE=87.4 THRESHOLD=80.0
+2026-11-07T12:37:32.774 Alert TYPE=TEMP_SPIKE VALUE=15.6 THRESHOLD=5.0
+2026-11-07T12:37:32.873 Processor sample=731245 temp=40.1 humid=30.5 rolling_temp=30.510 rolling_humid=61.610 n=10
+2026-11-07T12:37:32.873 Alert TYPE=TEMP_HIGH VALUE=40.1 THRESHOLD=40.0
+2026-11-07T12:37:32.973 Processor sample=731345 temp=26.4 humid=34.0 rolling_temp=31.210 rolling_humid=59.250 n=10
+2026-11-07T12:37:32.973 Alert TYPE=TEMP_SPIKE VALUE=13.7 THRESHOLD=5.0
+2026-11-07T12:37:33.073 Processor sample=731445 temp=40.9 humid=50.2 rolling_temp=31.300 rolling_humid=56.710 n=10
+2026-11-07T12:37:33.073 Alert TYPE=TEMP_HIGH VALUE=40.9 THRESHOLD=40.0
+2026-11-07T12:37:33.074 Alert TYPE=TEMP_SPIKE VALUE=14.5 THRESHOLD=5.0
+2026-11-07T12:37:33.173 Processor sample=731545 temp=30.9 humid=73.3 rolling_temp=31.470 rolling_humid=56.590 n=10
+2026-11-07T12:37:33.174 Alert TYPE=TEMP_SPIKE VALUE=10.0 THRESHOLD=5.0
+2026-11-07T12:37:33.273 Processor sample=731645 temp=29.7 humid=78.2 rolling_temp=30.280 rolling_humid=58.850 n=10
+2026-11-07T12:37:33.373 Processor sample=731745 temp=23.5 humid=39.4 rolling_temp=30.820 rolling_humid=56.100 n=10
+2026-11-07T12:37:33.373 Alert TYPE=TEMP_SPIKE VALUE=6.2 THRESHOLD=5.0
+2026-11-07T12:37:33.473 Processor sample=731845 temp=40.9 humid=50.8 rolling_temp=31.270 rolling_humid=54.600 n=10
+2026-11-07T12:37:33.473 Alert TYPE=TEMP_HIGH VALUE=40.9 THRESHOLD=40.0
+2026-11-07T12:37:33.474 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:37:33.573 Processor sample=731945 temp=41.1 humid=79.9 rolling_temp=33.410 rolling_humid=58.510 n=10
+2026-11-07T12:37:33.573 Alert TYPE=TEMP_HIGH VALUE=41.1 THRESHOLD=40.0
+2026-11-07T12:37:33.673 Processor sample=732045 temp=32.8 humid=30.4 rolling_temp=34.440 rolling_humid=55.410 n=10
+2026-11-07T12:37:33.673 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:37:33.773 Processor sample=732145 temp=19.2 humid=64.5 rolling_temp=32.550 rolling_humid=53.120 n=10
+2026-11-07T12:37:33.773 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:37:33.873 Processor sample=732245 temp=18.1 humid=59.3 rolling_temp=30.350 rolling_humid=56.000 n=10
+2026-11-07T12:37:33.973 Processor sample=732345 temp=41.1 humid=64.8 rolling_temp=31.820 rolling_humid=59.080 n=10
+2026-11-07T12:37:33.973 Alert TYPE=TEMP_HIGH VALUE=41.1 THRESHOLD=40.0
+2026-11-07T12:37:33.974 Alert TYPE=TEMP_SPIKE VALUE=23.0 THRESHOLD=5.0
+2026-11-07T12:37:34.073 Processor sample=732445 temp=21.5 humid=40.0 rolling_temp=29.880 rolling_humid=58.060 n=10
+2026-11-07T12:37:34.073 Alert TYPE=TEMP_SPIKE VALUE=19.6 THRESHOLD=5.0
+2026-11-07T12:37:34.173 Processor sample=732545 temp=32.4 humid=64.5 rolling_temp=30.030 rolling_humid=57.180 n=10
+2026-11-07T12:37:34.173 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:37:34.273 Processor sample=732645 temp=34.1 humid=42.6 rolling_temp=30.470 rolling_humid=53.620 n=10
+2026-11-07T12:37:34.373 Processor sample=732745 temp=39.3 humid=35.8 rolling_temp=32.050 rolling_humid=53.260 n=10
+2026-11-07T12:37:34.373 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:37:34.473 Processor sample=732845 temp=33.3 humid=69.2 rolling_temp=31.290 rolling_humid=55.100 n=10
+2026-11-07T12:37:34.473 Alert TYPE=TEMP_SPIKE VALUE=6.0 THRESHOLD=5.0
+2026-11-07T12:37:34.573 Alert TYPE=TEMP_SPIKE VALUE=12.9 THRESHOLD=5.0
+2026-11-07T12:37:34.573 Processor sample=732945 temp=20.4 humid=39.1 rolling_temp=29.220 rolling_humid=51.020 n=10
+2026-11-07T12:37:34.673 Processor sample=733045 temp=39.7 humid=75.1 rolling_temp=29.910 rolling_humid=55.490 n=10
+2026-11-07T12:37:34.673 Alert TYPE=TEMP_SPIKE VALUE=19.3 THRESHOLD=5.0
+2026-11-07T12:37:34.773 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:37:34.773 Processor sample=733145 temp=43.5 humid=75.6 rolling_temp=32.340 rolling_humid=56.600 n=10
+2026-11-07T12:37:34.874 Processor sample=733245 temp=43.5 humid=59.9 rolling_temp=34.880 rolling_humid=56.660 n=10
+2026-11-07T12:37:34.874 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:37:34.973 Processor sample=733345 temp=18.5 humid=49.7 rolling_temp=32.620 rolling_humid=55.150 n=10
+2026-11-07T12:37:34.973 Alert TYPE=TEMP_SPIKE VALUE=25.0 THRESHOLD=5.0
+2026-11-07T12:37:35.073 Alert TYPE=TEMP_HIGH VALUE=40.2 THRESHOLD=40.0
+2026-11-07T12:37:35.074 Processor sample=733445 temp=40.2 humid=36.2 rolling_temp=34.490 rolling_humid=54.770 n=10
+2026-11-07T12:37:35.074 Alert TYPE=TEMP_SPIKE VALUE=21.7 THRESHOLD=5.0
+2026-11-07T12:37:35.177 Processor sample=733546 temp=19.9 humid=45.8 rolling_temp=33.240 rolling_humid=52.900 n=10
+2026-11-07T12:37:35.179 Alert TYPE=TEMP_SPIKE VALUE=20.3 THRESHOLD=5.0
+2026-11-07T12:37:35.277 Processor sample=733649 temp=21.4 humid=35.5 rolling_temp=31.970 rolling_humid=52.190 n=10
+2026-11-07T12:37:35.373 Processor sample=733745 temp=43.8 humid=46.1 rolling_temp=32.420 rolling_humid=53.220 n=10
+2026-11-07T12:37:35.374 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:37:35.374 Alert TYPE=TEMP_SPIKE VALUE=22.4 THRESHOLD=5.0
+2026-11-07T12:37:35.474 Alert TYPE=HUMID_HIGH VALUE=86.0 THRESHOLD=80.0
+2026-11-07T12:37:35.474 Processor sample=733845 temp=26.6 humid=86.0 rolling_temp=31.750 rolling_humid=54.900 n=10
+2026-11-07T12:37:35.474 Alert TYPE=TEMP_SPIKE VALUE=17.2 THRESHOLD=5.0
+2026-11-07T12:37:35.573 Processor sample=733945 temp=18.3 humid=87.4 rolling_temp=31.540 rolling_humid=59.730 n=10
+2026-11-07T12:37:35.573 Alert TYPE=HUMID_HIGH VALUE=87.4 THRESHOLD=80.0
+2026-11-07T12:37:35.574 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:37:35.673 Processor sample=734045 temp=31.4 humid=82.4 rolling_temp=30.710 rolling_humid=60.460 n=10
+2026-11-07T12:37:35.673 Alert TYPE=HUMID_HIGH VALUE=82.4 THRESHOLD=80.0
+2026-11-07T12:37:35.674 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:37:35.773 Processor sample=734145 temp=24.5 humid=33.0 rolling_temp=28.810 rolling_humid=56.200 n=10
+2026-11-07T12:37:35.773 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:37:35.873 Processor sample=734245 temp=33.5 humid=84.1 rolling_temp=27.810 rolling_humid=58.620 n=10
+2026-11-07T12:37:35.874 Alert TYPE=HUMID_HIGH VALUE=84.1 THRESHOLD=80.0
+2026-11-07T12:37:35.874 Alert TYPE=TEMP_SPIKE VALUE=9.0 THRESHOLD=5.0
+2026-11-07T12:37:35.973 Processor sample=734345 temp=43.4 humid=66.7 rolling_temp=30.300 rolling_humid=60.320 n=10
+2026-11-07T12:37:35.973 Alert TYPE=TEMP_HIGH VALUE=43.4 THRESHOLD=40.0
+2026-11-07T12:37:35.974 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:37:36.074 Processor sample=734445 temp=32.9 humid=68.4 rolling_temp=29.570 rolling_humid=63.540 n=10
+2026-11-07T12:37:36.074 Alert TYPE=TEMP_SPIKE VALUE=10.5 THRESHOLD=5.0
+2026-11-07T12:37:36.173 Processor sample=734545 temp=42.0 humid=69.5 rolling_temp=31.780 rolling_humid=65.910 n=10
+2026-11-07T12:37:36.174 Alert TYPE=TEMP_HIGH VALUE=42.0 THRESHOLD=40.0
+2026-11-07T12:37:36.174 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:37:36.273 Processor sample=734645 temp=22.7 humid=79.4 rolling_temp=31.910 rolling_humid=70.300 n=10
+2026-11-07T12:37:36.273 Alert TYPE=TEMP_SPIKE VALUE=19.3 THRESHOLD=5.0
+2026-11-07T12:37:36.373 Processor sample=734745 temp=43.1 humid=71.3 rolling_temp=31.840 rolling_humid=72.820 n=10
+2026-11-07T12:37:36.373 Alert TYPE=TEMP_HIGH VALUE=43.1 THRESHOLD=40.0
+2026-11-07T12:37:36.374 Alert TYPE=TEMP_SPIKE VALUE=20.4 THRESHOLD=5.0
+2026-11-07T12:37:36.473 Processor sample=734845 temp=30.7 humid=56.5 rolling_temp=32.250 rolling_humid=69.870 n=10
+2026-11-07T12:37:36.473 Alert TYPE=TEMP_SPIKE VALUE=12.4 THRESHOLD=5.0
+2026-11-07T12:37:36.573 Processor sample=734945 temp=21.3 humid=83.6 rolling_temp=32.550 rolling_humid=69.490 n=10
+2026-11-07T12:37:36.573 Alert TYPE=HUMID_HIGH VALUE=83.6 THRESHOLD=80.0
+2026-11-07T12:37:36.577 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:37:36.673 Processor sample=735045 temp=24.9 humid=31.1 rolling_temp=31.900 rolling_humid=64.360 n=10
+2026-11-07T12:37:36.773 Processor sample=735145 temp=33.6 humid=45.4 rolling_temp=32.810 rolling_humid=65.600 n=10
+2026-11-07T12:37:36.773 Alert TYPE=TEMP_SPIKE VALUE=8.7 THRESHOLD=5.0
+2026-11-07T12:37:36.873 Processor sample=735245 temp=33.8 humid=38.0 rolling_temp=32.840 rolling_humid=60.990 n=10
+2026-11-07T12:37:36.973 Processor sample=735345 temp=21.8 humid=48.5 rolling_temp=30.680 rolling_humid=59.170 n=10
+2026-11-07T12:37:36.973 Alert TYPE=TEMP_SPIKE VALUE=12.0 THRESHOLD=5.0
+2026-11-07T12:37:37.073 Processor sample=735445 temp=32.5 humid=41.4 rolling_temp=30.640 rolling_humid=56.470 n=10
+2026-11-07T12:37:37.073 Alert TYPE=TEMP_SPIKE VALUE=10.7 THRESHOLD=5.0
+2026-11-07T12:37:37.173 Processor sample=735545 temp=28.0 humid=49.3 rolling_temp=29.240 rolling_humid=54.450 n=10
+2026-11-07T12:37:37.273 Processor sample=735645 temp=31.4 humid=36.6 rolling_temp=30.110 rolling_humid=50.170 n=10
+2026-11-07T12:37:37.373 Processor sample=735745 temp=45.0 humid=66.1 rolling_temp=30.300 rolling_humid=49.650 n=10
+2026-11-07T12:37:37.373 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:37:37.374 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:37:37.473 Processor sample=735845 temp=34.1 humid=58.4 rolling_temp=30.640 rolling_humid=49.840 n=10
+2026-11-07T12:37:37.473 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:37:37.573 Processor sample=735945 temp=30.0 humid=43.2 rolling_temp=31.510 rolling_humid=45.800 n=10
+2026-11-07T12:37:37.673 Processor sample=736045 temp=27.1 humid=38.1 rolling_temp=31.730 rolling_humid=46.500 n=10
+2026-11-07T12:37:37.773 Processor sample=736145 temp=35.8 humid=57.1 rolling_temp=31.950 rolling_humid=47.670 n=10
+2026-11-07T12:37:37.773 Alert TYPE=TEMP_SPIKE VALUE=8.7 THRESHOLD=5.0
+2026-11-07T12:37:37.875 Processor sample=736246 temp=20.9 humid=85.4 rolling_temp=30.660 rolling_humid=52.410 n=10
+2026-11-07T12:37:37.875 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:37:37.875 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:37:37.973 Processor sample=736345 temp=26.7 humid=62.9 rolling_temp=31.150 rolling_humid=53.850 n=10
+2026-11-07T12:37:37.973 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:37:38.073 Processor sample=736445 temp=23.1 humid=43.0 rolling_temp=30.210 rolling_humid=54.010 n=10
+2026-11-07T12:37:38.173 Processor sample=736545 temp=35.4 humid=63.6 rolling_temp=30.950 rolling_humid=55.440 n=10
+2026-11-07T12:37:38.173 Alert TYPE=TEMP_SPIKE VALUE=12.3 THRESHOLD=5.0
+2026-11-07T12:37:38.273 Processor sample=736645 temp=30.9 humid=53.7 rolling_temp=30.900 rolling_humid=57.150 n=10
+2026-11-07T12:37:38.373 Processor sample=736745 temp=29.1 humid=38.9 rolling_temp=29.310 rolling_humid=54.430 n=10
+2026-11-07T12:37:38.473 Processor sample=736845 temp=36.2 humid=59.7 rolling_temp=29.520 rolling_humid=54.560 n=10
+2026-11-07T12:37:38.473 Alert TYPE=TEMP_SPIKE VALUE=7.1 THRESHOLD=5.0
+2026-11-07T12:37:38.573 Processor sample=736945 temp=41.4 humid=85.4 rolling_temp=30.660 rolling_humid=58.780 n=10
+2026-11-07T12:37:38.573 Alert TYPE=TEMP_HIGH VALUE=41.4 THRESHOLD=40.0
+2026-11-07T12:37:38.574 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:37:38.574 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:37:38.673 Processor sample=737045 temp=29.7 humid=51.0 rolling_temp=30.920 rolling_humid=60.070 n=10
+2026-11-07T12:37:38.673 Alert TYPE=TEMP_SPIKE VALUE=11.7 THRESHOLD=5.0
+2026-11-07T12:37:38.773 Processor sample=737145 temp=30.8 humid=30.0 rolling_temp=30.420 rolling_humid=57.360 n=10
+2026-11-07T12:37:38.873 Processor sample=737245 temp=31.4 humid=42.7 rolling_temp=31.470 rolling_humid=53.090 n=10
+2026-11-07T12:37:38.973 Processor sample=737345 temp=32.0 humid=52.7 rolling_temp=32.000 rolling_humid=52.070 n=10
+2026-11-07T12:37:39.073 Processor sample=737445 temp=21.1 humid=66.7 rolling_temp=31.800 rolling_humid=54.440 n=10
+2026-11-07T12:37:39.073 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:37:39.173 Processor sample=737545 temp=25.5 humid=35.5 rolling_temp=30.810 rolling_humid=51.630 n=10
+2026-11-07T12:37:39.273 Processor sample=737645 temp=17.3 humid=41.0 rolling_temp=29.450 rolling_humid=50.360 n=10
+2026-11-07T12:37:39.273 Alert TYPE=TEMP_SPIKE VALUE=8.2 THRESHOLD=5.0
+2026-11-07T12:37:39.373 Processor sample=737745 temp=33.4 humid=55.7 rolling_temp=29.880 rolling_humid=52.040 n=10
+2026-11-07T12:37:39.373 Alert TYPE=TEMP_SPIKE VALUE=16.1 THRESHOLD=5.0
+2026-11-07T12:37:39.473 Processor sample=737845 temp=43.7 humid=78.7 rolling_temp=30.630 rolling_humid=53.940 n=10
+2026-11-07T12:37:39.473 Alert TYPE=TEMP_HIGH VALUE=43.7 THRESHOLD=40.0
+2026-11-07T12:37:39.474 Alert TYPE=TEMP_SPIKE VALUE=10.3 THRESHOLD=5.0
+2026-11-07T12:37:39.573 Processor sample=737945 temp=28.5 humid=75.6 rolling_temp=29.340 rolling_humid=52.960 n=10
+2026-11-07T12:37:39.573 Alert TYPE=TEMP_SPIKE VALUE=15.2 THRESHOLD=5.0
+2026-11-07T12:37:39.674 Processor sample=738045 temp=27.6 humid=45.7 rolling_temp=29.130 rolling_humid=52.430 n=10
+2026-11-07T12:37:39.773 Processor sample=738145 temp=30.7 humid=79.1 rolling_temp=29.120 rolling_humid=57.340 n=10
+2026-11-07T12:37:39.873 Processor sample=738245 temp=16.0 humid=39.3 rolling_temp=27.580 rolling_humid=57.000 n=10
+2026-11-07T12:37:39.873 Alert TYPE=TEMP_SPIKE VALUE=14.7 THRESHOLD=5.0
+2026-11-07T12:37:39.973 Processor sample=738345 temp=29.1 humid=48.1 rolling_temp=27.290 rolling_humid=56.540 n=10
+2026-11-07T12:37:39.973 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:37:40.073 Processor sample=738445 temp=19.7 humid=67.9 rolling_temp=27.150 rolling_humid=56.660 n=10
+2026-11-07T12:37:40.073 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:37:40.174 Processor sample=738545 temp=31.7 humid=89.2 rolling_temp=27.770 rolling_humid=62.030 n=10
+2026-11-07T12:37:40.174 Alert TYPE=HUMID_HIGH VALUE=89.2 THRESHOLD=80.0
+2026-11-07T12:37:40.174 Alert TYPE=TEMP_SPIKE VALUE=12.0 THRESHOLD=5.0
+2026-11-07T12:37:40.273 Processor sample=738645 temp=22.7 humid=62.5 rolling_temp=28.310 rolling_humid=64.180 n=10
+2026-11-07T12:37:40.273 Alert TYPE=TEMP_SPIKE VALUE=9.0 THRESHOLD=5.0
+2026-11-07T12:37:40.373 Processor sample=738745 temp=30.4 humid=47.5 rolling_temp=28.010 rolling_humid=63.360 n=10
+2026-11-07T12:37:40.373 Alert TYPE=TEMP_SPIKE VALUE=7.7 THRESHOLD=5.0
+2026-11-07T12:37:40.474 Processor sample=738845 temp=18.9 humid=88.3 rolling_temp=25.530 rolling_humid=64.320 n=10
+2026-11-07T12:37:40.474 Alert TYPE=HUMID_HIGH VALUE=88.3 THRESHOLD=80.0
+2026-11-07T12:37:40.474 Alert TYPE=TEMP_SPIKE VALUE=11.5 THRESHOLD=5.0
+2026-11-07T12:37:40.573 Processor sample=738945 temp=30.1 humid=45.9 rolling_temp=25.690 rolling_humid=61.350 n=10
+2026-11-07T12:37:40.573 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+2026-11-07T12:37:40.673 Processor sample=739045 temp=36.6 humid=46.9 rolling_temp=26.590 rolling_humid=61.470 n=10
+2026-11-07T12:37:40.673 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:37:40.773 Processor sample=739145 temp=28.5 humid=51.5 rolling_temp=26.370 rolling_humid=58.710 n=10
+2026-11-07T12:37:40.773 Alert TYPE=TEMP_SPIKE VALUE=8.1 THRESHOLD=5.0
+2026-11-07T12:37:40.873 Processor sample=739245 temp=37.6 humid=65.9 rolling_temp=28.530 rolling_humid=61.370 n=10
+2026-11-07T12:37:40.873 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:37:40.973 Processor sample=739345 temp=22.1 humid=54.7 rolling_temp=27.830 rolling_humid=62.030 n=10
+2026-11-07T12:37:40.973 Alert TYPE=TEMP_SPIKE VALUE=15.5 THRESHOLD=5.0
+2026-11-07T12:37:41.073 Processor sample=739445 temp=41.6 humid=45.2 rolling_temp=30.020 rolling_humid=59.760 n=10
+2026-11-07T12:37:41.073 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:37:41.074 Alert TYPE=TEMP_SPIKE VALUE=19.5 THRESHOLD=5.0
+2026-11-07T12:37:41.173 Processor sample=739545 temp=25.3 humid=88.9 rolling_temp=29.380 rolling_humid=59.730 n=10
+2026-11-07T12:37:41.173 Alert TYPE=HUMID_HIGH VALUE=88.9 THRESHOLD=80.0
+2026-11-07T12:37:41.174 Alert TYPE=TEMP_SPIKE VALUE=16.3 THRESHOLD=5.0
+2026-11-07T12:37:41.273 Processor sample=739645 temp=41.0 humid=66.0 rolling_temp=31.210 rolling_humid=60.080 n=10
+2026-11-07T12:37:41.273 Alert TYPE=TEMP_HIGH VALUE=41.0 THRESHOLD=40.0
+2026-11-07T12:37:41.274 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:37:41.373 Processor sample=739745 temp=39.5 humid=39.6 rolling_temp=32.120 rolling_humid=59.290 n=10
+2026-11-07T12:37:41.473 Processor sample=739845 temp=33.9 humid=62.4 rolling_temp=33.620 rolling_humid=56.700 n=10
+2026-11-07T12:37:41.473 Alert TYPE=TEMP_SPIKE VALUE=5.6 THRESHOLD=5.0
+2026-11-07T12:37:41.573 Processor sample=739945 temp=24.5 humid=54.6 rolling_temp=33.060 rolling_humid=57.570 n=10
+2026-11-07T12:37:41.573 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:37:41.673 Processor sample=740045 temp=24.5 humid=78.5 rolling_temp=31.850 rolling_humid=60.730 n=10
+2026-11-07T12:37:41.773 Processor sample=740145 temp=41.3 humid=38.3 rolling_temp=33.130 rolling_humid=59.410 n=10
+2026-11-07T12:37:41.773 Alert TYPE=TEMP_HIGH VALUE=41.3 THRESHOLD=40.0
+2026-11-07T12:37:41.774 Alert TYPE=TEMP_SPIKE VALUE=16.8 THRESHOLD=5.0
+2026-11-07T12:37:41.873 Processor sample=740245 temp=27.7 humid=47.5 rolling_temp=32.140 rolling_humid=57.570 n=10
+2026-11-07T12:37:41.873 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:37:41.973 Processor sample=740345 temp=34.2 humid=84.9 rolling_temp=33.350 rolling_humid=60.590 n=10
+2026-11-07T12:37:41.974 Alert TYPE=HUMID_HIGH VALUE=84.9 THRESHOLD=80.0
+2026-11-07T12:37:41.974 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:37:42.073 Processor sample=740445 temp=44.4 humid=39.5 rolling_temp=33.630 rolling_humid=60.020 n=10
+2026-11-07T12:37:42.073 Alert TYPE=TEMP_HIGH VALUE=44.4 THRESHOLD=40.0
+2026-11-07T12:37:42.074 Alert TYPE=TEMP_SPIKE VALUE=10.2 THRESHOLD=5.0
+2026-11-07T12:37:42.173 Processor sample=740545 temp=17.4 humid=50.8 rolling_temp=32.840 rolling_humid=56.210 n=10
+2026-11-07T12:37:42.173 Alert TYPE=TEMP_SPIKE VALUE=27.0 THRESHOLD=5.0
+2026-11-07T12:37:42.273 Processor sample=740645 temp=23.3 humid=85.4 rolling_temp=31.070 rolling_humid=58.150 n=10
+2026-11-07T12:37:42.273 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:37:42.273 Alert TYPE=TEMP_SPIKE VALUE=5.9 THRESHOLD=5.0
+2026-11-07T12:37:42.373 Processor sample=740745 temp=33.2 humid=83.4 rolling_temp=30.440 rolling_humid=62.530 n=10
+2026-11-07T12:37:42.373 Alert TYPE=HUMID_HIGH VALUE=83.4 THRESHOLD=80.0
+2026-11-07T12:37:42.374 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:37:42.473 Processor sample=740845 temp=38.9 humid=74.0 rolling_temp=30.940 rolling_humid=63.690 n=10
+2026-11-07T12:37:42.474 Alert TYPE=TEMP_SPIKE VALUE=5.7 THRESHOLD=5.0
+2026-11-07T12:37:42.574 Processor sample=740945 temp=17.4 humid=76.8 rolling_temp=30.230 rolling_humid=65.910 n=10
+2026-11-07T12:37:42.574 Alert TYPE=TEMP_SPIKE VALUE=21.5 THRESHOLD=5.0
+2026-11-07T12:37:42.674 Processor sample=741045 temp=19.6 humid=78.3 rolling_temp=29.740 rolling_humid=65.890 n=10
+2026-11-07T12:37:42.774 Processor sample=741145 temp=19.7 humid=41.4 rolling_temp=27.580 rolling_humid=66.200 n=10
+2026-11-07T12:37:42.873 Processor sample=741245 temp=19.8 humid=44.8 rolling_temp=26.790 rolling_humid=65.930 n=10
+2026-11-07T12:37:42.975 Processor sample=741346 temp=39.9 humid=85.2 rolling_temp=27.360 rolling_humid=65.960 n=10
+2026-11-07T12:37:42.975 Alert TYPE=HUMID_HIGH VALUE=85.2 THRESHOLD=80.0
+2026-11-07T12:37:42.975 Alert TYPE=TEMP_SPIKE VALUE=20.1 THRESHOLD=5.0
+2026-11-07T12:37:43.074 Processor sample=741445 temp=38.6 humid=53.6 rolling_temp=26.780 rolling_humid=67.370 n=10
+2026-11-07T12:37:43.173 Processor sample=741545 temp=36.8 humid=36.5 rolling_temp=28.720 rolling_humid=65.940 n=10
+2026-11-07T12:37:43.273 Processor sample=741645 temp=28.3 humid=55.2 rolling_temp=29.220 rolling_humid=62.920 n=10
+2026-11-07T12:37:43.273 Alert TYPE=TEMP_SPIKE VALUE=8.5 THRESHOLD=5.0
+2026-11-07T12:37:43.373 Processor sample=741745 temp=37.8 humid=55.2 rolling_temp=29.680 rolling_humid=60.100 n=10
+2026-11-07T12:37:43.373 Alert TYPE=TEMP_SPIKE VALUE=9.5 THRESHOLD=5.0
+2026-11-07T12:37:43.473 Processor sample=741845 temp=41.7 humid=74.0 rolling_temp=29.960 rolling_humid=60.100 n=10
+2026-11-07T12:37:43.473 Alert TYPE=TEMP_HIGH VALUE=41.7 THRESHOLD=40.0
+2026-11-07T12:37:43.573 Processor sample=741945 temp=42.0 humid=89.3 rolling_temp=32.420 rolling_humid=61.350 n=10
+2026-11-07T12:37:43.573 Alert TYPE=TEMP_HIGH VALUE=42.0 THRESHOLD=40.0
+2026-11-07T12:37:43.573 Alert TYPE=HUMID_HIGH VALUE=89.3 THRESHOLD=80.0
+2026-11-07T12:37:43.673 Processor sample=742045 temp=26.7 humid=43.3 rolling_temp=33.130 rolling_humid=57.850 n=10
+2026-11-07T12:37:43.673 Alert TYPE=TEMP_SPIKE VALUE=15.3 THRESHOLD=5.0
+2026-11-07T12:37:43.773 Processor sample=742145 temp=33.1 humid=46.9 rolling_temp=34.470 rolling_humid=58.400 n=10
+2026-11-07T12:37:43.774 Alert TYPE=TEMP_SPIKE VALUE=6.4 THRESHOLD=5.0
+2026-11-07T12:37:43.873 Processor sample=742245 temp=25.1 humid=64.1 rolling_temp=35.000 rolling_humid=60.330 n=10
+2026-11-07T12:37:43.873 Alert TYPE=TEMP_SPIKE VALUE=8.0 THRESHOLD=5.0
+2026-11-07T12:37:43.973 Processor sample=742345 temp=29.9 humid=78.5 rolling_temp=34.000 rolling_humid=59.660 n=10
+2026-11-07T12:37:44.073 Processor sample=742445 temp=24.7 humid=43.6 rolling_temp=32.610 rolling_humid=58.660 n=10
+2026-11-07T12:37:44.073 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:37:44.173 Processor sample=742545 temp=26.7 humid=89.7 rolling_temp=31.600 rolling_humid=63.980 n=10
+2026-11-07T12:37:44.173 Alert TYPE=HUMID_HIGH VALUE=89.7 THRESHOLD=80.0
+2026-11-07T12:37:44.273 Processor sample=742645 temp=31.1 humid=36.5 rolling_temp=31.880 rolling_humid=62.110 n=10
+2026-11-07T12:37:44.373 Processor sample=742745 temp=44.2 humid=89.9 rolling_temp=32.520 rolling_humid=65.580 n=10
+2026-11-07T12:37:44.374 Alert TYPE=TEMP_HIGH VALUE=44.2 THRESHOLD=40.0
+2026-11-07T12:37:44.374 Alert TYPE=HUMID_HIGH VALUE=89.9 THRESHOLD=80.0
+2026-11-07T12:37:44.374 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:37:44.473 Processor sample=742845 temp=26.8 humid=33.3 rolling_temp=31.030 rolling_humid=61.510 n=10
+2026-11-07T12:37:44.473 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:37:44.573 Processor sample=742945 temp=22.5 humid=33.9 rolling_temp=29.080 rolling_humid=55.970 n=10
+2026-11-07T12:37:44.673 Processor sample=743045 temp=41.6 humid=65.3 rolling_temp=30.570 rolling_humid=58.170 n=10
+2026-11-07T12:37:44.673 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:37:44.674 Alert TYPE=TEMP_SPIKE VALUE=19.1 THRESHOLD=5.0
+2026-11-07T12:37:44.774 Processor sample=743145 temp=17.7 humid=66.0 rolling_temp=29.030 rolling_humid=60.080 n=10
+2026-11-07T12:37:44.774 Alert TYPE=TEMP_SPIKE VALUE=23.9 THRESHOLD=5.0
+2026-11-07T12:37:44.873 Processor sample=743245 temp=27.6 humid=64.8 rolling_temp=29.280 rolling_humid=60.150 n=10
+2026-11-07T12:37:44.873 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:37:44.973 Processor sample=743345 temp=42.5 humid=77.3 rolling_temp=30.540 rolling_humid=60.030 n=10
+2026-11-07T12:37:44.973 Alert TYPE=TEMP_HIGH VALUE=42.5 THRESHOLD=40.0
+2026-11-07T12:37:44.974 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:37:45.073 Processor sample=743445 temp=29.7 humid=86.3 rolling_temp=31.040 rolling_humid=64.300 n=10
+2026-11-07T12:37:45.073 Alert TYPE=HUMID_HIGH VALUE=86.3 THRESHOLD=80.0
+2026-11-07T12:37:45.073 Alert TYPE=TEMP_SPIKE VALUE=12.8 THRESHOLD=5.0
+2026-11-07T12:37:45.173 Processor sample=743545 temp=42.3 humid=59.3 rolling_temp=32.600 rolling_humid=61.260 n=10
+2026-11-07T12:37:45.173 Alert TYPE=TEMP_HIGH VALUE=42.3 THRESHOLD=40.0
+2026-11-07T12:37:45.174 Alert TYPE=TEMP_SPIKE VALUE=12.6 THRESHOLD=5.0
+2026-11-07T12:37:45.273 Processor sample=743645 temp=34.5 humid=43.5 rolling_temp=32.940 rolling_humid=61.960 n=10
+2026-11-07T12:37:45.273 Alert TYPE=TEMP_SPIKE VALUE=7.8 THRESHOLD=5.0
+2026-11-07T12:37:45.373 Processor sample=743745 temp=21.6 humid=46.1 rolling_temp=30.680 rolling_humid=57.580 n=10
+2026-11-07T12:37:45.373 Alert TYPE=TEMP_SPIKE VALUE=12.9 THRESHOLD=5.0
+2026-11-07T12:37:45.473 Processor sample=743845 temp=40.1 humid=36.8 rolling_temp=32.010 rolling_humid=57.930 n=10
+2026-11-07T12:37:45.473 Alert TYPE=TEMP_HIGH VALUE=40.1 THRESHOLD=40.0
+2026-11-07T12:37:45.474 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:37:45.573 Processor sample=743945 temp=39.0 humid=43.9 rolling_temp=33.660 rolling_humid=58.930 n=10
+2026-11-07T12:37:45.673 Processor sample=744045 temp=30.5 humid=73.4 rolling_temp=32.550 rolling_humid=59.740 n=10
+2026-11-07T12:37:45.673 Alert TYPE=TEMP_SPIKE VALUE=8.5 THRESHOLD=5.0
+2026-11-07T12:37:45.774 Processor sample=744145 temp=41.7 humid=37.5 rolling_temp=34.950 rolling_humid=56.890 n=10
+2026-11-07T12:37:45.774 Alert TYPE=TEMP_HIGH VALUE=41.7 THRESHOLD=40.0
+2026-11-07T12:37:45.774 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+2026-11-07T12:37:45.874 Processor sample=744245 temp=28.5 humid=88.3 rolling_temp=35.040 rolling_humid=59.240 n=10
+2026-11-07T12:37:45.877 Alert TYPE=HUMID_HIGH VALUE=88.3 THRESHOLD=80.0
+2026-11-07T12:37:45.877 Alert TYPE=TEMP_SPIKE VALUE=13.2 THRESHOLD=5.0
+2026-11-07T12:37:45.973 Processor sample=744345 temp=17.2 humid=40.2 rolling_temp=32.510 rolling_humid=55.530 n=10
+2026-11-07T12:37:45.973 Alert TYPE=TEMP_SPIKE VALUE=11.3 THRESHOLD=5.0
+2026-11-07T12:37:46.073 Processor sample=744445 temp=36.8 humid=68.8 rolling_temp=33.220 rolling_humid=53.780 n=10
+2026-11-07T12:37:46.073 Alert TYPE=TEMP_SPIKE VALUE=19.6 THRESHOLD=5.0
+2026-11-07T12:37:46.173 Processor sample=744545 temp=41.8 humid=59.7 rolling_temp=33.170 rolling_humid=53.820 n=10
+2026-11-07T12:37:46.173 Alert TYPE=TEMP_HIGH VALUE=41.8 THRESHOLD=40.0
+2026-11-07T12:37:46.273 Processor sample=744645 temp=21.5 humid=39.0 rolling_temp=31.870 rolling_humid=53.370 n=10
+2026-11-07T12:37:46.273 Alert TYPE=TEMP_SPIKE VALUE=20.3 THRESHOLD=5.0
+2026-11-07T12:37:46.374 Processor sample=744745 temp=44.6 humid=79.3 rolling_temp=34.170 rolling_humid=56.690 n=10
+2026-11-07T12:37:46.374 Alert TYPE=TEMP_HIGH VALUE=44.6 THRESHOLD=40.0
+2026-11-07T12:37:46.374 Alert TYPE=TEMP_SPIKE VALUE=23.1 THRESHOLD=5.0
+2026-11-07T12:37:46.474 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:37:46.474 Processor sample=744845 temp=34.7 humid=53.7 rolling_temp=33.630 rolling_humid=58.380 n=10
+2026-11-07T12:37:46.576 Processor sample=744945 temp=41.4 humid=80.1 rolling_temp=33.870 rolling_humid=62.000 n=10
+2026-11-07T12:37:46.576 Alert TYPE=TEMP_HIGH VALUE=41.4 THRESHOLD=40.0
+2026-11-07T12:37:46.576 Alert TYPE=HUMID_HIGH VALUE=80.1 THRESHOLD=80.0
+2026-11-07T12:37:46.576 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:37:46.674 Processor sample=745045 temp=45.0 humid=85.6 rolling_temp=35.320 rolling_humid=63.220 n=10
+2026-11-07T12:37:46.674 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:37:46.674 Alert TYPE=HUMID_HIGH VALUE=85.6 THRESHOLD=80.0
+2026-11-07T12:37:46.774 Processor sample=745145 temp=16.9 humid=32.1 rolling_temp=32.840 rolling_humid=62.680 n=10
+2026-11-07T12:37:46.774 Alert TYPE=TEMP_SPIKE VALUE=28.1 THRESHOLD=5.0
+2026-11-07T12:37:46.874 Processor sample=745246 temp=32.6 humid=78.8 rolling_temp=33.250 rolling_humid=61.730 n=10
+2026-11-07T12:37:46.874 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:37:46.974 Processor sample=745345 temp=39.7 humid=70.3 rolling_temp=35.500 rolling_humid=64.740 n=10
+2026-11-07T12:37:46.974 Alert TYPE=TEMP_SPIKE VALUE=7.1 THRESHOLD=5.0
+2026-11-07T12:37:47.074 Processor sample=745445 temp=33.1 humid=65.8 rolling_temp=35.130 rolling_humid=64.440 n=10
+2026-11-07T12:37:47.074 Alert TYPE=TEMP_SPIKE VALUE=6.6 THRESHOLD=5.0
+2026-11-07T12:37:47.174 Processor sample=745545 temp=38.8 humid=58.0 rolling_temp=34.830 rolling_humid=64.270 n=10
+2026-11-07T12:37:47.174 Alert TYPE=TEMP_SPIKE VALUE=5.7 THRESHOLD=5.0
+2026-11-07T12:37:47.274 Processor sample=745645 temp=23.8 humid=63.4 rolling_temp=35.060 rolling_humid=66.710 n=10
+2026-11-07T12:37:47.274 Alert TYPE=TEMP_SPIKE VALUE=15.0 THRESHOLD=5.0
+2026-11-07T12:37:47.373 Processor sample=745745 temp=30.7 humid=73.8 rolling_temp=33.670 rolling_humid=66.160 n=10
+2026-11-07T12:37:47.373 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:37:47.473 Processor sample=745845 temp=15.8 humid=72.2 rolling_temp=31.780 rolling_humid=68.010 n=10
+2026-11-07T12:37:47.473 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:37:47.574 Processor sample=745945 temp=24.6 humid=56.1 rolling_temp=30.100 rolling_humid=65.610 n=10
+2026-11-07T12:37:47.574 Alert TYPE=TEMP_SPIKE VALUE=8.8 THRESHOLD=5.0
+2026-11-07T12:37:47.673 Processor sample=746045 temp=42.6 humid=56.4 rolling_temp=29.860 rolling_humid=62.690 n=10
+2026-11-07T12:37:47.673 Alert TYPE=TEMP_HIGH VALUE=42.6 THRESHOLD=40.0
+2026-11-07T12:37:47.674 Alert TYPE=TEMP_SPIKE VALUE=18.0 THRESHOLD=5.0
+2026-11-07T12:37:47.773 Processor sample=746145 temp=21.3 humid=66.5 rolling_temp=30.300 rolling_humid=66.130 n=10
+2026-11-07T12:37:47.773 Alert TYPE=TEMP_SPIKE VALUE=21.3 THRESHOLD=5.0
+2026-11-07T12:37:47.873 Processor sample=746245 temp=41.0 humid=56.4 rolling_temp=31.140 rolling_humid=63.890 n=10
+2026-11-07T12:37:47.874 Alert TYPE=TEMP_HIGH VALUE=41.0 THRESHOLD=40.0
+2026-11-07T12:37:47.874 Alert TYPE=TEMP_SPIKE VALUE=19.7 THRESHOLD=5.0
+2026-11-07T12:37:47.975 Processor sample=746346 temp=40.5 humid=41.1 rolling_temp=31.220 rolling_humid=60.970 n=10
+2026-11-07T12:37:47.975 Alert TYPE=TEMP_HIGH VALUE=40.5 THRESHOLD=40.0
+2026-11-07T12:37:48.073 Processor sample=746445 temp=36.0 humid=71.9 rolling_temp=31.510 rolling_humid=61.580 n=10
+2026-11-07T12:37:48.177 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:37:48.178 Processor sample=746549 temp=20.3 humid=33.9 rolling_temp=29.660 rolling_humid=59.170 n=10
+2026-11-07T12:37:48.273 Processor sample=746645 temp=34.6 humid=68.2 rolling_temp=30.740 rolling_humid=59.650 n=10
+2026-11-07T12:37:48.273 Alert TYPE=TEMP_SPIKE VALUE=14.3 THRESHOLD=5.0
+2026-11-07T12:37:48.376 Processor sample=746746 temp=21.2 humid=56.4 rolling_temp=29.790 rolling_humid=57.910 n=10
+2026-11-07T12:37:48.376 Alert TYPE=TEMP_SPIKE VALUE=13.4 THRESHOLD=5.0
+2026-11-07T12:37:48.473 Processor sample=746845 temp=22.1 humid=74.7 rolling_temp=30.420 rolling_humid=58.160 n=10
+2026-11-07T12:37:48.574 Processor sample=746946 temp=20.3 humid=73.7 rolling_temp=29.990 rolling_humid=59.920 n=10
+2026-11-07T12:37:48.674 Processor sample=747045 temp=43.1 humid=82.2 rolling_temp=30.040 rolling_humid=62.500 n=10
+2026-11-07T12:37:48.675 Alert TYPE=TEMP_HIGH VALUE=43.1 THRESHOLD=40.0
+2026-11-07T12:37:48.675 Alert TYPE=HUMID_HIGH VALUE=82.2 THRESHOLD=80.0
+2026-11-07T12:37:48.675 Alert TYPE=TEMP_SPIKE VALUE=22.8 THRESHOLD=5.0
+2026-11-07T12:37:48.774 Processor sample=747145 temp=24.6 humid=42.3 rolling_temp=30.370 rolling_humid=60.080 n=10
+2026-11-07T12:37:48.774 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:37:48.877 Processor sample=747249 temp=42.2 humid=54.2 rolling_temp=30.490 rolling_humid=59.860 n=10
+2026-11-07T12:37:48.877 Alert TYPE=TEMP_HIGH VALUE=42.2 THRESHOLD=40.0
+2026-11-07T12:37:48.878 Alert TYPE=TEMP_SPIKE VALUE=17.6 THRESHOLD=5.0
+2026-11-07T12:37:48.974 Processor sample=747345 temp=41.2 humid=58.7 rolling_temp=30.560 rolling_humid=61.620 n=10
+2026-11-07T12:37:48.974 Alert TYPE=TEMP_HIGH VALUE=41.2 THRESHOLD=40.0
+2026-11-07T12:37:49.074 Processor sample=747445 temp=30.8 humid=46.9 rolling_temp=30.040 rolling_humid=59.120 n=10
+2026-11-07T12:37:49.074 Alert TYPE=TEMP_SPIKE VALUE=10.4 THRESHOLD=5.0
+2026-11-07T12:37:49.174 Alert TYPE=TEMP_HIGH VALUE=44.3 THRESHOLD=40.0
+2026-11-07T12:37:49.174 Processor sample=747545 temp=44.3 humid=52.4 rolling_temp=32.440 rolling_humid=60.970 n=10
+2026-11-07T12:37:49.174 Alert TYPE=TEMP_SPIKE VALUE=13.5 THRESHOLD=5.0
+2026-11-07T12:37:49.274 Alert TYPE=TEMP_SPIKE VALUE=28.0 THRESHOLD=5.0
+2026-11-07T12:37:49.274 Processor sample=747645 temp=16.3 humid=40.8 rolling_temp=30.610 rolling_humid=58.230 n=10
+2026-11-07T12:37:49.373 Processor sample=747745 temp=18.2 humid=44.0 rolling_temp=30.310 rolling_humid=56.990 n=10
+2026-11-07T12:37:49.474 Processor sample=747845 temp=39.3 humid=88.5 rolling_temp=32.030 rolling_humid=58.370 n=10
+2026-11-07T12:37:49.474 Alert TYPE=HUMID_HIGH VALUE=88.5 THRESHOLD=80.0
+2026-11-07T12:37:49.474 Alert TYPE=TEMP_SPIKE VALUE=21.1 THRESHOLD=5.0
+2026-11-07T12:37:49.574 Alert TYPE=TEMP_HIGH VALUE=44.9 THRESHOLD=40.0
+2026-11-07T12:37:49.574 Processor sample=747945 temp=44.9 humid=43.3 rolling_temp=34.490 rolling_humid=55.330 n=10
+2026-11-07T12:37:49.574 Alert TYPE=TEMP_SPIKE VALUE=5.6 THRESHOLD=5.0
+2026-11-07T12:37:49.674 Processor sample=748045 temp=24.3 humid=84.5 rolling_temp=32.610 rolling_humid=55.560 n=10
+2026-11-07T12:37:49.674 Alert TYPE=HUMID_HIGH VALUE=84.5 THRESHOLD=80.0
+2026-11-07T12:37:49.674 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:37:49.774 Processor sample=748146 temp=34.3 humid=34.5 rolling_temp=33.580 rolling_humid=54.780 n=10
+2026-11-07T12:37:49.775 Alert TYPE=TEMP_SPIKE VALUE=10.0 THRESHOLD=5.0
+2026-11-07T12:37:49.873 Processor sample=748245 temp=29.1 humid=52.1 rolling_temp=32.270 rolling_humid=54.570 n=10
+2026-11-07T12:37:49.874 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:37:49.974 Processor sample=748345 temp=20.8 humid=47.1 rolling_temp=30.230 rolling_humid=53.410 n=10
+2026-11-07T12:37:49.974 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:37:50.074 Processor sample=748445 temp=36.2 humid=39.6 rolling_temp=30.770 rolling_humid=52.680 n=10
+2026-11-07T12:37:50.074 Alert TYPE=TEMP_SPIKE VALUE=15.4 THRESHOLD=5.0
+2026-11-07T12:37:50.174 Processor sample=748545 temp=35.6 humid=47.4 rolling_temp=29.900 rolling_humid=52.180 n=10
+2026-11-07T12:37:50.273 Processor sample=748645 temp=18.7 humid=60.1 rolling_temp=30.140 rolling_humid=54.110 n=10
+2026-11-07T12:37:50.274 Alert TYPE=TEMP_SPIKE VALUE=16.9 THRESHOLD=5.0
+2026-11-07T12:37:50.374 Processor sample=748745 temp=21.1 humid=78.3 rolling_temp=30.430 rolling_humid=57.540 n=10
+2026-11-07T12:37:50.474 Processor sample=748845 temp=26.9 humid=80.9 rolling_temp=29.190 rolling_humid=56.780 n=10
+2026-11-07T12:37:50.475 Alert TYPE=HUMID_HIGH VALUE=80.9 THRESHOLD=80.0
+2026-11-07T12:37:50.475 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:37:50.574 Processor sample=748946 temp=42.6 humid=79.5 rolling_temp=28.960 rolling_humid=60.400 n=10
+2026-11-07T12:37:50.574 Alert TYPE=TEMP_HIGH VALUE=42.6 THRESHOLD=40.0
+2026-11-07T12:37:50.574 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:37:50.674 Processor sample=749045 temp=23.2 humid=58.5 rolling_temp=28.850 rolling_humid=57.800 n=10
+2026-11-07T12:37:50.674 Alert TYPE=TEMP_SPIKE VALUE=19.4 THRESHOLD=5.0
+2026-11-07T12:37:50.774 Processor sample=749145 temp=25.7 humid=41.9 rolling_temp=27.990 rolling_humid=58.540 n=10
+2026-11-07T12:37:50.874 Processor sample=749245 temp=18.8 humid=82.7 rolling_temp=26.960 rolling_humid=61.600 n=10
+2026-11-07T12:37:50.874 Alert TYPE=HUMID_HIGH VALUE=82.7 THRESHOLD=80.0
+2026-11-07T12:37:50.874 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:37:50.974 Processor sample=749346 temp=16.0 humid=74.4 rolling_temp=26.480 rolling_humid=64.330 n=10
+2026-11-07T12:37:51.074 Processor sample=749445 temp=27.2 humid=80.0 rolling_temp=25.580 rolling_humid=68.370 n=10
+2026-11-07T12:37:51.074 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+2026-11-07T12:37:51.173 Processor sample=749545 temp=36.7 humid=42.5 rolling_temp=25.690 rolling_humid=67.880 n=10
+2026-11-07T12:37:51.174 Alert TYPE=TEMP_SPIKE VALUE=9.5 THRESHOLD=5.0
+Logger started
+2026-11-07T12:38:38.455 Alert started
+2026-11-07T12:38:38.534 Processor started
+2026-11-07T12:38:38.536 Sensor started policy=0 priority=0
+2026-11-07T12:38:38.679 Processor sample=797009 temp=44.6 humid=71.2 rolling_temp=44.600 rolling_humid=71.200 n=1
+2026-11-07T12:38:38.680 Alert TYPE=TEMP_HIGH VALUE=44.6 THRESHOLD=40.0
+2026-11-07T12:38:38.740 Processor sample=797107 temp=23.4 humid=34.3 rolling_temp=34.000 rolling_humid=52.750 n=2
+2026-11-07T12:38:38.740 Alert TYPE=TEMP_SPIKE VALUE=21.2 THRESHOLD=5.0
+2026-11-07T12:38:38.837 Processor sample=797207 temp=43.9 humid=70.6 rolling_temp=37.300 rolling_humid=58.700 n=3
+2026-11-07T12:38:38.837 Alert TYPE=TEMP_HIGH VALUE=43.9 THRESHOLD=40.0
+2026-11-07T12:38:38.837 Alert TYPE=TEMP_SPIKE VALUE=20.5 THRESHOLD=5.0
+2026-11-07T12:38:38.937 Processor sample=797307 temp=19.0 humid=49.6 rolling_temp=32.725 rolling_humid=56.425 n=4
+2026-11-07T12:38:38.937 Alert TYPE=TEMP_SPIKE VALUE=24.9 THRESHOLD=5.0
+2026-11-07T12:38:39.036 Processor sample=797407 temp=17.9 humid=31.0 rolling_temp=29.760 rolling_humid=51.340 n=5
+2026-11-07T12:38:39.136 Processor sample=797507 temp=27.2 humid=42.2 rolling_temp=29.333 rolling_humid=49.817 n=6
+2026-11-07T12:38:39.136 Alert TYPE=TEMP_SPIKE VALUE=9.3 THRESHOLD=5.0
+2026-11-07T12:38:39.236 Processor sample=797607 temp=43.5 humid=70.8 rolling_temp=31.357 rolling_humid=52.814 n=7
+2026-11-07T12:38:39.236 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:38:39.236 Alert TYPE=TEMP_SPIKE VALUE=16.3 THRESHOLD=5.0
+2026-11-07T12:38:39.336 Processor sample=797707 temp=17.9 humid=48.2 rolling_temp=29.675 rolling_humid=52.237 n=8
+2026-11-07T12:38:39.336 Alert TYPE=TEMP_SPIKE VALUE=25.6 THRESHOLD=5.0
+2026-11-07T12:38:39.436 Processor sample=797807 temp=44.3 humid=33.3 rolling_temp=31.300 rolling_humid=50.133 n=9
+2026-11-07T12:38:39.436 Alert TYPE=TEMP_HIGH VALUE=44.3 THRESHOLD=40.0
+2026-11-07T12:38:39.439 Alert TYPE=TEMP_SPIKE VALUE=26.4 THRESHOLD=5.0
+2026-11-07T12:38:39.536 Processor sample=797907 temp=17.6 humid=31.3 rolling_temp=29.930 rolling_humid=48.250 n=10
+2026-11-07T12:38:39.536 Alert TYPE=TEMP_SPIKE VALUE=26.7 THRESHOLD=5.0
+2026-11-07T12:38:39.638 Alert TYPE=HUMID_HIGH VALUE=85.5 THRESHOLD=80.0
+2026-11-07T12:38:39.638 Processor sample=798007 temp=25.3 humid=85.5 rolling_temp=28.000 rolling_humid=49.680 n=10
+2026-11-07T12:38:39.638 Alert TYPE=TEMP_SPIKE VALUE=7.7 THRESHOLD=5.0
+2026-11-07T12:38:39.736 Processor sample=798107 temp=21.8 humid=73.9 rolling_temp=27.840 rolling_humid=53.640 n=10
+2026-11-07T12:38:39.836 Processor sample=798207 temp=18.7 humid=49.8 rolling_temp=25.320 rolling_humid=51.560 n=10
+2026-11-07T12:38:39.936 Processor sample=798307 temp=30.9 humid=85.8 rolling_temp=26.510 rolling_humid=55.180 n=10
+2026-11-07T12:38:39.936 Alert TYPE=HUMID_HIGH VALUE=85.8 THRESHOLD=80.0
+2026-11-07T12:38:39.937 Alert TYPE=TEMP_SPIKE VALUE=12.2 THRESHOLD=5.0
+2026-11-07T12:38:40.036 Processor sample=798407 temp=39.5 humid=60.5 rolling_temp=28.670 rolling_humid=58.130 n=10
+2026-11-07T12:38:40.036 Alert TYPE=TEMP_SPIKE VALUE=8.6 THRESHOLD=5.0
+2026-11-07T12:38:40.136 Processor sample=798507 temp=35.6 humid=76.7 rolling_temp=29.510 rolling_humid=61.580 n=10
+2026-11-07T12:38:40.236 Processor sample=798607 temp=30.7 humid=31.8 rolling_temp=28.230 rolling_humid=57.680 n=10
+2026-11-07T12:38:40.336 Processor sample=798707 temp=43.8 humid=53.1 rolling_temp=30.820 rolling_humid=58.170 n=10
+2026-11-07T12:38:40.336 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:38:40.336 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:38:40.436 Processor sample=798807 temp=41.9 humid=40.8 rolling_temp=30.580 rolling_humid=58.920 n=10
+2026-11-07T12:38:40.436 Alert TYPE=TEMP_HIGH VALUE=41.9 THRESHOLD=40.0
+2026-11-07T12:38:40.536 Processor sample=798907 temp=23.6 humid=49.6 rolling_temp=31.180 rolling_humid=60.750 n=10
+2026-11-07T12:38:40.536 Alert TYPE=TEMP_SPIKE VALUE=18.3 THRESHOLD=5.0
+2026-11-07T12:38:40.636 Processor sample=799007 temp=39.5 humid=49.1 rolling_temp=32.600 rolling_humid=57.110 n=10
+2026-11-07T12:38:40.636 Alert TYPE=TEMP_SPIKE VALUE=15.9 THRESHOLD=5.0
+2026-11-07T12:38:40.736 Processor sample=799107 temp=32.8 humid=33.6 rolling_temp=33.700 rolling_humid=53.080 n=10
+2026-11-07T12:38:40.736 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:38:40.836 Processor sample=799207 temp=16.7 humid=69.3 rolling_temp=33.500 rolling_humid=55.030 n=10
+2026-11-07T12:38:40.836 Alert TYPE=TEMP_SPIKE VALUE=16.1 THRESHOLD=5.0
+2026-11-07T12:38:40.936 Processor sample=799307 temp=15.9 humid=64.5 rolling_temp=32.000 rolling_humid=52.900 n=10
+2026-11-07T12:38:41.036 Processor sample=799407 temp=30.6 humid=77.9 rolling_temp=31.110 rolling_humid=54.640 n=10
+2026-11-07T12:38:41.036 Alert TYPE=TEMP_SPIKE VALUE=14.7 THRESHOLD=5.0
+2026-11-07T12:38:41.136 Processor sample=799507 temp=18.4 humid=81.3 rolling_temp=29.390 rolling_humid=55.100 n=10
+2026-11-07T12:38:41.136 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:38:41.136 Alert TYPE=TEMP_SPIKE VALUE=12.2 THRESHOLD=5.0
+2026-11-07T12:38:41.236 Processor sample=799607 temp=15.1 humid=57.2 rolling_temp=27.830 rolling_humid=57.640 n=10
+2026-11-07T12:38:41.336 Processor sample=799707 temp=17.8 humid=51.3 rolling_temp=25.230 rolling_humid=57.460 n=10
+2026-11-07T12:38:41.436 Processor sample=799807 temp=35.2 humid=72.9 rolling_temp=24.560 rolling_humid=60.670 n=10
+2026-11-07T12:38:41.436 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:38:41.536 Processor sample=799907 temp=35.6 humid=43.6 rolling_temp=25.760 rolling_humid=60.070 n=10
+2026-11-07T12:38:41.636 Processor sample=800007 temp=39.3 humid=67.1 rolling_temp=25.740 rolling_humid=61.870 n=10
+2026-11-07T12:38:41.736 Processor sample=800107 temp=36.1 humid=81.2 rolling_temp=26.070 rolling_humid=66.630 n=10
+2026-11-07T12:38:41.736 Alert TYPE=HUMID_HIGH VALUE=81.2 THRESHOLD=80.0
+2026-11-07T12:38:41.836 Processor sample=800207 temp=29.6 humid=52.7 rolling_temp=27.360 rolling_humid=64.970 n=10
+2026-11-07T12:38:41.836 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:38:41.936 Processor sample=800307 temp=40.7 humid=86.6 rolling_temp=29.840 rolling_humid=67.180 n=10
+2026-11-07T12:38:41.936 Alert TYPE=TEMP_HIGH VALUE=40.7 THRESHOLD=40.0
+2026-11-07T12:38:41.936 Alert TYPE=HUMID_HIGH VALUE=86.6 THRESHOLD=80.0
+2026-11-07T12:38:41.936 Alert TYPE=TEMP_SPIKE VALUE=11.1 THRESHOLD=5.0
+2026-11-07T12:38:42.036 Processor sample=800407 temp=44.5 humid=79.4 rolling_temp=31.230 rolling_humid=67.330 n=10
+2026-11-07T12:38:42.036 Alert TYPE=TEMP_HIGH VALUE=44.5 THRESHOLD=40.0
+2026-11-07T12:38:42.136 Processor sample=800507 temp=18.6 humid=42.6 rolling_temp=31.250 rolling_humid=63.460 n=10
+2026-11-07T12:38:42.136 Alert TYPE=TEMP_SPIKE VALUE=25.9 THRESHOLD=5.0
+2026-11-07T12:38:42.236 Processor sample=800607 temp=26.4 humid=51.6 rolling_temp=32.380 rolling_humid=62.900 n=10
+2026-11-07T12:38:42.236 Alert TYPE=TEMP_SPIKE VALUE=7.8 THRESHOLD=5.0
+2026-11-07T12:38:42.336 Processor sample=800707 temp=35.6 humid=77.3 rolling_temp=34.160 rolling_humid=65.500 n=10
+2026-11-07T12:38:42.336 Alert TYPE=TEMP_SPIKE VALUE=9.2 THRESHOLD=5.0
+2026-11-07T12:38:42.436 Processor sample=800807 temp=44.8 humid=77.8 rolling_temp=35.120 rolling_humid=65.990 n=10
+2026-11-07T12:38:42.436 Alert TYPE=TEMP_HIGH VALUE=44.8 THRESHOLD=40.0
+2026-11-07T12:38:42.436 Alert TYPE=TEMP_SPIKE VALUE=9.2 THRESHOLD=5.0
+2026-11-07T12:38:42.536 Processor sample=800907 temp=15.2 humid=36.6 rolling_temp=33.080 rolling_humid=65.290 n=10
+2026-11-07T12:38:42.536 Alert TYPE=TEMP_SPIKE VALUE=29.6 THRESHOLD=5.0
+2026-11-07T12:38:42.636 Processor sample=801007 temp=21.3 humid=41.6 rolling_temp=31.280 rolling_humid=62.740 n=10
+2026-11-07T12:38:42.638 Alert TYPE=TEMP_SPIKE VALUE=6.1 THRESHOLD=5.0
+2026-11-07T12:38:42.736 Processor sample=801107 temp=25.4 humid=82.6 rolling_temp=30.210 rolling_humid=62.880 n=10
+2026-11-07T12:38:42.736 Alert TYPE=HUMID_HIGH VALUE=82.6 THRESHOLD=80.0
+2026-11-07T12:38:42.836 Processor sample=801207 temp=17.2 humid=65.2 rolling_temp=28.970 rolling_humid=64.130 n=10
+2026-11-07T12:38:42.836 Alert TYPE=TEMP_SPIKE VALUE=8.2 THRESHOLD=5.0
+2026-11-07T12:38:42.936 Processor sample=801307 temp=16.7 humid=34.1 rolling_temp=26.570 rolling_humid=58.880 n=10
+2026-11-07T12:38:43.036 Processor sample=801407 temp=15.5 humid=66.1 rolling_temp=23.670 rolling_humid=57.550 n=10
+2026-11-07T12:38:43.136 Processor sample=801507 temp=36.1 humid=60.9 rolling_temp=25.420 rolling_humid=59.380 n=10
+2026-11-07T12:38:43.136 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:38:43.236 Processor sample=801607 temp=38.1 humid=44.0 rolling_temp=26.590 rolling_humid=58.620 n=10
+2026-11-07T12:38:43.336 Alert TYPE=TEMP_HIGH VALUE=44.8 THRESHOLD=40.0
+2026-11-07T12:38:43.336 Processor sample=801707 temp=44.8 humid=80.7 rolling_temp=27.510 rolling_humid=58.960 n=10
+2026-11-07T12:38:43.336 Alert TYPE=HUMID_HIGH VALUE=80.7 THRESHOLD=80.0
+2026-11-07T12:38:43.336 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:38:43.436 Processor sample=801807 temp=35.5 humid=77.9 rolling_temp=26.580 rolling_humid=58.970 n=10
+2026-11-07T12:38:43.436 Alert TYPE=TEMP_SPIKE VALUE=9.3 THRESHOLD=5.0
+2026-11-07T12:38:43.536 Processor sample=801907 temp=26.7 humid=36.6 rolling_temp=27.730 rolling_humid=58.970 n=10
+2026-11-07T12:38:43.536 Alert TYPE=TEMP_SPIKE VALUE=8.8 THRESHOLD=5.0
+2026-11-07T12:38:43.636 Processor sample=802007 temp=22.2 humid=66.0 rolling_temp=27.820 rolling_humid=61.410 n=10
+2026-11-07T12:38:43.736 Processor sample=802107 temp=41.2 humid=75.4 rolling_temp=29.400 rolling_humid=60.690 n=10
+2026-11-07T12:38:43.736 Alert TYPE=TEMP_HIGH VALUE=41.2 THRESHOLD=40.0
+2026-11-07T12:38:43.736 Alert TYPE=TEMP_SPIKE VALUE=19.0 THRESHOLD=5.0
+2026-11-07T12:38:43.836 Processor sample=802207 temp=37.2 humid=67.3 rolling_temp=31.400 rolling_humid=60.900 n=10
+2026-11-07T12:38:43.936 Processor sample=802307 temp=34.9 humid=43.4 rolling_temp=33.220 rolling_humid=61.830 n=10
+2026-11-07T12:38:44.036 Processor sample=802407 temp=37.8 humid=66.8 rolling_temp=35.450 rolling_humid=61.900 n=10
+2026-11-07T12:38:44.136 Processor sample=802507 temp=31.4 humid=86.8 rolling_temp=34.980 rolling_humid=64.490 n=10
+2026-11-07T12:38:44.136 Alert TYPE=HUMID_HIGH VALUE=86.8 THRESHOLD=80.0
+2026-11-07T12:38:44.136 Alert TYPE=TEMP_SPIKE VALUE=6.4 THRESHOLD=5.0
+2026-11-07T12:38:44.236 Processor sample=802607 temp=45.0 humid=61.1 rolling_temp=35.670 rolling_humid=66.200 n=10
+2026-11-07T12:38:44.236 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:38:44.236 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:38:44.336 Processor sample=802707 temp=33.4 humid=41.1 rolling_temp=34.530 rolling_humid=62.240 n=10
+2026-11-07T12:38:44.336 Alert TYPE=TEMP_SPIKE VALUE=11.6 THRESHOLD=5.0
+2026-11-07T12:38:44.436 Processor sample=802807 temp=32.5 humid=68.1 rolling_temp=34.230 rolling_humid=61.260 n=10
+2026-11-07T12:38:44.536 Processor sample=802907 temp=43.9 humid=53.7 rolling_temp=35.950 rolling_humid=62.970 n=10
+2026-11-07T12:38:44.536 Alert TYPE=TEMP_HIGH VALUE=43.9 THRESHOLD=40.0
+2026-11-07T12:38:44.537 Alert TYPE=TEMP_SPIKE VALUE=11.4 THRESHOLD=5.0
+2026-11-07T12:38:44.636 Alert TYPE=TEMP_SPIKE VALUE=16.4 THRESHOLD=5.0
+2026-11-07T12:38:44.636 Processor sample=803007 temp=27.5 humid=51.4 rolling_temp=36.480 rolling_humid=61.510 n=10
+2026-11-07T12:38:44.736 Processor sample=803107 temp=19.4 humid=56.4 rolling_temp=34.300 rolling_humid=59.610 n=10
+2026-11-07T12:38:44.736 Alert TYPE=TEMP_SPIKE VALUE=8.1 THRESHOLD=5.0
+2026-11-07T12:38:44.836 Processor sample=803207 temp=23.8 humid=60.4 rolling_temp=32.960 rolling_humid=58.920 n=10
+2026-11-07T12:38:44.936 Processor sample=803307 temp=33.2 humid=33.6 rolling_temp=32.790 rolling_humid=57.940 n=10
+2026-11-07T12:38:44.936 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:38:45.057 Alert TYPE=TEMP_SPIKE VALUE=14.1 THRESHOLD=5.0
+2026-11-07T12:38:45.057 Processor sample=803407 temp=19.1 humid=64.5 rolling_temp=30.920 rolling_humid=57.710 n=10
+2026-11-07T12:38:45.137 Processor sample=803508 temp=28.8 humid=49.2 rolling_temp=30.660 rolling_humid=53.950 n=10
+2026-11-07T12:38:45.137 Alert TYPE=TEMP_SPIKE VALUE=9.7 THRESHOLD=5.0
+2026-11-07T12:38:45.239 Processor sample=803610 temp=37.7 humid=49.9 rolling_temp=29.930 rolling_humid=52.830 n=10
+2026-11-07T12:38:45.241 Alert TYPE=TEMP_SPIKE VALUE=8.9 THRESHOLD=5.0
+2026-11-07T12:38:45.336 Processor sample=803707 temp=19.7 humid=79.5 rolling_temp=28.560 rolling_humid=56.670 n=10
+2026-11-07T12:38:45.336 Alert TYPE=TEMP_SPIKE VALUE=18.0 THRESHOLD=5.0
+2026-11-07T12:38:45.436 Processor sample=803807 temp=17.8 humid=44.6 rolling_temp=27.090 rolling_humid=54.320 n=10
+2026-11-07T12:38:45.537 Processor sample=803909 temp=32.4 humid=53.9 rolling_temp=25.940 rolling_humid=54.340 n=10
+2026-11-07T12:38:45.537 Alert TYPE=TEMP_SPIKE VALUE=14.6 THRESHOLD=5.0
+2026-11-07T12:38:45.636 Processor sample=804007 temp=31.5 humid=40.5 rolling_temp=26.340 rolling_humid=53.250 n=10
+2026-11-07T12:38:45.736 Processor sample=804107 temp=34.7 humid=44.7 rolling_temp=27.870 rolling_humid=52.080 n=10
+2026-11-07T12:38:45.836 Processor sample=804208 temp=28.0 humid=52.5 rolling_temp=28.290 rolling_humid=51.290 n=10
+2026-11-07T12:38:45.837 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:38:45.937 Processor sample=804308 temp=41.6 humid=72.0 rolling_temp=29.130 rolling_humid=55.130 n=10
+2026-11-07T12:38:45.937 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:38:45.937 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:38:46.036 Processor sample=804407 temp=24.8 humid=79.5 rolling_temp=29.700 rolling_humid=56.630 n=10
+2026-11-07T12:38:46.036 Alert TYPE=TEMP_SPIKE VALUE=16.8 THRESHOLD=5.0
+2026-11-07T12:38:46.136 Processor sample=804508 temp=19.9 humid=67.9 rolling_temp=28.810 rolling_humid=58.500 n=10
+2026-11-07T12:38:46.236 Processor sample=804607 temp=18.9 humid=41.9 rolling_temp=26.930 rolling_humid=57.700 n=10
+2026-11-07T12:38:46.336 Processor sample=804707 temp=22.5 humid=46.0 rolling_temp=27.210 rolling_humid=54.350 n=10
+2026-11-07T12:38:46.436 Processor sample=804807 temp=33.4 humid=68.8 rolling_temp=28.770 rolling_humid=56.770 n=10
+2026-11-07T12:38:46.436 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:38:46.536 Processor sample=804907 temp=43.8 humid=86.0 rolling_temp=29.910 rolling_humid=59.980 n=10
+2026-11-07T12:38:46.536 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:38:46.536 Alert TYPE=HUMID_HIGH VALUE=86.0 THRESHOLD=80.0
+2026-11-07T12:38:46.536 Alert TYPE=TEMP_SPIKE VALUE=10.4 THRESHOLD=5.0
+2026-11-07T12:38:46.636 Processor sample=805007 temp=25.9 humid=89.1 rolling_temp=29.350 rolling_humid=64.840 n=10
+2026-11-07T12:38:46.636 Alert TYPE=HUMID_HIGH VALUE=89.1 THRESHOLD=80.0
+2026-11-07T12:38:46.636 Alert TYPE=TEMP_SPIKE VALUE=17.9 THRESHOLD=5.0
+2026-11-07T12:38:46.736 Processor sample=805107 temp=15.0 humid=48.7 rolling_temp=27.380 rolling_humid=65.240 n=10
+2026-11-07T12:38:46.736 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:38:46.836 Processor sample=805207 temp=33.5 humid=62.5 rolling_temp=27.930 rolling_humid=66.240 n=10
+2026-11-07T12:38:46.836 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:38:46.936 Processor sample=805307 temp=18.5 humid=71.4 rolling_temp=25.620 rolling_humid=66.180 n=10
+2026-11-07T12:38:46.936 Alert TYPE=TEMP_SPIKE VALUE=15.0 THRESHOLD=5.0
+2026-11-07T12:38:47.036 Processor sample=805407 temp=15.9 humid=59.9 rolling_temp=24.730 rolling_humid=64.220 n=10
+2026-11-07T12:38:47.136 Processor sample=805507 temp=25.3 humid=61.1 rolling_temp=25.270 rolling_humid=63.540 n=10
+2026-11-07T12:38:47.136 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:38:47.237 Processor sample=805607 temp=32.3 humid=34.0 rolling_temp=26.610 rolling_humid=62.750 n=10
+2026-11-07T12:38:47.237 Alert TYPE=TEMP_SPIKE VALUE=7.0 THRESHOLD=5.0
+2026-11-07T12:38:47.339 Processor sample=805707 temp=38.4 humid=70.2 rolling_temp=28.200 rolling_humid=65.170 n=10
+2026-11-07T12:38:47.339 Alert TYPE=TEMP_SPIKE VALUE=6.1 THRESHOLD=5.0
+2026-11-07T12:38:47.437 Processor sample=805807 temp=42.4 humid=61.5 rolling_temp=29.100 rolling_humid=64.440 n=10
+2026-11-07T12:38:47.437 Alert TYPE=TEMP_HIGH VALUE=42.4 THRESHOLD=40.0
+2026-11-07T12:38:47.541 Processor sample=805908 temp=38.4 humid=57.6 rolling_temp=28.560 rolling_humid=61.600 n=10
+2026-11-07T12:38:47.638 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:38:47.638 Processor sample=806008 temp=38.7 humid=81.3 rolling_temp=29.840 rolling_humid=60.820 n=10
+2026-11-07T12:38:47.738 Processor sample=806108 temp=23.9 humid=83.6 rolling_temp=30.730 rolling_humid=64.310 n=10
+2026-11-07T12:38:47.738 Alert TYPE=HUMID_HIGH VALUE=83.6 THRESHOLD=80.0
+2026-11-07T12:38:47.739 Alert TYPE=TEMP_SPIKE VALUE=14.8 THRESHOLD=5.0
+2026-11-07T12:38:47.837 Alert TYPE=TEMP_SPIKE VALUE=12.1 THRESHOLD=5.0
+2026-11-07T12:38:47.837 Processor sample=806208 temp=36.0 humid=60.2 rolling_temp=30.980 rolling_humid=64.080 n=10
+2026-11-07T12:38:47.936 Processor sample=806307 temp=33.7 humid=68.0 rolling_temp=32.500 rolling_humid=63.740 n=10
+2026-11-07T12:38:48.037 Processor sample=806408 temp=31.0 humid=45.5 rolling_temp=34.010 rolling_humid=62.300 n=10
+2026-11-07T12:38:48.136 Processor sample=806507 temp=42.1 humid=65.8 rolling_temp=35.690 rolling_humid=62.770 n=10
+2026-11-07T12:38:48.136 Alert TYPE=TEMP_HIGH VALUE=42.1 THRESHOLD=40.0
+2026-11-07T12:38:48.137 Alert TYPE=TEMP_SPIKE VALUE=11.1 THRESHOLD=5.0
+2026-11-07T12:38:48.236 Processor sample=806607 temp=27.2 humid=40.3 rolling_temp=35.180 rolling_humid=63.400 n=10
+2026-11-07T12:38:48.236 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:38:48.336 Processor sample=806707 temp=31.7 humid=56.3 rolling_temp=34.510 rolling_humid=62.010 n=10
+2026-11-07T12:38:48.437 Processor sample=806807 temp=44.4 humid=35.6 rolling_temp=34.710 rolling_humid=59.420 n=10
+2026-11-07T12:38:48.437 Alert TYPE=TEMP_HIGH VALUE=44.4 THRESHOLD=40.0
+2026-11-07T12:38:48.437 Alert TYPE=TEMP_SPIKE VALUE=12.7 THRESHOLD=5.0
+2026-11-07T12:38:48.536 Processor sample=806907 temp=19.2 humid=39.6 rolling_temp=32.790 rolling_humid=57.620 n=10
+2026-11-07T12:38:48.536 Alert TYPE=TEMP_SPIKE VALUE=25.2 THRESHOLD=5.0
+2026-11-07T12:38:48.636 Processor sample=807007 temp=30.5 humid=57.4 rolling_temp=31.970 rolling_humid=55.230 n=10
+2026-11-07T12:38:48.639 Alert TYPE=TEMP_SPIKE VALUE=11.3 THRESHOLD=5.0
+2026-11-07T12:38:48.736 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:38:48.737 Processor sample=807108 temp=29.8 humid=81.3 rolling_temp=32.560 rolling_humid=55.000 n=10
+2026-11-07T12:38:48.836 Processor sample=807207 temp=38.9 humid=50.4 rolling_temp=32.850 rolling_humid=54.020 n=10
+2026-11-07T12:38:48.836 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:38:48.936 Processor sample=807308 temp=18.0 humid=76.2 rolling_temp=31.280 rolling_humid=54.840 n=10
+2026-11-07T12:38:48.936 Alert TYPE=TEMP_SPIKE VALUE=20.9 THRESHOLD=5.0
+2026-11-07T12:38:49.036 Processor sample=807407 temp=23.8 humid=57.2 rolling_temp=30.560 rolling_humid=56.010 n=10
+2026-11-07T12:38:49.036 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:38:49.136 Processor sample=807507 temp=19.4 humid=57.6 rolling_temp=28.290 rolling_humid=55.190 n=10
+2026-11-07T12:38:49.236 Processor sample=807607 temp=40.0 humid=75.6 rolling_temp=29.570 rolling_humid=58.720 n=10
+2026-11-07T12:38:49.237 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:38:49.336 Processor sample=807707 temp=29.2 humid=74.5 rolling_temp=29.320 rolling_humid=60.540 n=10
+2026-11-07T12:38:49.336 Alert TYPE=TEMP_SPIKE VALUE=10.8 THRESHOLD=5.0
+2026-11-07T12:38:49.437 Processor sample=807808 temp=41.6 humid=55.6 rolling_temp=29.040 rolling_humid=62.540 n=10
+2026-11-07T12:38:49.437 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:38:49.438 Alert TYPE=TEMP_SPIKE VALUE=12.4 THRESHOLD=5.0
+2026-11-07T12:38:49.536 Processor sample=807907 temp=18.1 humid=66.9 rolling_temp=28.930 rolling_humid=65.270 n=10
+2026-11-07T12:38:49.536 Alert TYPE=TEMP_SPIKE VALUE=23.5 THRESHOLD=5.0
+2026-11-07T12:38:49.638 Processor sample=808008 temp=36.4 humid=65.8 rolling_temp=29.520 rolling_humid=66.110 n=10
+2026-11-07T12:38:49.638 Alert TYPE=TEMP_SPIKE VALUE=18.3 THRESHOLD=5.0
+2026-11-07T12:38:49.736 Processor sample=808107 temp=19.7 humid=40.8 rolling_temp=28.510 rolling_humid=62.060 n=10
+2026-11-07T12:38:49.736 Alert TYPE=TEMP_SPIKE VALUE=16.7 THRESHOLD=5.0
+2026-11-07T12:38:49.836 Processor sample=808207 temp=22.5 humid=61.4 rolling_temp=26.870 rolling_humid=63.160 n=10
+2026-11-07T12:38:49.936 Processor sample=808307 temp=38.1 humid=87.4 rolling_temp=28.880 rolling_humid=64.280 n=10
+2026-11-07T12:38:49.936 Alert TYPE=HUMID_HIGH VALUE=87.4 THRESHOLD=80.0
+2026-11-07T12:38:49.936 Alert TYPE=TEMP_SPIKE VALUE=15.6 THRESHOLD=5.0
+2026-11-07T12:38:50.036 Processor sample=808407 temp=40.1 humid=30.5 rolling_temp=30.510 rolling_humid=61.610 n=10
+2026-11-07T12:38:50.036 Alert TYPE=TEMP_HIGH VALUE=40.1 THRESHOLD=40.0
+2026-11-07T12:38:50.136 Processor sample=808507 temp=26.4 humid=34.0 rolling_temp=31.210 rolling_humid=59.250 n=10
+2026-11-07T12:38:50.136 Alert TYPE=TEMP_SPIKE VALUE=13.7 THRESHOLD=5.0
+2026-11-07T12:38:50.236 Processor sample=808607 temp=40.9 humid=50.2 rolling_temp=31.300 rolling_humid=56.710 n=10
+2026-11-07T12:38:50.236 Alert TYPE=TEMP_HIGH VALUE=40.9 THRESHOLD=40.0
+2026-11-07T12:38:50.236 Alert TYPE=TEMP_SPIKE VALUE=14.5 THRESHOLD=5.0
+2026-11-07T12:38:50.336 Processor sample=808707 temp=30.9 humid=73.3 rolling_temp=31.470 rolling_humid=56.590 n=10
+2026-11-07T12:38:50.336 Alert TYPE=TEMP_SPIKE VALUE=10.0 THRESHOLD=5.0
+2026-11-07T12:38:50.436 Processor sample=808807 temp=29.7 humid=78.2 rolling_temp=30.280 rolling_humid=58.850 n=10
+2026-11-07T12:38:50.536 Processor sample=808907 temp=23.5 humid=39.4 rolling_temp=30.820 rolling_humid=56.100 n=10
+2026-11-07T12:38:50.536 Alert TYPE=TEMP_SPIKE VALUE=6.2 THRESHOLD=5.0
+2026-11-07T12:38:50.637 Processor sample=809008 temp=40.9 humid=50.8 rolling_temp=31.270 rolling_humid=54.600 n=10
+2026-11-07T12:38:50.637 Alert TYPE=TEMP_HIGH VALUE=40.9 THRESHOLD=40.0
+2026-11-07T12:38:50.637 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:38:50.736 Processor sample=809108 temp=41.1 humid=79.9 rolling_temp=33.410 rolling_humid=58.510 n=10
+2026-11-07T12:38:50.737 Alert TYPE=TEMP_HIGH VALUE=41.1 THRESHOLD=40.0
+2026-11-07T12:38:50.837 Processor sample=809208 temp=32.8 humid=30.4 rolling_temp=34.440 rolling_humid=55.410 n=10
+2026-11-07T12:38:50.837 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:38:50.936 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:38:50.936 Processor sample=809307 temp=19.2 humid=64.5 rolling_temp=32.550 rolling_humid=53.120 n=10
+2026-11-07T12:38:51.036 Processor sample=809407 temp=18.1 humid=59.3 rolling_temp=30.350 rolling_humid=56.000 n=10
+2026-11-07T12:38:51.136 Processor sample=809507 temp=41.1 humid=64.8 rolling_temp=31.820 rolling_humid=59.080 n=10
+2026-11-07T12:38:51.136 Alert TYPE=TEMP_HIGH VALUE=41.1 THRESHOLD=40.0
+2026-11-07T12:38:51.136 Alert TYPE=TEMP_SPIKE VALUE=23.0 THRESHOLD=5.0
+2026-11-07T12:38:51.236 Processor sample=809607 temp=21.5 humid=40.0 rolling_temp=29.880 rolling_humid=58.060 n=10
+2026-11-07T12:38:51.236 Alert TYPE=TEMP_SPIKE VALUE=19.6 THRESHOLD=5.0
+2026-11-07T12:38:51.336 Processor sample=809708 temp=32.4 humid=64.5 rolling_temp=30.030 rolling_humid=57.180 n=10
+2026-11-07T12:38:51.336 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:38:51.436 Processor sample=809807 temp=34.1 humid=42.6 rolling_temp=30.470 rolling_humid=53.620 n=10
+2026-11-07T12:38:51.536 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:38:51.536 Processor sample=809907 temp=39.3 humid=35.8 rolling_temp=32.050 rolling_humid=53.260 n=10
+2026-11-07T12:38:51.636 Processor sample=810007 temp=33.3 humid=69.2 rolling_temp=31.290 rolling_humid=55.100 n=10
+2026-11-07T12:38:51.638 Alert TYPE=TEMP_SPIKE VALUE=6.0 THRESHOLD=5.0
+2026-11-07T12:38:51.736 Processor sample=810107 temp=20.4 humid=39.1 rolling_temp=29.220 rolling_humid=51.020 n=10
+2026-11-07T12:38:51.736 Alert TYPE=TEMP_SPIKE VALUE=12.9 THRESHOLD=5.0
+2026-11-07T12:38:51.836 Processor sample=810207 temp=39.7 humid=75.1 rolling_temp=29.910 rolling_humid=55.490 n=10
+2026-11-07T12:38:51.836 Alert TYPE=TEMP_SPIKE VALUE=19.3 THRESHOLD=5.0
+2026-11-07T12:38:51.936 Processor sample=810308 temp=43.5 humid=75.6 rolling_temp=32.340 rolling_humid=56.600 n=10
+2026-11-07T12:38:51.936 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:38:52.036 Processor sample=810407 temp=43.5 humid=59.9 rolling_temp=34.880 rolling_humid=56.660 n=10
+2026-11-07T12:38:52.036 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:38:52.136 Alert TYPE=TEMP_SPIKE VALUE=25.0 THRESHOLD=5.0
+2026-11-07T12:38:52.136 Processor sample=810507 temp=18.5 humid=49.7 rolling_temp=32.620 rolling_humid=55.150 n=10
+2026-11-07T12:38:52.236 Processor sample=810607 temp=40.2 humid=36.2 rolling_temp=34.490 rolling_humid=54.770 n=10
+2026-11-07T12:38:52.236 Alert TYPE=TEMP_HIGH VALUE=40.2 THRESHOLD=40.0
+2026-11-07T12:38:52.236 Alert TYPE=TEMP_SPIKE VALUE=21.7 THRESHOLD=5.0
+2026-11-07T12:38:52.336 Processor sample=810707 temp=19.9 humid=45.8 rolling_temp=33.240 rolling_humid=52.900 n=10
+2026-11-07T12:38:52.336 Alert TYPE=TEMP_SPIKE VALUE=20.3 THRESHOLD=5.0
+2026-11-07T12:38:52.436 Processor sample=810807 temp=21.4 humid=35.5 rolling_temp=31.970 rolling_humid=52.190 n=10
+2026-11-07T12:38:52.536 Processor sample=810907 temp=43.8 humid=46.1 rolling_temp=32.420 rolling_humid=53.220 n=10
+2026-11-07T12:38:52.536 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:38:52.536 Alert TYPE=TEMP_SPIKE VALUE=22.4 THRESHOLD=5.0
+2026-11-07T12:38:52.636 Processor sample=811007 temp=26.6 humid=86.0 rolling_temp=31.750 rolling_humid=54.900 n=10
+2026-11-07T12:38:52.636 Alert TYPE=HUMID_HIGH VALUE=86.0 THRESHOLD=80.0
+2026-11-07T12:38:52.636 Alert TYPE=TEMP_SPIKE VALUE=17.2 THRESHOLD=5.0
+2026-11-07T12:38:52.736 Processor sample=811107 temp=18.3 humid=87.4 rolling_temp=31.540 rolling_humid=59.730 n=10
+2026-11-07T12:38:52.736 Alert TYPE=HUMID_HIGH VALUE=87.4 THRESHOLD=80.0
+2026-11-07T12:38:52.736 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:38:52.836 Processor sample=811207 temp=31.4 humid=82.4 rolling_temp=30.710 rolling_humid=60.460 n=10
+2026-11-07T12:38:52.836 Alert TYPE=HUMID_HIGH VALUE=82.4 THRESHOLD=80.0
+2026-11-07T12:38:52.836 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:38:52.936 Processor sample=811307 temp=24.5 humid=33.0 rolling_temp=28.810 rolling_humid=56.200 n=10
+2026-11-07T12:38:52.936 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:38:53.036 Processor sample=811407 temp=33.5 humid=84.1 rolling_temp=27.810 rolling_humid=58.620 n=10
+2026-11-07T12:38:53.036 Alert TYPE=HUMID_HIGH VALUE=84.1 THRESHOLD=80.0
+2026-11-07T12:38:53.036 Alert TYPE=TEMP_SPIKE VALUE=9.0 THRESHOLD=5.0
+2026-11-07T12:38:53.136 Processor sample=811507 temp=43.4 humid=66.7 rolling_temp=30.300 rolling_humid=60.320 n=10
+2026-11-07T12:38:53.136 Alert TYPE=TEMP_HIGH VALUE=43.4 THRESHOLD=40.0
+2026-11-07T12:38:53.136 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:38:53.236 Processor sample=811607 temp=32.9 humid=68.4 rolling_temp=29.570 rolling_humid=63.540 n=10
+2026-11-07T12:38:53.236 Alert TYPE=TEMP_SPIKE VALUE=10.5 THRESHOLD=5.0
+2026-11-07T12:38:53.336 Processor sample=811707 temp=42.0 humid=69.5 rolling_temp=31.780 rolling_humid=65.910 n=10
+2026-11-07T12:38:53.336 Alert TYPE=TEMP_HIGH VALUE=42.0 THRESHOLD=40.0
+2026-11-07T12:38:53.336 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:38:53.436 Processor sample=811808 temp=22.7 humid=79.4 rolling_temp=31.910 rolling_humid=70.300 n=10
+2026-11-07T12:38:53.436 Alert TYPE=TEMP_SPIKE VALUE=19.3 THRESHOLD=5.0
+2026-11-07T12:38:53.536 Processor sample=811907 temp=43.1 humid=71.3 rolling_temp=31.840 rolling_humid=72.820 n=10
+2026-11-07T12:38:53.536 Alert TYPE=TEMP_HIGH VALUE=43.1 THRESHOLD=40.0
+2026-11-07T12:38:53.536 Alert TYPE=TEMP_SPIKE VALUE=20.4 THRESHOLD=5.0
+2026-11-07T12:38:53.636 Alert TYPE=TEMP_SPIKE VALUE=12.4 THRESHOLD=5.0
+2026-11-07T12:38:53.636 Processor sample=812007 temp=30.7 humid=56.5 rolling_temp=32.250 rolling_humid=69.870 n=10
+2026-11-07T12:38:53.736 Processor sample=812107 temp=21.3 humid=83.6 rolling_temp=32.550 rolling_humid=69.490 n=10
+2026-11-07T12:38:53.736 Alert TYPE=HUMID_HIGH VALUE=83.6 THRESHOLD=80.0
+2026-11-07T12:38:53.739 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:38:53.836 Processor sample=812207 temp=24.9 humid=31.1 rolling_temp=31.900 rolling_humid=64.360 n=10
+2026-11-07T12:38:53.936 Processor sample=812307 temp=33.6 humid=45.4 rolling_temp=32.810 rolling_humid=65.600 n=10
+2026-11-07T12:38:53.936 Alert TYPE=TEMP_SPIKE VALUE=8.7 THRESHOLD=5.0
+2026-11-07T12:38:54.036 Processor sample=812407 temp=33.8 humid=38.0 rolling_temp=32.840 rolling_humid=60.990 n=10
+2026-11-07T12:38:54.136 Processor sample=812507 temp=21.8 humid=48.5 rolling_temp=30.680 rolling_humid=59.170 n=10
+2026-11-07T12:38:54.136 Alert TYPE=TEMP_SPIKE VALUE=12.0 THRESHOLD=5.0
+2026-11-07T12:38:54.236 Processor sample=812607 temp=32.5 humid=41.4 rolling_temp=30.640 rolling_humid=56.470 n=10
+2026-11-07T12:38:54.236 Alert TYPE=TEMP_SPIKE VALUE=10.7 THRESHOLD=5.0
+2026-11-07T12:38:54.336 Processor sample=812707 temp=28.0 humid=49.3 rolling_temp=29.240 rolling_humid=54.450 n=10
+2026-11-07T12:38:54.436 Processor sample=812807 temp=31.4 humid=36.6 rolling_temp=30.110 rolling_humid=50.170 n=10
+2026-11-07T12:38:54.536 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:38:54.536 Processor sample=812907 temp=45.0 humid=66.1 rolling_temp=30.300 rolling_humid=49.650 n=10
+2026-11-07T12:38:54.536 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:38:54.636 Processor sample=813007 temp=34.1 humid=58.4 rolling_temp=30.640 rolling_humid=49.840 n=10
+2026-11-07T12:38:54.636 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:38:54.736 Processor sample=813107 temp=30.0 humid=43.2 rolling_temp=31.510 rolling_humid=45.800 n=10
+2026-11-07T12:38:54.836 Processor sample=813207 temp=27.1 humid=38.1 rolling_temp=31.730 rolling_humid=46.500 n=10
+2026-11-07T12:38:54.936 Processor sample=813307 temp=35.8 humid=57.1 rolling_temp=31.950 rolling_humid=47.670 n=10
+2026-11-07T12:38:54.936 Alert TYPE=TEMP_SPIKE VALUE=8.7 THRESHOLD=5.0
+2026-11-07T12:38:55.036 Processor sample=813407 temp=20.9 humid=85.4 rolling_temp=30.660 rolling_humid=52.410 n=10
+2026-11-07T12:38:55.036 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:38:55.036 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:38:55.136 Processor sample=813507 temp=26.7 humid=62.9 rolling_temp=31.150 rolling_humid=53.850 n=10
+2026-11-07T12:38:55.136 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:38:55.236 Processor sample=813607 temp=23.1 humid=43.0 rolling_temp=30.210 rolling_humid=54.010 n=10
+2026-11-07T12:38:55.336 Processor sample=813707 temp=35.4 humid=63.6 rolling_temp=30.950 rolling_humid=55.440 n=10
+2026-11-07T12:38:55.336 Alert TYPE=TEMP_SPIKE VALUE=12.3 THRESHOLD=5.0
+2026-11-07T12:38:55.436 Processor sample=813807 temp=30.9 humid=53.7 rolling_temp=30.900 rolling_humid=57.150 n=10
+2026-11-07T12:38:55.536 Processor sample=813907 temp=29.1 humid=38.9 rolling_temp=29.310 rolling_humid=54.430 n=10
+2026-11-07T12:38:55.636 Processor sample=814007 temp=36.2 humid=59.7 rolling_temp=29.520 rolling_humid=54.560 n=10
+2026-11-07T12:38:55.636 Alert TYPE=TEMP_SPIKE VALUE=7.1 THRESHOLD=5.0
+2026-11-07T12:38:55.736 Processor sample=814107 temp=41.4 humid=85.4 rolling_temp=30.660 rolling_humid=58.780 n=10
+2026-11-07T12:38:55.736 Alert TYPE=TEMP_HIGH VALUE=41.4 THRESHOLD=40.0
+2026-11-07T12:38:55.736 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:38:55.736 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:38:55.836 Processor sample=814207 temp=29.7 humid=51.0 rolling_temp=30.920 rolling_humid=60.070 n=10
+2026-11-07T12:38:55.836 Alert TYPE=TEMP_SPIKE VALUE=11.7 THRESHOLD=5.0
+2026-11-07T12:38:55.936 Processor sample=814307 temp=30.8 humid=30.0 rolling_temp=30.420 rolling_humid=57.360 n=10
+2026-11-07T12:38:56.036 Processor sample=814407 temp=31.4 humid=42.7 rolling_temp=31.470 rolling_humid=53.090 n=10
+2026-11-07T12:38:56.136 Processor sample=814507 temp=32.0 humid=52.7 rolling_temp=32.000 rolling_humid=52.070 n=10
+2026-11-07T12:38:56.236 Processor sample=814607 temp=21.1 humid=66.7 rolling_temp=31.800 rolling_humid=54.440 n=10
+2026-11-07T12:38:56.236 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:38:56.336 Processor sample=814707 temp=25.5 humid=35.5 rolling_temp=30.810 rolling_humid=51.630 n=10
+2026-11-07T12:38:56.436 Processor sample=814807 temp=17.3 humid=41.0 rolling_temp=29.450 rolling_humid=50.360 n=10
+2026-11-07T12:38:56.436 Alert TYPE=TEMP_SPIKE VALUE=8.2 THRESHOLD=5.0
+2026-11-07T12:38:56.536 Processor sample=814907 temp=33.4 humid=55.7 rolling_temp=29.880 rolling_humid=52.040 n=10
+2026-11-07T12:38:56.536 Alert TYPE=TEMP_SPIKE VALUE=16.1 THRESHOLD=5.0
+2026-11-07T12:38:56.636 Processor sample=815007 temp=43.7 humid=78.7 rolling_temp=30.630 rolling_humid=53.940 n=10
+2026-11-07T12:38:56.636 Alert TYPE=TEMP_HIGH VALUE=43.7 THRESHOLD=40.0
+2026-11-07T12:38:56.636 Alert TYPE=TEMP_SPIKE VALUE=10.3 THRESHOLD=5.0
+2026-11-07T12:38:56.736 Processor sample=815107 temp=28.5 humid=75.6 rolling_temp=29.340 rolling_humid=52.960 n=10
+2026-11-07T12:38:56.736 Alert TYPE=TEMP_SPIKE VALUE=15.2 THRESHOLD=5.0
+2026-11-07T12:38:56.836 Processor sample=815207 temp=27.6 humid=45.7 rolling_temp=29.130 rolling_humid=52.430 n=10
+2026-11-07T12:38:56.936 Processor sample=815307 temp=30.7 humid=79.1 rolling_temp=29.120 rolling_humid=57.340 n=10
+2026-11-07T12:38:57.036 Processor sample=815407 temp=16.0 humid=39.3 rolling_temp=27.580 rolling_humid=57.000 n=10
+2026-11-07T12:38:57.036 Alert TYPE=TEMP_SPIKE VALUE=14.7 THRESHOLD=5.0
+2026-11-07T12:38:57.136 Processor sample=815507 temp=29.1 humid=48.1 rolling_temp=27.290 rolling_humid=56.540 n=10
+2026-11-07T12:38:57.136 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:38:57.236 Processor sample=815607 temp=19.7 humid=67.9 rolling_temp=27.150 rolling_humid=56.660 n=10
+2026-11-07T12:38:57.236 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:38:57.336 Processor sample=815707 temp=31.7 humid=89.2 rolling_temp=27.770 rolling_humid=62.030 n=10
+2026-11-07T12:38:57.336 Alert TYPE=HUMID_HIGH VALUE=89.2 THRESHOLD=80.0
+2026-11-07T12:38:57.336 Alert TYPE=TEMP_SPIKE VALUE=12.0 THRESHOLD=5.0
+2026-11-07T12:38:57.436 Processor sample=815807 temp=22.7 humid=62.5 rolling_temp=28.310 rolling_humid=64.180 n=10
+2026-11-07T12:38:57.436 Alert TYPE=TEMP_SPIKE VALUE=9.0 THRESHOLD=5.0
+2026-11-07T12:38:57.536 Processor sample=815907 temp=30.4 humid=47.5 rolling_temp=28.010 rolling_humid=63.360 n=10
+2026-11-07T12:38:57.536 Alert TYPE=TEMP_SPIKE VALUE=7.7 THRESHOLD=5.0
+2026-11-07T12:38:57.636 Processor sample=816007 temp=18.9 humid=88.3 rolling_temp=25.530 rolling_humid=64.320 n=10
+2026-11-07T12:38:57.636 Alert TYPE=HUMID_HIGH VALUE=88.3 THRESHOLD=80.0
+2026-11-07T12:38:57.636 Alert TYPE=TEMP_SPIKE VALUE=11.5 THRESHOLD=5.0
+2026-11-07T12:38:57.736 Processor sample=816107 temp=30.1 humid=45.9 rolling_temp=25.690 rolling_humid=61.350 n=10
+2026-11-07T12:38:57.736 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+2026-11-07T12:38:57.836 Processor sample=816207 temp=36.6 humid=46.9 rolling_temp=26.590 rolling_humid=61.470 n=10
+2026-11-07T12:38:57.836 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:38:57.936 Processor sample=816307 temp=28.5 humid=51.5 rolling_temp=26.370 rolling_humid=58.710 n=10
+2026-11-07T12:38:57.936 Alert TYPE=TEMP_SPIKE VALUE=8.1 THRESHOLD=5.0
+2026-11-07T12:38:58.036 Processor sample=816407 temp=37.6 humid=65.9 rolling_temp=28.530 rolling_humid=61.370 n=10
+2026-11-07T12:38:58.036 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:38:58.136 Processor sample=816507 temp=22.1 humid=54.7 rolling_temp=27.830 rolling_humid=62.030 n=10
+2026-11-07T12:38:58.136 Alert TYPE=TEMP_SPIKE VALUE=15.5 THRESHOLD=5.0
+2026-11-07T12:38:58.236 Processor sample=816607 temp=41.6 humid=45.2 rolling_temp=30.020 rolling_humid=59.760 n=10
+2026-11-07T12:38:58.236 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:38:58.236 Alert TYPE=TEMP_SPIKE VALUE=19.5 THRESHOLD=5.0
+2026-11-07T12:38:58.337 Processor sample=816708 temp=25.3 humid=88.9 rolling_temp=29.380 rolling_humid=59.730 n=10
+2026-11-07T12:38:58.337 Alert TYPE=HUMID_HIGH VALUE=88.9 THRESHOLD=80.0
+2026-11-07T12:38:58.337 Alert TYPE=TEMP_SPIKE VALUE=16.3 THRESHOLD=5.0
+2026-11-07T12:38:58.436 Processor sample=816807 temp=41.0 humid=66.0 rolling_temp=31.210 rolling_humid=60.080 n=10
+2026-11-07T12:38:58.436 Alert TYPE=TEMP_HIGH VALUE=41.0 THRESHOLD=40.0
+2026-11-07T12:38:58.436 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:38:58.536 Processor sample=816908 temp=39.5 humid=39.6 rolling_temp=32.120 rolling_humid=59.290 n=10
+2026-11-07T12:38:58.636 Processor sample=817007 temp=33.9 humid=62.4 rolling_temp=33.620 rolling_humid=56.700 n=10
+2026-11-07T12:38:58.636 Alert TYPE=TEMP_SPIKE VALUE=5.6 THRESHOLD=5.0
+2026-11-07T12:38:58.736 Processor sample=817107 temp=24.5 humid=54.6 rolling_temp=33.060 rolling_humid=57.570 n=10
+2026-11-07T12:38:58.736 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:38:58.836 Processor sample=817207 temp=24.5 humid=78.5 rolling_temp=31.850 rolling_humid=60.730 n=10
+2026-11-07T12:38:58.936 Processor sample=817307 temp=41.3 humid=38.3 rolling_temp=33.130 rolling_humid=59.410 n=10
+2026-11-07T12:38:58.936 Alert TYPE=TEMP_HIGH VALUE=41.3 THRESHOLD=40.0
+2026-11-07T12:38:58.936 Alert TYPE=TEMP_SPIKE VALUE=16.8 THRESHOLD=5.0
+2026-11-07T12:38:59.036 Processor sample=817407 temp=27.7 humid=47.5 rolling_temp=32.140 rolling_humid=57.570 n=10
+2026-11-07T12:38:59.036 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:38:59.136 Processor sample=817507 temp=34.2 humid=84.9 rolling_temp=33.350 rolling_humid=60.590 n=10
+2026-11-07T12:38:59.149 Alert TYPE=HUMID_HIGH VALUE=84.9 THRESHOLD=80.0
+2026-11-07T12:38:59.149 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:38:59.236 Processor sample=817607 temp=44.4 humid=39.5 rolling_temp=33.630 rolling_humid=60.020 n=10
+2026-11-07T12:38:59.236 Alert TYPE=TEMP_HIGH VALUE=44.4 THRESHOLD=40.0
+2026-11-07T12:38:59.236 Alert TYPE=TEMP_SPIKE VALUE=10.2 THRESHOLD=5.0
+2026-11-07T12:38:59.336 Alert TYPE=TEMP_SPIKE VALUE=27.0 THRESHOLD=5.0
+2026-11-07T12:38:59.336 Processor sample=817707 temp=17.4 humid=50.8 rolling_temp=32.840 rolling_humid=56.210 n=10
+2026-11-07T12:38:59.436 Processor sample=817807 temp=23.3 humid=85.4 rolling_temp=31.070 rolling_humid=58.150 n=10
+2026-11-07T12:38:59.436 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:38:59.436 Alert TYPE=TEMP_SPIKE VALUE=5.9 THRESHOLD=5.0
+2026-11-07T12:38:59.537 Processor sample=817907 temp=33.2 humid=83.4 rolling_temp=30.440 rolling_humid=62.530 n=10
+2026-11-07T12:38:59.537 Alert TYPE=HUMID_HIGH VALUE=83.4 THRESHOLD=80.0
+2026-11-07T12:38:59.537 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:38:59.636 Processor sample=818007 temp=38.9 humid=74.0 rolling_temp=30.940 rolling_humid=63.690 n=10
+2026-11-07T12:38:59.636 Alert TYPE=TEMP_SPIKE VALUE=5.7 THRESHOLD=5.0
+2026-11-07T12:38:59.736 Processor sample=818107 temp=17.4 humid=76.8 rolling_temp=30.230 rolling_humid=65.910 n=10
+2026-11-07T12:38:59.736 Alert TYPE=TEMP_SPIKE VALUE=21.5 THRESHOLD=5.0
+2026-11-07T12:38:59.838 Processor sample=818207 temp=19.6 humid=78.3 rolling_temp=29.740 rolling_humid=65.890 n=10
+2026-11-07T12:38:59.936 Processor sample=818307 temp=19.7 humid=41.4 rolling_temp=27.580 rolling_humid=66.200 n=10
+2026-11-07T12:39:00.036 Processor sample=818407 temp=19.8 humid=44.8 rolling_temp=26.790 rolling_humid=65.930 n=10
+2026-11-07T12:39:00.136 Alert TYPE=HUMID_HIGH VALUE=85.2 THRESHOLD=80.0
+2026-11-07T12:39:00.136 Processor sample=818507 temp=39.9 humid=85.2 rolling_temp=27.360 rolling_humid=65.960 n=10
+2026-11-07T12:39:00.136 Alert TYPE=TEMP_SPIKE VALUE=20.1 THRESHOLD=5.0
+2026-11-07T12:39:00.240 Processor sample=818608 temp=38.6 humid=53.6 rolling_temp=26.780 rolling_humid=67.370 n=10
+2026-11-07T12:39:00.336 Processor sample=818707 temp=36.8 humid=36.5 rolling_temp=28.720 rolling_humid=65.940 n=10
+2026-11-07T12:39:00.439 Processor sample=818808 temp=28.3 humid=55.2 rolling_temp=29.220 rolling_humid=62.920 n=10
+2026-11-07T12:39:00.439 Alert TYPE=TEMP_SPIKE VALUE=8.5 THRESHOLD=5.0
+2026-11-07T12:39:00.539 Processor sample=818907 temp=37.8 humid=55.2 rolling_temp=29.680 rolling_humid=60.100 n=10
+2026-11-07T12:39:00.539 Alert TYPE=TEMP_SPIKE VALUE=9.5 THRESHOLD=5.0
+2026-11-07T12:39:00.636 Processor sample=819008 temp=41.7 humid=74.0 rolling_temp=29.960 rolling_humid=60.100 n=10
+2026-11-07T12:39:00.636 Alert TYPE=TEMP_HIGH VALUE=41.7 THRESHOLD=40.0
+2026-11-07T12:39:00.736 Processor sample=819107 temp=42.0 humid=89.3 rolling_temp=32.420 rolling_humid=61.350 n=10
+2026-11-07T12:39:00.736 Alert TYPE=TEMP_HIGH VALUE=42.0 THRESHOLD=40.0
+2026-11-07T12:39:00.737 Alert TYPE=HUMID_HIGH VALUE=89.3 THRESHOLD=80.0
+2026-11-07T12:39:00.836 Processor sample=819207 temp=26.7 humid=43.3 rolling_temp=33.130 rolling_humid=57.850 n=10
+2026-11-07T12:39:00.836 Alert TYPE=TEMP_SPIKE VALUE=15.3 THRESHOLD=5.0
+2026-11-07T12:39:00.936 Processor sample=819307 temp=33.1 humid=46.9 rolling_temp=34.470 rolling_humid=58.400 n=10
+2026-11-07T12:39:00.936 Alert TYPE=TEMP_SPIKE VALUE=6.4 THRESHOLD=5.0
+2026-11-07T12:39:01.037 Processor sample=819408 temp=25.1 humid=64.1 rolling_temp=35.000 rolling_humid=60.330 n=10
+2026-11-07T12:39:01.037 Alert TYPE=TEMP_SPIKE VALUE=8.0 THRESHOLD=5.0
+2026-11-07T12:39:01.146 Processor sample=819507 temp=29.9 humid=78.5 rolling_temp=34.000 rolling_humid=59.660 n=10
+2026-11-07T12:39:01.236 Processor sample=819608 temp=24.7 humid=43.6 rolling_temp=32.610 rolling_humid=58.660 n=10
+2026-11-07T12:39:01.239 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:39:01.336 Processor sample=819707 temp=26.7 humid=89.7 rolling_temp=31.600 rolling_humid=63.980 n=10
+2026-11-07T12:39:01.336 Alert TYPE=HUMID_HIGH VALUE=89.7 THRESHOLD=80.0
+2026-11-07T12:39:01.436 Processor sample=819808 temp=31.1 humid=36.5 rolling_temp=31.880 rolling_humid=62.110 n=10
+2026-11-07T12:39:01.536 Alert TYPE=TEMP_HIGH VALUE=44.2 THRESHOLD=40.0
+2026-11-07T12:39:01.536 Alert TYPE=HUMID_HIGH VALUE=89.9 THRESHOLD=80.0
+2026-11-07T12:39:01.536 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:39:01.537 Processor sample=819907 temp=44.2 humid=89.9 rolling_temp=32.520 rolling_humid=65.580 n=10
+2026-11-07T12:39:01.637 Processor sample=820007 temp=26.8 humid=33.3 rolling_temp=31.030 rolling_humid=61.510 n=10
+2026-11-07T12:39:01.637 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:39:01.737 Processor sample=820108 temp=22.5 humid=33.9 rolling_temp=29.080 rolling_humid=55.970 n=10
+2026-11-07T12:39:01.836 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:39:01.837 Alert TYPE=TEMP_SPIKE VALUE=19.1 THRESHOLD=5.0
+2026-11-07T12:39:01.838 Processor sample=820208 temp=41.6 humid=65.3 rolling_temp=30.570 rolling_humid=58.170 n=10
+2026-11-07T12:39:01.939 Processor sample=820307 temp=17.7 humid=66.0 rolling_temp=29.030 rolling_humid=60.080 n=10
+2026-11-07T12:39:01.939 Alert TYPE=TEMP_SPIKE VALUE=23.9 THRESHOLD=5.0
+2026-11-07T12:39:02.036 Processor sample=820407 temp=27.6 humid=64.8 rolling_temp=29.280 rolling_humid=60.150 n=10
+2026-11-07T12:39:02.037 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:39:02.137 Processor sample=820508 temp=42.5 humid=77.3 rolling_temp=30.540 rolling_humid=60.030 n=10
+2026-11-07T12:39:02.137 Alert TYPE=TEMP_HIGH VALUE=42.5 THRESHOLD=40.0
+2026-11-07T12:39:02.137 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:39:02.237 Processor sample=820607 temp=29.7 humid=86.3 rolling_temp=31.040 rolling_humid=64.300 n=10
+2026-11-07T12:39:02.237 Alert TYPE=HUMID_HIGH VALUE=86.3 THRESHOLD=80.0
+2026-11-07T12:39:02.237 Alert TYPE=TEMP_SPIKE VALUE=12.8 THRESHOLD=5.0
+2026-11-07T12:39:02.336 Alert TYPE=TEMP_HIGH VALUE=42.3 THRESHOLD=40.0
+2026-11-07T12:39:02.337 Processor sample=820708 temp=42.3 humid=59.3 rolling_temp=32.600 rolling_humid=61.260 n=10
+2026-11-07T12:39:02.337 Alert TYPE=TEMP_SPIKE VALUE=12.6 THRESHOLD=5.0
+2026-11-07T12:39:02.436 Processor sample=820808 temp=34.5 humid=43.5 rolling_temp=32.940 rolling_humid=61.960 n=10
+2026-11-07T12:39:02.436 Alert TYPE=TEMP_SPIKE VALUE=7.8 THRESHOLD=5.0
+2026-11-07T12:39:02.536 Processor sample=820907 temp=21.6 humid=46.1 rolling_temp=30.680 rolling_humid=57.580 n=10
+2026-11-07T12:39:02.536 Alert TYPE=TEMP_SPIKE VALUE=12.9 THRESHOLD=5.0
+2026-11-07T12:39:02.637 Alert TYPE=TEMP_HIGH VALUE=40.1 THRESHOLD=40.0
+2026-11-07T12:39:02.640 Processor sample=821008 temp=40.1 humid=36.8 rolling_temp=32.010 rolling_humid=57.930 n=10
+2026-11-07T12:39:02.640 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:39:02.739 Processor sample=821107 temp=39.0 humid=43.9 rolling_temp=33.660 rolling_humid=58.930 n=10
+2026-11-07T12:39:02.839 Processor sample=821207 temp=30.5 humid=73.4 rolling_temp=32.550 rolling_humid=59.740 n=10
+2026-11-07T12:39:02.839 Alert TYPE=TEMP_SPIKE VALUE=8.5 THRESHOLD=5.0
+2026-11-07T12:39:02.936 Processor sample=821307 temp=41.7 humid=37.5 rolling_temp=34.950 rolling_humid=56.890 n=10
+2026-11-07T12:39:02.936 Alert TYPE=TEMP_HIGH VALUE=41.7 THRESHOLD=40.0
+2026-11-07T12:39:02.936 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+2026-11-07T12:39:03.038 Processor sample=821409 temp=28.5 humid=88.3 rolling_temp=35.040 rolling_humid=59.240 n=10
+2026-11-07T12:39:03.040 Alert TYPE=HUMID_HIGH VALUE=88.3 THRESHOLD=80.0
+2026-11-07T12:39:03.040 Alert TYPE=TEMP_SPIKE VALUE=13.2 THRESHOLD=5.0
+2026-11-07T12:39:03.136 Processor sample=821508 temp=17.2 humid=40.2 rolling_temp=32.510 rolling_humid=55.530 n=10
+2026-11-07T12:39:03.137 Alert TYPE=TEMP_SPIKE VALUE=11.3 THRESHOLD=5.0
+2026-11-07T12:39:03.236 Processor sample=821607 temp=36.8 humid=68.8 rolling_temp=33.220 rolling_humid=53.780 n=10
+2026-11-07T12:39:03.236 Alert TYPE=TEMP_SPIKE VALUE=19.6 THRESHOLD=5.0
+2026-11-07T12:39:03.336 Alert TYPE=TEMP_HIGH VALUE=41.8 THRESHOLD=40.0
+2026-11-07T12:39:03.336 Processor sample=821707 temp=41.8 humid=59.7 rolling_temp=33.170 rolling_humid=53.820 n=10
+2026-11-07T12:39:03.436 Processor sample=821807 temp=21.5 humid=39.0 rolling_temp=31.870 rolling_humid=53.370 n=10
+2026-11-07T12:39:03.436 Alert TYPE=TEMP_SPIKE VALUE=20.3 THRESHOLD=5.0
+2026-11-07T12:39:03.536 Processor sample=821907 temp=44.6 humid=79.3 rolling_temp=34.170 rolling_humid=56.690 n=10
+2026-11-07T12:39:03.536 Alert TYPE=TEMP_HIGH VALUE=44.6 THRESHOLD=40.0
+2026-11-07T12:39:03.536 Alert TYPE=TEMP_SPIKE VALUE=23.1 THRESHOLD=5.0
+2026-11-07T12:39:03.636 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:39:03.636 Processor sample=822007 temp=34.7 humid=53.7 rolling_temp=33.630 rolling_humid=58.380 n=10
+2026-11-07T12:39:03.738 Processor sample=822110 temp=41.4 humid=80.1 rolling_temp=33.870 rolling_humid=62.000 n=10
+2026-11-07T12:39:03.739 Alert TYPE=TEMP_HIGH VALUE=41.4 THRESHOLD=40.0
+2026-11-07T12:39:03.739 Alert TYPE=HUMID_HIGH VALUE=80.1 THRESHOLD=80.0
+2026-11-07T12:39:03.739 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:39:03.836 Processor sample=822207 temp=45.0 humid=85.6 rolling_temp=35.320 rolling_humid=63.220 n=10
+2026-11-07T12:39:03.836 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:39:03.837 Alert TYPE=HUMID_HIGH VALUE=85.6 THRESHOLD=80.0
+2026-11-07T12:39:03.936 Alert TYPE=TEMP_SPIKE VALUE=28.1 THRESHOLD=5.0
+2026-11-07T12:39:03.936 Processor sample=822307 temp=16.9 humid=32.1 rolling_temp=32.840 rolling_humid=62.680 n=10
+2026-11-07T12:39:04.037 Processor sample=822408 temp=32.6 humid=78.8 rolling_temp=33.250 rolling_humid=61.730 n=10
+2026-11-07T12:39:04.037 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:39:04.136 Processor sample=822507 temp=39.7 humid=70.3 rolling_temp=35.500 rolling_humid=64.740 n=10
+2026-11-07T12:39:04.136 Alert TYPE=TEMP_SPIKE VALUE=7.1 THRESHOLD=5.0
+2026-11-07T12:39:04.236 Processor sample=822607 temp=33.1 humid=65.8 rolling_temp=35.130 rolling_humid=64.440 n=10
+2026-11-07T12:39:04.236 Alert TYPE=TEMP_SPIKE VALUE=6.6 THRESHOLD=5.0
+2026-11-07T12:39:04.337 Processor sample=822708 temp=38.8 humid=58.0 rolling_temp=34.830 rolling_humid=64.270 n=10
+2026-11-07T12:39:04.339 Alert TYPE=TEMP_SPIKE VALUE=5.7 THRESHOLD=5.0
+2026-11-07T12:39:04.436 Alert TYPE=TEMP_SPIKE VALUE=15.0 THRESHOLD=5.0
+2026-11-07T12:39:04.436 Processor sample=822807 temp=23.8 humid=63.4 rolling_temp=35.060 rolling_humid=66.710 n=10
+2026-11-07T12:39:04.536 Processor sample=822908 temp=30.7 humid=73.8 rolling_temp=33.670 rolling_humid=66.160 n=10
+2026-11-07T12:39:04.537 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:39:04.637 Processor sample=823008 temp=15.8 humid=72.2 rolling_temp=31.780 rolling_humid=68.010 n=10
+2026-11-07T12:39:04.637 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:39:04.736 Alert TYPE=TEMP_SPIKE VALUE=8.8 THRESHOLD=5.0
+2026-11-07T12:39:04.736 Processor sample=823107 temp=24.6 humid=56.1 rolling_temp=30.100 rolling_humid=65.610 n=10
+2026-11-07T12:39:04.838 Processor sample=823210 temp=42.6 humid=56.4 rolling_temp=29.860 rolling_humid=62.690 n=10
+2026-11-07T12:39:04.838 Alert TYPE=TEMP_HIGH VALUE=42.6 THRESHOLD=40.0
+2026-11-07T12:39:04.838 Alert TYPE=TEMP_SPIKE VALUE=18.0 THRESHOLD=5.0
+2026-11-07T12:39:04.936 Processor sample=823307 temp=21.3 humid=66.5 rolling_temp=30.300 rolling_humid=66.130 n=10
+2026-11-07T12:39:04.936 Alert TYPE=TEMP_SPIKE VALUE=21.3 THRESHOLD=5.0
+2026-11-07T12:39:05.036 Processor sample=823408 temp=41.0 humid=56.4 rolling_temp=31.140 rolling_humid=63.890 n=10
+2026-11-07T12:39:05.036 Alert TYPE=TEMP_HIGH VALUE=41.0 THRESHOLD=40.0
+2026-11-07T12:39:05.036 Alert TYPE=TEMP_SPIKE VALUE=19.7 THRESHOLD=5.0
+2026-11-07T12:39:05.136 Processor sample=823507 temp=40.5 humid=41.1 rolling_temp=31.220 rolling_humid=60.970 n=10
+2026-11-07T12:39:05.136 Alert TYPE=TEMP_HIGH VALUE=40.5 THRESHOLD=40.0
+2026-11-07T12:39:05.236 Processor sample=823607 temp=36.0 humid=71.9 rolling_temp=31.510 rolling_humid=61.580 n=10
+2026-11-07T12:39:05.336 Processor sample=823707 temp=20.3 humid=33.9 rolling_temp=29.660 rolling_humid=59.170 n=10
+2026-11-07T12:39:05.336 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:39:05.439 Processor sample=823808 temp=34.6 humid=68.2 rolling_temp=30.740 rolling_humid=59.650 n=10
+2026-11-07T12:39:05.439 Alert TYPE=TEMP_SPIKE VALUE=14.3 THRESHOLD=5.0
+2026-11-07T12:39:05.539 Processor sample=823907 temp=21.2 humid=56.4 rolling_temp=29.790 rolling_humid=57.910 n=10
+2026-11-07T12:39:05.539 Alert TYPE=TEMP_SPIKE VALUE=13.4 THRESHOLD=5.0
+2026-11-07T12:39:05.636 Processor sample=824007 temp=22.1 humid=74.7 rolling_temp=30.420 rolling_humid=58.160 n=10
+2026-11-07T12:39:05.736 Processor sample=824108 temp=20.3 humid=73.7 rolling_temp=29.990 rolling_humid=59.920 n=10
+2026-11-07T12:39:05.836 Alert TYPE=TEMP_HIGH VALUE=43.1 THRESHOLD=40.0
+2026-11-07T12:39:05.837 Alert TYPE=HUMID_HIGH VALUE=82.2 THRESHOLD=80.0
+2026-11-07T12:39:05.837 Alert TYPE=TEMP_SPIKE VALUE=22.8 THRESHOLD=5.0
+2026-11-07T12:39:05.837 Processor sample=824207 temp=43.1 humid=82.2 rolling_temp=30.040 rolling_humid=62.500 n=10
+2026-11-07T12:39:05.936 Processor sample=824307 temp=24.6 humid=42.3 rolling_temp=30.370 rolling_humid=60.080 n=10
+2026-11-07T12:39:05.936 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:39:06.036 Processor sample=824407 temp=42.2 humid=54.2 rolling_temp=30.490 rolling_humid=59.860 n=10
+2026-11-07T12:39:06.037 Alert TYPE=TEMP_HIGH VALUE=42.2 THRESHOLD=40.0
+2026-11-07T12:39:06.037 Alert TYPE=TEMP_SPIKE VALUE=17.6 THRESHOLD=5.0
+2026-11-07T12:39:06.136 Processor sample=824507 temp=41.2 humid=58.7 rolling_temp=30.560 rolling_humid=61.620 n=10
+2026-11-07T12:39:06.136 Alert TYPE=TEMP_HIGH VALUE=41.2 THRESHOLD=40.0
+2026-11-07T12:39:06.236 Processor sample=824608 temp=30.8 humid=46.9 rolling_temp=30.040 rolling_humid=59.120 n=10
+2026-11-07T12:39:06.236 Alert TYPE=TEMP_SPIKE VALUE=10.4 THRESHOLD=5.0
+2026-11-07T12:39:06.337 Processor sample=824708 temp=44.3 humid=52.4 rolling_temp=32.440 rolling_humid=60.970 n=10
+2026-11-07T12:39:06.337 Alert TYPE=TEMP_HIGH VALUE=44.3 THRESHOLD=40.0
+2026-11-07T12:39:06.338 Alert TYPE=TEMP_SPIKE VALUE=13.5 THRESHOLD=5.0
+2026-11-07T12:39:06.437 Processor sample=824808 temp=16.3 humid=40.8 rolling_temp=30.610 rolling_humid=58.230 n=10
+2026-11-07T12:39:06.437 Alert TYPE=TEMP_SPIKE VALUE=28.0 THRESHOLD=5.0
+2026-11-07T12:39:06.537 Processor sample=824908 temp=18.2 humid=44.0 rolling_temp=30.310 rolling_humid=56.990 n=10
+2026-11-07T12:39:06.636 Processor sample=825007 temp=39.3 humid=88.5 rolling_temp=32.030 rolling_humid=58.370 n=10
+2026-11-07T12:39:06.636 Alert TYPE=HUMID_HIGH VALUE=88.5 THRESHOLD=80.0
+2026-11-07T12:39:06.636 Alert TYPE=TEMP_SPIKE VALUE=21.1 THRESHOLD=5.0
+2026-11-07T12:39:06.736 Processor sample=825108 temp=44.9 humid=43.3 rolling_temp=34.490 rolling_humid=55.330 n=10
+2026-11-07T12:39:06.737 Alert TYPE=TEMP_HIGH VALUE=44.9 THRESHOLD=40.0
+2026-11-07T12:39:06.737 Alert TYPE=TEMP_SPIKE VALUE=5.6 THRESHOLD=5.0
+2026-11-07T12:39:06.836 Processor sample=825208 temp=24.3 humid=84.5 rolling_temp=32.610 rolling_humid=55.560 n=10
+2026-11-07T12:39:06.836 Alert TYPE=HUMID_HIGH VALUE=84.5 THRESHOLD=80.0
+2026-11-07T12:39:06.837 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:39:06.939 Alert TYPE=TEMP_SPIKE VALUE=10.0 THRESHOLD=5.0
+2026-11-07T12:39:06.940 Processor sample=825307 temp=34.3 humid=34.5 rolling_temp=33.580 rolling_humid=54.780 n=10
+2026-11-07T12:39:07.036 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:39:07.036 Processor sample=825408 temp=29.1 humid=52.1 rolling_temp=32.270 rolling_humid=54.570 n=10
+2026-11-07T12:39:07.136 Processor sample=825508 temp=20.8 humid=47.1 rolling_temp=30.230 rolling_humid=53.410 n=10
+2026-11-07T12:39:07.137 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:39:07.236 Processor sample=825608 temp=36.2 humid=39.6 rolling_temp=30.770 rolling_humid=52.680 n=10
+2026-11-07T12:39:07.239 Alert TYPE=TEMP_SPIKE VALUE=15.4 THRESHOLD=5.0
+2026-11-07T12:39:07.337 Processor sample=825707 temp=35.6 humid=47.4 rolling_temp=29.900 rolling_humid=52.180 n=10
+2026-11-07T12:39:07.436 Processor sample=825808 temp=18.7 humid=60.1 rolling_temp=30.140 rolling_humid=54.110 n=10
+2026-11-07T12:39:07.436 Alert TYPE=TEMP_SPIKE VALUE=16.9 THRESHOLD=5.0
+2026-11-07T12:39:07.538 Processor sample=825909 temp=21.1 humid=78.3 rolling_temp=30.430 rolling_humid=57.540 n=10
+2026-11-07T12:39:07.636 Processor sample=826007 temp=26.9 humid=80.9 rolling_temp=29.190 rolling_humid=56.780 n=10
+2026-11-07T12:39:07.636 Alert TYPE=HUMID_HIGH VALUE=80.9 THRESHOLD=80.0
+2026-11-07T12:39:07.636 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:39:07.736 Processor sample=826107 temp=42.6 humid=79.5 rolling_temp=28.960 rolling_humid=60.400 n=10
+2026-11-07T12:39:07.736 Alert TYPE=TEMP_HIGH VALUE=42.6 THRESHOLD=40.0
+2026-11-07T12:39:07.737 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:39:07.836 Processor sample=826207 temp=23.2 humid=58.5 rolling_temp=28.850 rolling_humid=57.800 n=10
+2026-11-07T12:39:07.838 Alert TYPE=TEMP_SPIKE VALUE=19.4 THRESHOLD=5.0
+2026-11-07T12:39:07.936 Processor sample=826307 temp=25.7 humid=41.9 rolling_temp=27.990 rolling_humid=58.540 n=10
+2026-11-07T12:39:08.037 Processor sample=826407 temp=18.8 humid=82.7 rolling_temp=26.960 rolling_humid=61.600 n=10
+2026-11-07T12:39:08.037 Alert TYPE=HUMID_HIGH VALUE=82.7 THRESHOLD=80.0
+2026-11-07T12:39:08.037 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:39:08.137 Processor sample=826507 temp=16.0 humid=74.4 rolling_temp=26.480 rolling_humid=64.330 n=10
+2026-11-07T12:39:08.236 Processor sample=826608 temp=27.2 humid=80.0 rolling_temp=25.580 rolling_humid=68.370 n=10
+2026-11-07T12:39:08.237 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+Logger started
+2026-11-07T12:42:57.240 Processor started
+2026-11-07T12:42:57.280 Alert started
+2026-11-07T12:42:57.280 Sensor started policy=0 priority=0
+2026-11-07T12:42:57.356 Processor sample=1055703 temp=44.6 humid=71.2 rolling_temp=44.600 rolling_humid=71.200 n=1
+2026-11-07T12:42:57.359 Alert TYPE=TEMP_HIGH VALUE=44.6 THRESHOLD=40.0
+2026-11-07T12:42:57.433 Processor sample=1055802 temp=23.4 humid=34.3 rolling_temp=34.000 rolling_humid=52.750 n=2
+2026-11-07T12:42:57.433 Alert TYPE=TEMP_SPIKE VALUE=21.2 THRESHOLD=5.0
+2026-11-07T12:42:57.531 Alert TYPE=TEMP_HIGH VALUE=43.9 THRESHOLD=40.0
+2026-11-07T12:42:57.531 Processor sample=1055902 temp=43.9 humid=70.6 rolling_temp=37.300 rolling_humid=58.700 n=3
+2026-11-07T12:42:57.531 Alert TYPE=TEMP_SPIKE VALUE=20.5 THRESHOLD=5.0
+2026-11-07T12:42:57.630 Processor sample=1056002 temp=19.0 humid=49.6 rolling_temp=32.725 rolling_humid=56.425 n=4
+2026-11-07T12:42:57.630 Alert TYPE=TEMP_SPIKE VALUE=24.9 THRESHOLD=5.0
+2026-11-07T12:42:57.730 Processor sample=1056102 temp=17.9 humid=31.0 rolling_temp=29.760 rolling_humid=51.340 n=5
+2026-11-07T12:42:57.830 Processor sample=1056202 temp=27.2 humid=42.2 rolling_temp=29.333 rolling_humid=49.817 n=6
+2026-11-07T12:42:57.831 Alert TYPE=TEMP_SPIKE VALUE=9.3 THRESHOLD=5.0
+2026-11-07T12:42:57.930 Processor sample=1056302 temp=43.5 humid=70.8 rolling_temp=31.357 rolling_humid=52.814 n=7
+2026-11-07T12:42:57.931 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:42:57.931 Alert TYPE=TEMP_SPIKE VALUE=16.3 THRESHOLD=5.0
+2026-11-07T12:42:58.030 Processor sample=1056402 temp=17.9 humid=48.2 rolling_temp=29.675 rolling_humid=52.237 n=8
+2026-11-07T12:42:58.031 Alert TYPE=TEMP_SPIKE VALUE=25.6 THRESHOLD=5.0
+2026-11-07T12:42:58.130 Processor sample=1056502 temp=44.3 humid=33.3 rolling_temp=31.300 rolling_humid=50.133 n=9
+2026-11-07T12:42:58.131 Alert TYPE=TEMP_HIGH VALUE=44.3 THRESHOLD=40.0
+2026-11-07T12:42:58.131 Alert TYPE=TEMP_SPIKE VALUE=26.4 THRESHOLD=5.0
+2026-11-07T12:42:58.230 Processor sample=1056602 temp=17.6 humid=31.3 rolling_temp=29.930 rolling_humid=48.250 n=10
+2026-11-07T12:42:58.230 Alert TYPE=TEMP_SPIKE VALUE=26.7 THRESHOLD=5.0
+2026-11-07T12:42:58.332 Processor sample=1056702 temp=25.3 humid=85.5 rolling_temp=28.000 rolling_humid=49.680 n=10
+2026-11-07T12:42:58.332 Alert TYPE=HUMID_HIGH VALUE=85.5 THRESHOLD=80.0
+2026-11-07T12:42:58.332 Alert TYPE=TEMP_SPIKE VALUE=7.7 THRESHOLD=5.0
+2026-11-07T12:42:58.430 Processor sample=1056802 temp=21.8 humid=73.9 rolling_temp=27.840 rolling_humid=53.640 n=10
+2026-11-07T12:42:58.530 Processor sample=1056902 temp=18.7 humid=49.8 rolling_temp=25.320 rolling_humid=51.560 n=10
+2026-11-07T12:42:58.630 Processor sample=1057002 temp=30.9 humid=85.8 rolling_temp=26.510 rolling_humid=55.180 n=10
+2026-11-07T12:42:58.631 Alert TYPE=HUMID_HIGH VALUE=85.8 THRESHOLD=80.0
+2026-11-07T12:42:58.631 Alert TYPE=TEMP_SPIKE VALUE=12.2 THRESHOLD=5.0
+2026-11-07T12:42:58.730 Processor sample=1057102 temp=39.5 humid=60.5 rolling_temp=28.670 rolling_humid=58.130 n=10
+2026-11-07T12:42:58.730 Alert TYPE=TEMP_SPIKE VALUE=8.6 THRESHOLD=5.0
+2026-11-07T12:42:58.830 Processor sample=1057202 temp=35.6 humid=76.7 rolling_temp=29.510 rolling_humid=61.580 n=10
+2026-11-07T12:42:58.930 Processor sample=1057302 temp=30.7 humid=31.8 rolling_temp=28.230 rolling_humid=57.680 n=10
+2026-11-07T12:42:59.030 Processor sample=1057402 temp=43.8 humid=53.1 rolling_temp=30.820 rolling_humid=58.170 n=10
+2026-11-07T12:42:59.030 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:42:59.031 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:42:59.130 Processor sample=1057502 temp=41.9 humid=40.8 rolling_temp=30.580 rolling_humid=58.920 n=10
+2026-11-07T12:42:59.130 Alert TYPE=TEMP_HIGH VALUE=41.9 THRESHOLD=40.0
+2026-11-07T12:42:59.230 Processor sample=1057602 temp=23.6 humid=49.6 rolling_temp=31.180 rolling_humid=60.750 n=10
+2026-11-07T12:42:59.230 Alert TYPE=TEMP_SPIKE VALUE=18.3 THRESHOLD=5.0
+2026-11-07T12:42:59.330 Processor sample=1057702 temp=39.5 humid=49.1 rolling_temp=32.600 rolling_humid=57.110 n=10
+2026-11-07T12:42:59.330 Alert TYPE=TEMP_SPIKE VALUE=15.9 THRESHOLD=5.0
+2026-11-07T12:42:59.430 Processor sample=1057802 temp=32.8 humid=33.6 rolling_temp=33.700 rolling_humid=53.080 n=10
+2026-11-07T12:42:59.430 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:42:59.530 Processor sample=1057902 temp=16.7 humid=69.3 rolling_temp=33.500 rolling_humid=55.030 n=10
+2026-11-07T12:42:59.530 Alert TYPE=TEMP_SPIKE VALUE=16.1 THRESHOLD=5.0
+2026-11-07T12:42:59.630 Processor sample=1058002 temp=15.9 humid=64.5 rolling_temp=32.000 rolling_humid=52.900 n=10
+2026-11-07T12:42:59.730 Processor sample=1058102 temp=30.6 humid=77.9 rolling_temp=31.110 rolling_humid=54.640 n=10
+2026-11-07T12:42:59.730 Alert TYPE=TEMP_SPIKE VALUE=14.7 THRESHOLD=5.0
+2026-11-07T12:42:59.830 Processor sample=1058202 temp=18.4 humid=81.3 rolling_temp=29.390 rolling_humid=55.100 n=10
+2026-11-07T12:42:59.830 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:42:59.830 Alert TYPE=TEMP_SPIKE VALUE=12.2 THRESHOLD=5.0
+2026-11-07T12:42:59.930 Processor sample=1058302 temp=15.1 humid=57.2 rolling_temp=27.830 rolling_humid=57.640 n=10
+2026-11-07T12:43:00.030 Processor sample=1058402 temp=17.8 humid=51.3 rolling_temp=25.230 rolling_humid=57.460 n=10
+2026-11-07T12:43:00.130 Processor sample=1058502 temp=35.2 humid=72.9 rolling_temp=24.560 rolling_humid=60.670 n=10
+2026-11-07T12:43:00.130 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:43:00.230 Processor sample=1058602 temp=35.6 humid=43.6 rolling_temp=25.760 rolling_humid=60.070 n=10
+2026-11-07T12:43:00.330 Processor sample=1058702 temp=39.3 humid=67.1 rolling_temp=25.740 rolling_humid=61.870 n=10
+2026-11-07T12:43:00.430 Processor sample=1058802 temp=36.1 humid=81.2 rolling_temp=26.070 rolling_humid=66.630 n=10
+2026-11-07T12:43:00.431 Alert TYPE=HUMID_HIGH VALUE=81.2 THRESHOLD=80.0
+2026-11-07T12:43:00.530 Processor sample=1058902 temp=29.6 humid=52.7 rolling_temp=27.360 rolling_humid=64.970 n=10
+2026-11-07T12:43:00.530 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:43:00.630 Processor sample=1059002 temp=40.7 humid=86.6 rolling_temp=29.840 rolling_humid=67.180 n=10
+2026-11-07T12:43:00.630 Alert TYPE=TEMP_HIGH VALUE=40.7 THRESHOLD=40.0
+2026-11-07T12:43:00.631 Alert TYPE=HUMID_HIGH VALUE=86.6 THRESHOLD=80.0
+2026-11-07T12:43:00.631 Alert TYPE=TEMP_SPIKE VALUE=11.1 THRESHOLD=5.0
+2026-11-07T12:43:00.730 Processor sample=1059102 temp=44.5 humid=79.4 rolling_temp=31.230 rolling_humid=67.330 n=10
+2026-11-07T12:43:00.731 Alert TYPE=TEMP_HIGH VALUE=44.5 THRESHOLD=40.0
+2026-11-07T12:43:00.830 Processor sample=1059202 temp=18.6 humid=42.6 rolling_temp=31.250 rolling_humid=63.460 n=10
+2026-11-07T12:43:00.830 Alert TYPE=TEMP_SPIKE VALUE=25.9 THRESHOLD=5.0
+2026-11-07T12:43:00.930 Processor sample=1059302 temp=26.4 humid=51.6 rolling_temp=32.380 rolling_humid=62.900 n=10
+2026-11-07T12:43:00.930 Alert TYPE=TEMP_SPIKE VALUE=7.8 THRESHOLD=5.0
+2026-11-07T12:43:01.030 Processor sample=1059402 temp=35.6 humid=77.3 rolling_temp=34.160 rolling_humid=65.500 n=10
+2026-11-07T12:43:01.030 Alert TYPE=TEMP_SPIKE VALUE=9.2 THRESHOLD=5.0
+2026-11-07T12:43:01.130 Processor sample=1059502 temp=44.8 humid=77.8 rolling_temp=35.120 rolling_humid=65.990 n=10
+2026-11-07T12:43:01.130 Alert TYPE=TEMP_HIGH VALUE=44.8 THRESHOLD=40.0
+2026-11-07T12:43:01.130 Alert TYPE=TEMP_SPIKE VALUE=9.2 THRESHOLD=5.0
+2026-11-07T12:43:01.230 Processor sample=1059602 temp=15.2 humid=36.6 rolling_temp=33.080 rolling_humid=65.290 n=10
+2026-11-07T12:43:01.230 Alert TYPE=TEMP_SPIKE VALUE=29.6 THRESHOLD=5.0
+2026-11-07T12:43:01.330 Processor sample=1059702 temp=21.3 humid=41.6 rolling_temp=31.280 rolling_humid=62.740 n=10
+2026-11-07T12:43:01.330 Alert TYPE=TEMP_SPIKE VALUE=6.1 THRESHOLD=5.0
+2026-11-07T12:43:01.430 Processor sample=1059802 temp=25.4 humid=82.6 rolling_temp=30.210 rolling_humid=62.880 n=10
+2026-11-07T12:43:01.430 Alert TYPE=HUMID_HIGH VALUE=82.6 THRESHOLD=80.0
+2026-11-07T12:43:01.530 Processor sample=1059902 temp=17.2 humid=65.2 rolling_temp=28.970 rolling_humid=64.130 n=10
+2026-11-07T12:43:01.530 Alert TYPE=TEMP_SPIKE VALUE=8.2 THRESHOLD=5.0
+2026-11-07T12:43:01.630 Processor sample=1060002 temp=16.7 humid=34.1 rolling_temp=26.570 rolling_humid=58.880 n=10
+2026-11-07T12:43:01.730 Processor sample=1060102 temp=15.5 humid=66.1 rolling_temp=23.670 rolling_humid=57.550 n=10
+2026-11-07T12:43:01.830 Processor sample=1060202 temp=36.1 humid=60.9 rolling_temp=25.420 rolling_humid=59.380 n=10
+2026-11-07T12:43:01.831 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:43:01.930 Processor sample=1060302 temp=38.1 humid=44.0 rolling_temp=26.590 rolling_humid=58.620 n=10
+2026-11-07T12:43:02.030 Processor sample=1060402 temp=44.8 humid=80.7 rolling_temp=27.510 rolling_humid=58.960 n=10
+2026-11-07T12:43:02.031 Alert TYPE=TEMP_HIGH VALUE=44.8 THRESHOLD=40.0
+2026-11-07T12:43:02.031 Alert TYPE=HUMID_HIGH VALUE=80.7 THRESHOLD=80.0
+2026-11-07T12:43:02.031 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:43:02.130 Processor sample=1060502 temp=35.5 humid=77.9 rolling_temp=26.580 rolling_humid=58.970 n=10
+2026-11-07T12:43:02.130 Alert TYPE=TEMP_SPIKE VALUE=9.3 THRESHOLD=5.0
+2026-11-07T12:43:02.230 Processor sample=1060602 temp=26.7 humid=36.6 rolling_temp=27.730 rolling_humid=58.970 n=10
+2026-11-07T12:43:02.230 Alert TYPE=TEMP_SPIKE VALUE=8.8 THRESHOLD=5.0
+2026-11-07T12:43:02.330 Processor sample=1060702 temp=22.2 humid=66.0 rolling_temp=27.820 rolling_humid=61.410 n=10
+2026-11-07T12:43:02.430 Processor sample=1060802 temp=41.2 humid=75.4 rolling_temp=29.400 rolling_humid=60.690 n=10
+2026-11-07T12:43:02.431 Alert TYPE=TEMP_HIGH VALUE=41.2 THRESHOLD=40.0
+2026-11-07T12:43:02.431 Alert TYPE=TEMP_SPIKE VALUE=19.0 THRESHOLD=5.0
+2026-11-07T12:43:02.530 Processor sample=1060902 temp=37.2 humid=67.3 rolling_temp=31.400 rolling_humid=60.900 n=10
+2026-11-07T12:43:02.630 Processor sample=1061002 temp=34.9 humid=43.4 rolling_temp=33.220 rolling_humid=61.830 n=10
+2026-11-07T12:43:02.730 Processor sample=1061102 temp=37.8 humid=66.8 rolling_temp=35.450 rolling_humid=61.900 n=10
+2026-11-07T12:43:02.830 Processor sample=1061202 temp=31.4 humid=86.8 rolling_temp=34.980 rolling_humid=64.490 n=10
+2026-11-07T12:43:02.831 Alert TYPE=HUMID_HIGH VALUE=86.8 THRESHOLD=80.0
+2026-11-07T12:43:02.831 Alert TYPE=TEMP_SPIKE VALUE=6.4 THRESHOLD=5.0
+2026-11-07T12:43:02.930 Processor sample=1061302 temp=45.0 humid=61.1 rolling_temp=35.670 rolling_humid=66.200 n=10
+2026-11-07T12:43:02.930 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:43:02.930 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:43:03.030 Processor sample=1061402 temp=33.4 humid=41.1 rolling_temp=34.530 rolling_humid=62.240 n=10
+2026-11-07T12:43:03.030 Alert TYPE=TEMP_SPIKE VALUE=11.6 THRESHOLD=5.0
+2026-11-07T12:43:03.130 Processor sample=1061502 temp=32.5 humid=68.1 rolling_temp=34.230 rolling_humid=61.260 n=10
+2026-11-07T12:43:03.230 Processor sample=1061602 temp=43.9 humid=53.7 rolling_temp=35.950 rolling_humid=62.970 n=10
+2026-11-07T12:43:03.230 Alert TYPE=TEMP_HIGH VALUE=43.9 THRESHOLD=40.0
+2026-11-07T12:43:03.230 Alert TYPE=TEMP_SPIKE VALUE=11.4 THRESHOLD=5.0
+2026-11-07T12:43:03.330 Processor sample=1061702 temp=27.5 humid=51.4 rolling_temp=36.480 rolling_humid=61.510 n=10
+2026-11-07T12:43:03.330 Alert TYPE=TEMP_SPIKE VALUE=16.4 THRESHOLD=5.0
+2026-11-07T12:43:03.430 Processor sample=1061802 temp=19.4 humid=56.4 rolling_temp=34.300 rolling_humid=59.610 n=10
+2026-11-07T12:43:03.430 Alert TYPE=TEMP_SPIKE VALUE=8.1 THRESHOLD=5.0
+2026-11-07T12:43:03.530 Processor sample=1061902 temp=23.8 humid=60.4 rolling_temp=32.960 rolling_humid=58.920 n=10
+2026-11-07T12:43:03.630 Processor sample=1062002 temp=33.2 humid=33.6 rolling_temp=32.790 rolling_humid=57.940 n=10
+2026-11-07T12:43:03.630 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:43:03.730 Processor sample=1062102 temp=19.1 humid=64.5 rolling_temp=30.920 rolling_humid=57.710 n=10
+2026-11-07T12:43:03.730 Alert TYPE=TEMP_SPIKE VALUE=14.1 THRESHOLD=5.0
+2026-11-07T12:43:03.830 Processor sample=1062202 temp=28.8 humid=49.2 rolling_temp=30.660 rolling_humid=53.950 n=10
+2026-11-07T12:43:03.830 Alert TYPE=TEMP_SPIKE VALUE=9.7 THRESHOLD=5.0
+2026-11-07T12:43:03.930 Processor sample=1062302 temp=37.7 humid=49.9 rolling_temp=29.930 rolling_humid=52.830 n=10
+2026-11-07T12:43:03.930 Alert TYPE=TEMP_SPIKE VALUE=8.9 THRESHOLD=5.0
+2026-11-07T12:43:04.030 Processor sample=1062402 temp=19.7 humid=79.5 rolling_temp=28.560 rolling_humid=56.670 n=10
+2026-11-07T12:43:04.031 Alert TYPE=TEMP_SPIKE VALUE=18.0 THRESHOLD=5.0
+2026-11-07T12:43:04.130 Processor sample=1062502 temp=17.8 humid=44.6 rolling_temp=27.090 rolling_humid=54.320 n=10
+2026-11-07T12:43:04.230 Processor sample=1062602 temp=32.4 humid=53.9 rolling_temp=25.940 rolling_humid=54.340 n=10
+2026-11-07T12:43:04.230 Alert TYPE=TEMP_SPIKE VALUE=14.6 THRESHOLD=5.0
+2026-11-07T12:43:04.330 Processor sample=1062702 temp=31.5 humid=40.5 rolling_temp=26.340 rolling_humid=53.250 n=10
+2026-11-07T12:43:04.430 Processor sample=1062802 temp=34.7 humid=44.7 rolling_temp=27.870 rolling_humid=52.080 n=10
+2026-11-07T12:43:04.530 Processor sample=1062902 temp=28.0 humid=52.5 rolling_temp=28.290 rolling_humid=51.290 n=10
+2026-11-07T12:43:04.530 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:43:04.630 Processor sample=1063002 temp=41.6 humid=72.0 rolling_temp=29.130 rolling_humid=55.130 n=10
+2026-11-07T12:43:04.630 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:43:04.630 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:43:04.730 Processor sample=1063102 temp=24.8 humid=79.5 rolling_temp=29.700 rolling_humid=56.630 n=10
+2026-11-07T12:43:04.730 Alert TYPE=TEMP_SPIKE VALUE=16.8 THRESHOLD=5.0
+2026-11-07T12:43:04.830 Processor sample=1063202 temp=19.9 humid=67.9 rolling_temp=28.810 rolling_humid=58.500 n=10
+2026-11-07T12:43:04.930 Processor sample=1063302 temp=18.9 humid=41.9 rolling_temp=26.930 rolling_humid=57.700 n=10
+2026-11-07T12:43:05.030 Processor sample=1063402 temp=22.5 humid=46.0 rolling_temp=27.210 rolling_humid=54.350 n=10
+2026-11-07T12:43:05.130 Processor sample=1063502 temp=33.4 humid=68.8 rolling_temp=28.770 rolling_humid=56.770 n=10
+2026-11-07T12:43:05.130 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:43:05.230 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:43:05.230 Alert TYPE=HUMID_HIGH VALUE=86.0 THRESHOLD=80.0
+2026-11-07T12:43:05.230 Processor sample=1063602 temp=43.8 humid=86.0 rolling_temp=29.910 rolling_humid=59.980 n=10
+2026-11-07T12:43:05.231 Alert TYPE=TEMP_SPIKE VALUE=10.4 THRESHOLD=5.0
+2026-11-07T12:43:05.330 Processor sample=1063702 temp=25.9 humid=89.1 rolling_temp=29.350 rolling_humid=64.840 n=10
+2026-11-07T12:43:05.331 Alert TYPE=HUMID_HIGH VALUE=89.1 THRESHOLD=80.0
+2026-11-07T12:43:05.331 Alert TYPE=TEMP_SPIKE VALUE=17.9 THRESHOLD=5.0
+2026-11-07T12:43:05.430 Processor sample=1063802 temp=15.0 humid=48.7 rolling_temp=27.380 rolling_humid=65.240 n=10
+2026-11-07T12:43:05.430 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:43:05.530 Processor sample=1063902 temp=33.5 humid=62.5 rolling_temp=27.930 rolling_humid=66.240 n=10
+2026-11-07T12:43:05.530 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:43:05.630 Processor sample=1064002 temp=18.5 humid=71.4 rolling_temp=25.620 rolling_humid=66.180 n=10
+2026-11-07T12:43:05.630 Alert TYPE=TEMP_SPIKE VALUE=15.0 THRESHOLD=5.0
+2026-11-07T12:43:05.730 Processor sample=1064102 temp=15.9 humid=59.9 rolling_temp=24.730 rolling_humid=64.220 n=10
+2026-11-07T12:43:05.830 Processor sample=1064202 temp=25.3 humid=61.1 rolling_temp=25.270 rolling_humid=63.540 n=10
+2026-11-07T12:43:05.830 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:43:05.931 Processor sample=1064302 temp=32.3 humid=34.0 rolling_temp=26.610 rolling_humid=62.750 n=10
+2026-11-07T12:43:05.931 Alert TYPE=TEMP_SPIKE VALUE=7.0 THRESHOLD=5.0
+2026-11-07T12:43:06.030 Processor sample=1064402 temp=38.4 humid=70.2 rolling_temp=28.200 rolling_humid=65.170 n=10
+2026-11-07T12:43:06.030 Alert TYPE=TEMP_SPIKE VALUE=6.1 THRESHOLD=5.0
+2026-11-07T12:43:06.130 Processor sample=1064502 temp=42.4 humid=61.5 rolling_temp=29.100 rolling_humid=64.440 n=10
+2026-11-07T12:43:06.131 Alert TYPE=TEMP_HIGH VALUE=42.4 THRESHOLD=40.0
+2026-11-07T12:43:06.230 Processor sample=1064602 temp=38.4 humid=57.6 rolling_temp=28.560 rolling_humid=61.600 n=10
+2026-11-07T12:43:06.330 Processor sample=1064702 temp=38.7 humid=81.3 rolling_temp=29.840 rolling_humid=60.820 n=10
+2026-11-07T12:43:06.330 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:43:06.430 Processor sample=1064802 temp=23.9 humid=83.6 rolling_temp=30.730 rolling_humid=64.310 n=10
+2026-11-07T12:43:06.430 Alert TYPE=HUMID_HIGH VALUE=83.6 THRESHOLD=80.0
+2026-11-07T12:43:06.431 Alert TYPE=TEMP_SPIKE VALUE=14.8 THRESHOLD=5.0
+2026-11-07T12:43:06.530 Processor sample=1064902 temp=36.0 humid=60.2 rolling_temp=30.980 rolling_humid=64.080 n=10
+2026-11-07T12:43:06.531 Alert TYPE=TEMP_SPIKE VALUE=12.1 THRESHOLD=5.0
+2026-11-07T12:43:06.630 Processor sample=1065002 temp=33.7 humid=68.0 rolling_temp=32.500 rolling_humid=63.740 n=10
+2026-11-07T12:43:06.730 Processor sample=1065102 temp=31.0 humid=45.5 rolling_temp=34.010 rolling_humid=62.300 n=10
+2026-11-07T12:43:06.830 Processor sample=1065202 temp=42.1 humid=65.8 rolling_temp=35.690 rolling_humid=62.770 n=10
+2026-11-07T12:43:06.830 Alert TYPE=TEMP_HIGH VALUE=42.1 THRESHOLD=40.0
+2026-11-07T12:43:06.830 Alert TYPE=TEMP_SPIKE VALUE=11.1 THRESHOLD=5.0
+2026-11-07T12:43:06.930 Processor sample=1065302 temp=27.2 humid=40.3 rolling_temp=35.180 rolling_humid=63.400 n=10
+2026-11-07T12:43:06.930 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:43:07.030 Processor sample=1065402 temp=31.7 humid=56.3 rolling_temp=34.510 rolling_humid=62.010 n=10
+2026-11-07T12:43:07.130 Processor sample=1065502 temp=44.4 humid=35.6 rolling_temp=34.710 rolling_humid=59.420 n=10
+2026-11-07T12:43:07.130 Alert TYPE=TEMP_HIGH VALUE=44.4 THRESHOLD=40.0
+2026-11-07T12:43:07.130 Alert TYPE=TEMP_SPIKE VALUE=12.7 THRESHOLD=5.0
+2026-11-07T12:43:07.230 Processor sample=1065602 temp=19.2 humid=39.6 rolling_temp=32.790 rolling_humid=57.620 n=10
+2026-11-07T12:43:07.230 Alert TYPE=TEMP_SPIKE VALUE=25.2 THRESHOLD=5.0
+2026-11-07T12:43:07.330 Processor sample=1065702 temp=30.5 humid=57.4 rolling_temp=31.970 rolling_humid=55.230 n=10
+2026-11-07T12:43:07.330 Alert TYPE=TEMP_SPIKE VALUE=11.3 THRESHOLD=5.0
+2026-11-07T12:43:07.430 Processor sample=1065802 temp=29.8 humid=81.3 rolling_temp=32.560 rolling_humid=55.000 n=10
+2026-11-07T12:43:07.430 Alert TYPE=HUMID_HIGH VALUE=81.3 THRESHOLD=80.0
+2026-11-07T12:43:07.530 Processor sample=1065902 temp=38.9 humid=50.4 rolling_temp=32.850 rolling_humid=54.020 n=10
+2026-11-07T12:43:07.530 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:43:07.630 Processor sample=1066002 temp=18.0 humid=76.2 rolling_temp=31.280 rolling_humid=54.840 n=10
+2026-11-07T12:43:07.630 Alert TYPE=TEMP_SPIKE VALUE=20.9 THRESHOLD=5.0
+2026-11-07T12:43:07.731 Processor sample=1066102 temp=23.8 humid=57.2 rolling_temp=30.560 rolling_humid=56.010 n=10
+2026-11-07T12:43:07.731 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:43:07.830 Processor sample=1066202 temp=19.4 humid=57.6 rolling_temp=28.290 rolling_humid=55.190 n=10
+2026-11-07T12:43:07.930 Processor sample=1066302 temp=40.0 humid=75.6 rolling_temp=29.570 rolling_humid=58.720 n=10
+2026-11-07T12:43:07.930 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:43:08.031 Processor sample=1066402 temp=29.2 humid=74.5 rolling_temp=29.320 rolling_humid=60.540 n=10
+2026-11-07T12:43:08.031 Alert TYPE=TEMP_SPIKE VALUE=10.8 THRESHOLD=5.0
+2026-11-07T12:43:08.130 Processor sample=1066502 temp=41.6 humid=55.6 rolling_temp=29.040 rolling_humid=62.540 n=10
+2026-11-07T12:43:08.130 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:43:08.130 Alert TYPE=TEMP_SPIKE VALUE=12.4 THRESHOLD=5.0
+2026-11-07T12:43:08.230 Processor sample=1066602 temp=18.1 humid=66.9 rolling_temp=28.930 rolling_humid=65.270 n=10
+2026-11-07T12:43:08.230 Alert TYPE=TEMP_SPIKE VALUE=23.5 THRESHOLD=5.0
+2026-11-07T12:43:08.330 Processor sample=1066702 temp=36.4 humid=65.8 rolling_temp=29.520 rolling_humid=66.110 n=10
+2026-11-07T12:43:08.330 Alert TYPE=TEMP_SPIKE VALUE=18.3 THRESHOLD=5.0
+2026-11-07T12:43:08.430 Processor sample=1066802 temp=19.7 humid=40.8 rolling_temp=28.510 rolling_humid=62.060 n=10
+2026-11-07T12:43:08.430 Alert TYPE=TEMP_SPIKE VALUE=16.7 THRESHOLD=5.0
+2026-11-07T12:43:08.530 Processor sample=1066902 temp=22.5 humid=61.4 rolling_temp=26.870 rolling_humid=63.160 n=10
+2026-11-07T12:43:08.630 Processor sample=1067002 temp=38.1 humid=87.4 rolling_temp=28.880 rolling_humid=64.280 n=10
+2026-11-07T12:43:08.631 Alert TYPE=HUMID_HIGH VALUE=87.4 THRESHOLD=80.0
+2026-11-07T12:43:08.631 Alert TYPE=TEMP_SPIKE VALUE=15.6 THRESHOLD=5.0
+2026-11-07T12:43:08.730 Processor sample=1067102 temp=40.1 humid=30.5 rolling_temp=30.510 rolling_humid=61.610 n=10
+2026-11-07T12:43:08.730 Alert TYPE=TEMP_HIGH VALUE=40.1 THRESHOLD=40.0
+2026-11-07T12:43:08.830 Processor sample=1067202 temp=26.4 humid=34.0 rolling_temp=31.210 rolling_humid=59.250 n=10
+2026-11-07T12:43:08.830 Alert TYPE=TEMP_SPIKE VALUE=13.7 THRESHOLD=5.0
+2026-11-07T12:43:08.930 Processor sample=1067302 temp=40.9 humid=50.2 rolling_temp=31.300 rolling_humid=56.710 n=10
+2026-11-07T12:43:08.930 Alert TYPE=TEMP_HIGH VALUE=40.9 THRESHOLD=40.0
+2026-11-07T12:43:08.931 Alert TYPE=TEMP_SPIKE VALUE=14.5 THRESHOLD=5.0
+2026-11-07T12:43:09.031 Processor sample=1067402 temp=30.9 humid=73.3 rolling_temp=31.470 rolling_humid=56.590 n=10
+2026-11-07T12:43:09.031 Alert TYPE=TEMP_SPIKE VALUE=10.0 THRESHOLD=5.0
+2026-11-07T12:43:09.130 Processor sample=1067502 temp=29.7 humid=78.2 rolling_temp=30.280 rolling_humid=58.850 n=10
+2026-11-07T12:43:09.230 Processor sample=1067602 temp=23.5 humid=39.4 rolling_temp=30.820 rolling_humid=56.100 n=10
+2026-11-07T12:43:09.230 Alert TYPE=TEMP_SPIKE VALUE=6.2 THRESHOLD=5.0
+2026-11-07T12:43:09.330 Alert TYPE=TEMP_HIGH VALUE=40.9 THRESHOLD=40.0
+2026-11-07T12:43:09.330 Processor sample=1067702 temp=40.9 humid=50.8 rolling_temp=31.270 rolling_humid=54.600 n=10
+2026-11-07T12:43:09.331 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:43:09.430 Processor sample=1067802 temp=41.1 humid=79.9 rolling_temp=33.410 rolling_humid=58.510 n=10
+2026-11-07T12:43:09.430 Alert TYPE=TEMP_HIGH VALUE=41.1 THRESHOLD=40.0
+2026-11-07T12:43:09.530 Processor sample=1067902 temp=32.8 humid=30.4 rolling_temp=34.440 rolling_humid=55.410 n=10
+2026-11-07T12:43:09.530 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:43:09.630 Processor sample=1068002 temp=19.2 humid=64.5 rolling_temp=32.550 rolling_humid=53.120 n=10
+2026-11-07T12:43:09.630 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:43:09.730 Processor sample=1068102 temp=18.1 humid=59.3 rolling_temp=30.350 rolling_humid=56.000 n=10
+2026-11-07T12:43:09.830 Processor sample=1068202 temp=41.1 humid=64.8 rolling_temp=31.820 rolling_humid=59.080 n=10
+2026-11-07T12:43:09.830 Alert TYPE=TEMP_HIGH VALUE=41.1 THRESHOLD=40.0
+2026-11-07T12:43:09.831 Alert TYPE=TEMP_SPIKE VALUE=23.0 THRESHOLD=5.0
+2026-11-07T12:43:09.930 Processor sample=1068302 temp=21.5 humid=40.0 rolling_temp=29.880 rolling_humid=58.060 n=10
+2026-11-07T12:43:09.930 Alert TYPE=TEMP_SPIKE VALUE=19.6 THRESHOLD=5.0
+2026-11-07T12:43:10.030 Processor sample=1068402 temp=32.4 humid=64.5 rolling_temp=30.030 rolling_humid=57.180 n=10
+2026-11-07T12:43:10.030 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:43:10.130 Processor sample=1068502 temp=34.1 humid=42.6 rolling_temp=30.470 rolling_humid=53.620 n=10
+2026-11-07T12:43:10.230 Processor sample=1068602 temp=39.3 humid=35.8 rolling_temp=32.050 rolling_humid=53.260 n=10
+2026-11-07T12:43:10.230 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:43:10.330 Processor sample=1068702 temp=33.3 humid=69.2 rolling_temp=31.290 rolling_humid=55.100 n=10
+2026-11-07T12:43:10.330 Alert TYPE=TEMP_SPIKE VALUE=6.0 THRESHOLD=5.0
+2026-11-07T12:43:10.430 Processor sample=1068802 temp=20.4 humid=39.1 rolling_temp=29.220 rolling_humid=51.020 n=10
+2026-11-07T12:43:10.430 Alert TYPE=TEMP_SPIKE VALUE=12.9 THRESHOLD=5.0
+2026-11-07T12:43:10.530 Processor sample=1068902 temp=39.7 humid=75.1 rolling_temp=29.910 rolling_humid=55.490 n=10
+2026-11-07T12:43:10.530 Alert TYPE=TEMP_SPIKE VALUE=19.3 THRESHOLD=5.0
+2026-11-07T12:43:10.630 Processor sample=1069002 temp=43.5 humid=75.6 rolling_temp=32.340 rolling_humid=56.600 n=10
+2026-11-07T12:43:10.630 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:43:10.730 Processor sample=1069102 temp=43.5 humid=59.9 rolling_temp=34.880 rolling_humid=56.660 n=10
+2026-11-07T12:43:10.730 Alert TYPE=TEMP_HIGH VALUE=43.5 THRESHOLD=40.0
+2026-11-07T12:43:10.830 Processor sample=1069202 temp=18.5 humid=49.7 rolling_temp=32.620 rolling_humid=55.150 n=10
+2026-11-07T12:43:10.830 Alert TYPE=TEMP_SPIKE VALUE=25.0 THRESHOLD=5.0
+2026-11-07T12:43:10.930 Processor sample=1069302 temp=40.2 humid=36.2 rolling_temp=34.490 rolling_humid=54.770 n=10
+2026-11-07T12:43:10.930 Alert TYPE=TEMP_HIGH VALUE=40.2 THRESHOLD=40.0
+2026-11-07T12:43:10.931 Alert TYPE=TEMP_SPIKE VALUE=21.7 THRESHOLD=5.0
+2026-11-07T12:43:11.030 Processor sample=1069402 temp=19.9 humid=45.8 rolling_temp=33.240 rolling_humid=52.900 n=10
+2026-11-07T12:43:11.030 Alert TYPE=TEMP_SPIKE VALUE=20.3 THRESHOLD=5.0
+2026-11-07T12:43:11.130 Processor sample=1069502 temp=21.4 humid=35.5 rolling_temp=31.970 rolling_humid=52.190 n=10
+2026-11-07T12:43:11.230 Processor sample=1069602 temp=43.8 humid=46.1 rolling_temp=32.420 rolling_humid=53.220 n=10
+2026-11-07T12:43:11.230 Alert TYPE=TEMP_HIGH VALUE=43.8 THRESHOLD=40.0
+2026-11-07T12:43:11.231 Alert TYPE=TEMP_SPIKE VALUE=22.4 THRESHOLD=5.0
+2026-11-07T12:43:11.330 Processor sample=1069702 temp=26.6 humid=86.0 rolling_temp=31.750 rolling_humid=54.900 n=10
+2026-11-07T12:43:11.330 Alert TYPE=HUMID_HIGH VALUE=86.0 THRESHOLD=80.0
+2026-11-07T12:43:11.331 Alert TYPE=TEMP_SPIKE VALUE=17.2 THRESHOLD=5.0
+2026-11-07T12:43:11.430 Processor sample=1069802 temp=18.3 humid=87.4 rolling_temp=31.540 rolling_humid=59.730 n=10
+2026-11-07T12:43:11.430 Alert TYPE=HUMID_HIGH VALUE=87.4 THRESHOLD=80.0
+2026-11-07T12:43:11.431 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:43:11.530 Processor sample=1069902 temp=31.4 humid=82.4 rolling_temp=30.710 rolling_humid=60.460 n=10
+2026-11-07T12:43:11.530 Alert TYPE=HUMID_HIGH VALUE=82.4 THRESHOLD=80.0
+2026-11-07T12:43:11.531 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:43:11.630 Processor sample=1070002 temp=24.5 humid=33.0 rolling_temp=28.810 rolling_humid=56.200 n=10
+2026-11-07T12:43:11.630 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:43:11.730 Processor sample=1070102 temp=33.5 humid=84.1 rolling_temp=27.810 rolling_humid=58.620 n=10
+2026-11-07T12:43:11.730 Alert TYPE=HUMID_HIGH VALUE=84.1 THRESHOLD=80.0
+2026-11-07T12:43:11.730 Alert TYPE=TEMP_SPIKE VALUE=9.0 THRESHOLD=5.0
+2026-11-07T12:43:11.830 Processor sample=1070202 temp=43.4 humid=66.7 rolling_temp=30.300 rolling_humid=60.320 n=10
+2026-11-07T12:43:11.830 Alert TYPE=TEMP_HIGH VALUE=43.4 THRESHOLD=40.0
+2026-11-07T12:43:11.831 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:43:11.930 Processor sample=1070302 temp=32.9 humid=68.4 rolling_temp=29.570 rolling_humid=63.540 n=10
+2026-11-07T12:43:11.930 Alert TYPE=TEMP_SPIKE VALUE=10.5 THRESHOLD=5.0
+2026-11-07T12:43:12.030 Processor sample=1070402 temp=42.0 humid=69.5 rolling_temp=31.780 rolling_humid=65.910 n=10
+2026-11-07T12:43:12.031 Alert TYPE=TEMP_HIGH VALUE=42.0 THRESHOLD=40.0
+2026-11-07T12:43:12.031 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:43:12.130 Processor sample=1070502 temp=22.7 humid=79.4 rolling_temp=31.910 rolling_humid=70.300 n=10
+2026-11-07T12:43:12.130 Alert TYPE=TEMP_SPIKE VALUE=19.3 THRESHOLD=5.0
+2026-11-07T12:43:12.230 Processor sample=1070602 temp=43.1 humid=71.3 rolling_temp=31.840 rolling_humid=72.820 n=10
+2026-11-07T12:43:12.231 Alert TYPE=TEMP_HIGH VALUE=43.1 THRESHOLD=40.0
+2026-11-07T12:43:12.231 Alert TYPE=TEMP_SPIKE VALUE=20.4 THRESHOLD=5.0
+2026-11-07T12:43:12.330 Processor sample=1070702 temp=30.7 humid=56.5 rolling_temp=32.250 rolling_humid=69.870 n=10
+2026-11-07T12:43:12.330 Alert TYPE=TEMP_SPIKE VALUE=12.4 THRESHOLD=5.0
+2026-11-07T12:43:12.430 Processor sample=1070802 temp=21.3 humid=83.6 rolling_temp=32.550 rolling_humid=69.490 n=10
+2026-11-07T12:43:12.430 Alert TYPE=HUMID_HIGH VALUE=83.6 THRESHOLD=80.0
+2026-11-07T12:43:12.433 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:43:12.530 Processor sample=1070902 temp=24.9 humid=31.1 rolling_temp=31.900 rolling_humid=64.360 n=10
+2026-11-07T12:43:12.630 Processor sample=1071002 temp=33.6 humid=45.4 rolling_temp=32.810 rolling_humid=65.600 n=10
+2026-11-07T12:43:12.630 Alert TYPE=TEMP_SPIKE VALUE=8.7 THRESHOLD=5.0
+2026-11-07T12:43:12.730 Processor sample=1071102 temp=33.8 humid=38.0 rolling_temp=32.840 rolling_humid=60.990 n=10
+2026-11-07T12:43:12.830 Processor sample=1071202 temp=21.8 humid=48.5 rolling_temp=30.680 rolling_humid=59.170 n=10
+2026-11-07T12:43:12.830 Alert TYPE=TEMP_SPIKE VALUE=12.0 THRESHOLD=5.0
+2026-11-07T12:43:12.930 Processor sample=1071302 temp=32.5 humid=41.4 rolling_temp=30.640 rolling_humid=56.470 n=10
+2026-11-07T12:43:12.931 Alert TYPE=TEMP_SPIKE VALUE=10.7 THRESHOLD=5.0
+2026-11-07T12:43:13.030 Processor sample=1071402 temp=28.0 humid=49.3 rolling_temp=29.240 rolling_humid=54.450 n=10
+2026-11-07T12:43:13.130 Processor sample=1071502 temp=31.4 humid=36.6 rolling_temp=30.110 rolling_humid=50.170 n=10
+2026-11-07T12:43:13.230 Processor sample=1071602 temp=45.0 humid=66.1 rolling_temp=30.300 rolling_humid=49.650 n=10
+2026-11-07T12:43:13.231 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:43:13.231 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:43:13.330 Processor sample=1071702 temp=34.1 humid=58.4 rolling_temp=30.640 rolling_humid=49.840 n=10
+2026-11-07T12:43:13.330 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:43:13.430 Processor sample=1071802 temp=30.0 humid=43.2 rolling_temp=31.510 rolling_humid=45.800 n=10
+2026-11-07T12:43:13.530 Processor sample=1071902 temp=27.1 humid=38.1 rolling_temp=31.730 rolling_humid=46.500 n=10
+2026-11-07T12:43:13.630 Processor sample=1072002 temp=35.8 humid=57.1 rolling_temp=31.950 rolling_humid=47.670 n=10
+2026-11-07T12:43:13.630 Alert TYPE=TEMP_SPIKE VALUE=8.7 THRESHOLD=5.0
+2026-11-07T12:43:13.730 Processor sample=1072102 temp=20.9 humid=85.4 rolling_temp=30.660 rolling_humid=52.410 n=10
+2026-11-07T12:43:13.730 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:43:13.730 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:43:13.830 Processor sample=1072202 temp=26.7 humid=62.9 rolling_temp=31.150 rolling_humid=53.850 n=10
+2026-11-07T12:43:13.830 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:43:13.930 Processor sample=1072302 temp=23.1 humid=43.0 rolling_temp=30.210 rolling_humid=54.010 n=10
+2026-11-07T12:43:14.030 Processor sample=1072402 temp=35.4 humid=63.6 rolling_temp=30.950 rolling_humid=55.440 n=10
+2026-11-07T12:43:14.030 Alert TYPE=TEMP_SPIKE VALUE=12.3 THRESHOLD=5.0
+2026-11-07T12:43:14.130 Processor sample=1072502 temp=30.9 humid=53.7 rolling_temp=30.900 rolling_humid=57.150 n=10
+2026-11-07T12:43:14.230 Processor sample=1072602 temp=29.1 humid=38.9 rolling_temp=29.310 rolling_humid=54.430 n=10
+2026-11-07T12:43:14.330 Processor sample=1072702 temp=36.2 humid=59.7 rolling_temp=29.520 rolling_humid=54.560 n=10
+2026-11-07T12:43:14.330 Alert TYPE=TEMP_SPIKE VALUE=7.1 THRESHOLD=5.0
+2026-11-07T12:43:14.430 Processor sample=1072802 temp=41.4 humid=85.4 rolling_temp=30.660 rolling_humid=58.780 n=10
+2026-11-07T12:43:14.430 Alert TYPE=TEMP_HIGH VALUE=41.4 THRESHOLD=40.0
+2026-11-07T12:43:14.431 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:43:14.431 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:43:14.530 Processor sample=1072902 temp=29.7 humid=51.0 rolling_temp=30.920 rolling_humid=60.070 n=10
+2026-11-07T12:43:14.530 Alert TYPE=TEMP_SPIKE VALUE=11.7 THRESHOLD=5.0
+2026-11-07T12:43:14.630 Processor sample=1073002 temp=30.8 humid=30.0 rolling_temp=30.420 rolling_humid=57.360 n=10
+2026-11-07T12:43:14.730 Processor sample=1073102 temp=31.4 humid=42.7 rolling_temp=31.470 rolling_humid=53.090 n=10
+2026-11-07T12:43:14.830 Processor sample=1073202 temp=32.0 humid=52.7 rolling_temp=32.000 rolling_humid=52.070 n=10
+2026-11-07T12:43:14.930 Processor sample=1073302 temp=21.1 humid=66.7 rolling_temp=31.800 rolling_humid=54.440 n=10
+2026-11-07T12:43:14.930 Alert TYPE=TEMP_SPIKE VALUE=10.9 THRESHOLD=5.0
+2026-11-07T12:43:15.030 Processor sample=1073402 temp=25.5 humid=35.5 rolling_temp=30.810 rolling_humid=51.630 n=10
+2026-11-07T12:43:15.130 Processor sample=1073502 temp=17.3 humid=41.0 rolling_temp=29.450 rolling_humid=50.360 n=10
+2026-11-07T12:43:15.130 Alert TYPE=TEMP_SPIKE VALUE=8.2 THRESHOLD=5.0
+2026-11-07T12:43:15.230 Processor sample=1073602 temp=33.4 humid=55.7 rolling_temp=29.880 rolling_humid=52.040 n=10
+2026-11-07T12:43:15.230 Alert TYPE=TEMP_SPIKE VALUE=16.1 THRESHOLD=5.0
+2026-11-07T12:43:15.330 Processor sample=1073702 temp=43.7 humid=78.7 rolling_temp=30.630 rolling_humid=53.940 n=10
+2026-11-07T12:43:15.330 Alert TYPE=TEMP_HIGH VALUE=43.7 THRESHOLD=40.0
+2026-11-07T12:43:15.330 Alert TYPE=TEMP_SPIKE VALUE=10.3 THRESHOLD=5.0
+2026-11-07T12:43:15.430 Processor sample=1073802 temp=28.5 humid=75.6 rolling_temp=29.340 rolling_humid=52.960 n=10
+2026-11-07T12:43:15.430 Alert TYPE=TEMP_SPIKE VALUE=15.2 THRESHOLD=5.0
+2026-11-07T12:43:15.530 Processor sample=1073902 temp=27.6 humid=45.7 rolling_temp=29.130 rolling_humid=52.430 n=10
+2026-11-07T12:43:15.630 Processor sample=1074002 temp=30.7 humid=79.1 rolling_temp=29.120 rolling_humid=57.340 n=10
+2026-11-07T12:43:15.730 Processor sample=1074102 temp=16.0 humid=39.3 rolling_temp=27.580 rolling_humid=57.000 n=10
+2026-11-07T12:43:15.730 Alert TYPE=TEMP_SPIKE VALUE=14.7 THRESHOLD=5.0
+2026-11-07T12:43:15.830 Processor sample=1074202 temp=29.1 humid=48.1 rolling_temp=27.290 rolling_humid=56.540 n=10
+2026-11-07T12:43:15.830 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:43:15.930 Processor sample=1074302 temp=19.7 humid=67.9 rolling_temp=27.150 rolling_humid=56.660 n=10
+2026-11-07T12:43:15.930 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:43:16.030 Processor sample=1074402 temp=31.7 humid=89.2 rolling_temp=27.770 rolling_humid=62.030 n=10
+2026-11-07T12:43:16.030 Alert TYPE=HUMID_HIGH VALUE=89.2 THRESHOLD=80.0
+2026-11-07T12:43:16.030 Alert TYPE=TEMP_SPIKE VALUE=12.0 THRESHOLD=5.0
+2026-11-07T12:43:16.130 Processor sample=1074502 temp=22.7 humid=62.5 rolling_temp=28.310 rolling_humid=64.180 n=10
+2026-11-07T12:43:16.130 Alert TYPE=TEMP_SPIKE VALUE=9.0 THRESHOLD=5.0
+2026-11-07T12:43:16.230 Processor sample=1074602 temp=30.4 humid=47.5 rolling_temp=28.010 rolling_humid=63.360 n=10
+2026-11-07T12:43:16.230 Alert TYPE=TEMP_SPIKE VALUE=7.7 THRESHOLD=5.0
+2026-11-07T12:43:16.330 Processor sample=1074702 temp=18.9 humid=88.3 rolling_temp=25.530 rolling_humid=64.320 n=10
+2026-11-07T12:43:16.331 Alert TYPE=HUMID_HIGH VALUE=88.3 THRESHOLD=80.0
+2026-11-07T12:43:16.331 Alert TYPE=TEMP_SPIKE VALUE=11.5 THRESHOLD=5.0
+2026-11-07T12:43:16.430 Processor sample=1074802 temp=30.1 humid=45.9 rolling_temp=25.690 rolling_humid=61.350 n=10
+2026-11-07T12:43:16.430 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+2026-11-07T12:43:16.530 Processor sample=1074902 temp=36.6 humid=46.9 rolling_temp=26.590 rolling_humid=61.470 n=10
+2026-11-07T12:43:16.530 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:43:16.630 Processor sample=1075002 temp=28.5 humid=51.5 rolling_temp=26.370 rolling_humid=58.710 n=10
+2026-11-07T12:43:16.630 Alert TYPE=TEMP_SPIKE VALUE=8.1 THRESHOLD=5.0
+2026-11-07T12:43:16.730 Processor sample=1075102 temp=37.6 humid=65.9 rolling_temp=28.530 rolling_humid=61.370 n=10
+2026-11-07T12:43:16.730 Alert TYPE=TEMP_SPIKE VALUE=9.1 THRESHOLD=5.0
+2026-11-07T12:43:16.830 Processor sample=1075202 temp=22.1 humid=54.7 rolling_temp=27.830 rolling_humid=62.030 n=10
+2026-11-07T12:43:16.830 Alert TYPE=TEMP_SPIKE VALUE=15.5 THRESHOLD=5.0
+2026-11-07T12:43:16.930 Processor sample=1075302 temp=41.6 humid=45.2 rolling_temp=30.020 rolling_humid=59.760 n=10
+2026-11-07T12:43:16.930 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:43:16.930 Alert TYPE=TEMP_SPIKE VALUE=19.5 THRESHOLD=5.0
+2026-11-07T12:43:17.030 Processor sample=1075402 temp=25.3 humid=88.9 rolling_temp=29.380 rolling_humid=59.730 n=10
+2026-11-07T12:43:17.030 Alert TYPE=HUMID_HIGH VALUE=88.9 THRESHOLD=80.0
+2026-11-07T12:43:17.031 Alert TYPE=TEMP_SPIKE VALUE=16.3 THRESHOLD=5.0
+2026-11-07T12:43:17.130 Processor sample=1075502 temp=41.0 humid=66.0 rolling_temp=31.210 rolling_humid=60.080 n=10
+2026-11-07T12:43:17.130 Alert TYPE=TEMP_HIGH VALUE=41.0 THRESHOLD=40.0
+2026-11-07T12:43:17.131 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:43:17.230 Processor sample=1075602 temp=39.5 humid=39.6 rolling_temp=32.120 rolling_humid=59.290 n=10
+2026-11-07T12:43:17.330 Processor sample=1075702 temp=33.9 humid=62.4 rolling_temp=33.620 rolling_humid=56.700 n=10
+2026-11-07T12:43:17.330 Alert TYPE=TEMP_SPIKE VALUE=5.6 THRESHOLD=5.0
+2026-11-07T12:43:17.430 Processor sample=1075802 temp=24.5 humid=54.6 rolling_temp=33.060 rolling_humid=57.570 n=10
+2026-11-07T12:43:17.430 Alert TYPE=TEMP_SPIKE VALUE=9.4 THRESHOLD=5.0
+2026-11-07T12:43:17.530 Processor sample=1075902 temp=24.5 humid=78.5 rolling_temp=31.850 rolling_humid=60.730 n=10
+2026-11-07T12:43:17.630 Processor sample=1076002 temp=41.3 humid=38.3 rolling_temp=33.130 rolling_humid=59.410 n=10
+2026-11-07T12:43:17.630 Alert TYPE=TEMP_HIGH VALUE=41.3 THRESHOLD=40.0
+2026-11-07T12:43:17.631 Alert TYPE=TEMP_SPIKE VALUE=16.8 THRESHOLD=5.0
+2026-11-07T12:43:17.730 Processor sample=1076102 temp=27.7 humid=47.5 rolling_temp=32.140 rolling_humid=57.570 n=10
+2026-11-07T12:43:17.730 Alert TYPE=TEMP_SPIKE VALUE=13.6 THRESHOLD=5.0
+2026-11-07T12:43:17.830 Processor sample=1076202 temp=34.2 humid=84.9 rolling_temp=33.350 rolling_humid=60.590 n=10
+2026-11-07T12:43:17.830 Alert TYPE=HUMID_HIGH VALUE=84.9 THRESHOLD=80.0
+2026-11-07T12:43:17.831 Alert TYPE=TEMP_SPIKE VALUE=6.5 THRESHOLD=5.0
+2026-11-07T12:43:17.930 Processor sample=1076302 temp=44.4 humid=39.5 rolling_temp=33.630 rolling_humid=60.020 n=10
+2026-11-07T12:43:17.930 Alert TYPE=TEMP_HIGH VALUE=44.4 THRESHOLD=40.0
+2026-11-07T12:43:17.931 Alert TYPE=TEMP_SPIKE VALUE=10.2 THRESHOLD=5.0
+2026-11-07T12:43:18.030 Processor sample=1076402 temp=17.4 humid=50.8 rolling_temp=32.840 rolling_humid=56.210 n=10
+2026-11-07T12:43:18.030 Alert TYPE=TEMP_SPIKE VALUE=27.0 THRESHOLD=5.0
+2026-11-07T12:43:18.130 Processor sample=1076502 temp=23.3 humid=85.4 rolling_temp=31.070 rolling_humid=58.150 n=10
+2026-11-07T12:43:18.130 Alert TYPE=HUMID_HIGH VALUE=85.4 THRESHOLD=80.0
+2026-11-07T12:43:18.131 Alert TYPE=TEMP_SPIKE VALUE=5.9 THRESHOLD=5.0
+2026-11-07T12:43:18.230 Processor sample=1076602 temp=33.2 humid=83.4 rolling_temp=30.440 rolling_humid=62.530 n=10
+2026-11-07T12:43:18.230 Alert TYPE=HUMID_HIGH VALUE=83.4 THRESHOLD=80.0
+2026-11-07T12:43:18.230 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:43:18.330 Processor sample=1076702 temp=38.9 humid=74.0 rolling_temp=30.940 rolling_humid=63.690 n=10
+2026-11-07T12:43:18.330 Alert TYPE=TEMP_SPIKE VALUE=5.7 THRESHOLD=5.0
+2026-11-07T12:43:18.430 Processor sample=1076802 temp=17.4 humid=76.8 rolling_temp=30.230 rolling_humid=65.910 n=10
+2026-11-07T12:43:18.430 Alert TYPE=TEMP_SPIKE VALUE=21.5 THRESHOLD=5.0
+2026-11-07T12:43:18.530 Processor sample=1076902 temp=19.6 humid=78.3 rolling_temp=29.740 rolling_humid=65.890 n=10
+2026-11-07T12:43:18.630 Processor sample=1077002 temp=19.7 humid=41.4 rolling_temp=27.580 rolling_humid=66.200 n=10
+2026-11-07T12:43:18.730 Processor sample=1077102 temp=19.8 humid=44.8 rolling_temp=26.790 rolling_humid=65.930 n=10
+2026-11-07T12:43:18.830 Processor sample=1077202 temp=39.9 humid=85.2 rolling_temp=27.360 rolling_humid=65.960 n=10
+2026-11-07T12:43:18.830 Alert TYPE=HUMID_HIGH VALUE=85.2 THRESHOLD=80.0
+2026-11-07T12:43:18.830 Alert TYPE=TEMP_SPIKE VALUE=20.1 THRESHOLD=5.0
+2026-11-07T12:43:18.930 Processor sample=1077302 temp=38.6 humid=53.6 rolling_temp=26.780 rolling_humid=67.370 n=10
+2026-11-07T12:43:19.030 Processor sample=1077402 temp=36.8 humid=36.5 rolling_temp=28.720 rolling_humid=65.940 n=10
+2026-11-07T12:43:19.130 Processor sample=1077502 temp=28.3 humid=55.2 rolling_temp=29.220 rolling_humid=62.920 n=10
+2026-11-07T12:43:19.130 Alert TYPE=TEMP_SPIKE VALUE=8.5 THRESHOLD=5.0
+2026-11-07T12:43:19.230 Processor sample=1077602 temp=37.8 humid=55.2 rolling_temp=29.680 rolling_humid=60.100 n=10
+2026-11-07T12:43:19.230 Alert TYPE=TEMP_SPIKE VALUE=9.5 THRESHOLD=5.0
+2026-11-07T12:43:19.330 Processor sample=1077702 temp=41.7 humid=74.0 rolling_temp=29.960 rolling_humid=60.100 n=10
+2026-11-07T12:43:19.330 Alert TYPE=TEMP_HIGH VALUE=41.7 THRESHOLD=40.0
+2026-11-07T12:43:19.430 Processor sample=1077802 temp=42.0 humid=89.3 rolling_temp=32.420 rolling_humid=61.350 n=10
+2026-11-07T12:43:19.430 Alert TYPE=TEMP_HIGH VALUE=42.0 THRESHOLD=40.0
+2026-11-07T12:43:19.430 Alert TYPE=HUMID_HIGH VALUE=89.3 THRESHOLD=80.0
+2026-11-07T12:43:19.530 Processor sample=1077902 temp=26.7 humid=43.3 rolling_temp=33.130 rolling_humid=57.850 n=10
+2026-11-07T12:43:19.530 Alert TYPE=TEMP_SPIKE VALUE=15.3 THRESHOLD=5.0
+2026-11-07T12:43:19.630 Processor sample=1078002 temp=33.1 humid=46.9 rolling_temp=34.470 rolling_humid=58.400 n=10
+2026-11-07T12:43:19.630 Alert TYPE=TEMP_SPIKE VALUE=6.4 THRESHOLD=5.0
+2026-11-07T12:43:19.730 Processor sample=1078102 temp=25.1 humid=64.1 rolling_temp=35.000 rolling_humid=60.330 n=10
+2026-11-07T12:43:19.730 Alert TYPE=TEMP_SPIKE VALUE=8.0 THRESHOLD=5.0
+2026-11-07T12:43:19.830 Processor sample=1078202 temp=29.9 humid=78.5 rolling_temp=34.000 rolling_humid=59.660 n=10
+2026-11-07T12:43:19.930 Processor sample=1078302 temp=24.7 humid=43.6 rolling_temp=32.610 rolling_humid=58.660 n=10
+2026-11-07T12:43:19.930 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:43:20.030 Processor sample=1078402 temp=26.7 humid=89.7 rolling_temp=31.600 rolling_humid=63.980 n=10
+2026-11-07T12:43:20.030 Alert TYPE=HUMID_HIGH VALUE=89.7 THRESHOLD=80.0
+2026-11-07T12:43:20.130 Processor sample=1078502 temp=31.1 humid=36.5 rolling_temp=31.880 rolling_humid=62.110 n=10
+2026-11-07T12:43:20.230 Processor sample=1078602 temp=44.2 humid=89.9 rolling_temp=32.520 rolling_humid=65.580 n=10
+2026-11-07T12:43:20.230 Alert TYPE=TEMP_HIGH VALUE=44.2 THRESHOLD=40.0
+2026-11-07T12:43:20.231 Alert TYPE=HUMID_HIGH VALUE=89.9 THRESHOLD=80.0
+2026-11-07T12:43:20.231 Alert TYPE=TEMP_SPIKE VALUE=13.1 THRESHOLD=5.0
+2026-11-07T12:43:20.330 Processor sample=1078702 temp=26.8 humid=33.3 rolling_temp=31.030 rolling_humid=61.510 n=10
+2026-11-07T12:43:20.330 Alert TYPE=TEMP_SPIKE VALUE=17.4 THRESHOLD=5.0
+2026-11-07T12:43:20.430 Processor sample=1078802 temp=22.5 humid=33.9 rolling_temp=29.080 rolling_humid=55.970 n=10
+2026-11-07T12:43:20.530 Processor sample=1078902 temp=41.6 humid=65.3 rolling_temp=30.570 rolling_humid=58.170 n=10
+2026-11-07T12:43:20.530 Alert TYPE=TEMP_HIGH VALUE=41.6 THRESHOLD=40.0
+2026-11-07T12:43:20.531 Alert TYPE=TEMP_SPIKE VALUE=19.1 THRESHOLD=5.0
+2026-11-07T12:43:20.630 Processor sample=1079002 temp=17.7 humid=66.0 rolling_temp=29.030 rolling_humid=60.080 n=10
+2026-11-07T12:43:20.630 Alert TYPE=TEMP_SPIKE VALUE=23.9 THRESHOLD=5.0
+2026-11-07T12:43:20.730 Processor sample=1079102 temp=27.6 humid=64.8 rolling_temp=29.280 rolling_humid=60.150 n=10
+2026-11-07T12:43:20.730 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:43:20.830 Processor sample=1079202 temp=42.5 humid=77.3 rolling_temp=30.540 rolling_humid=60.030 n=10
+2026-11-07T12:43:20.831 Alert TYPE=TEMP_HIGH VALUE=42.5 THRESHOLD=40.0
+2026-11-07T12:43:20.831 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:43:20.930 Processor sample=1079302 temp=29.7 humid=86.3 rolling_temp=31.040 rolling_humid=64.300 n=10
+2026-11-07T12:43:20.930 Alert TYPE=HUMID_HIGH VALUE=86.3 THRESHOLD=80.0
+2026-11-07T12:43:20.931 Alert TYPE=TEMP_SPIKE VALUE=12.8 THRESHOLD=5.0
+2026-11-07T12:43:21.030 Processor sample=1079402 temp=42.3 humid=59.3 rolling_temp=32.600 rolling_humid=61.260 n=10
+2026-11-07T12:43:21.031 Alert TYPE=TEMP_HIGH VALUE=42.3 THRESHOLD=40.0
+2026-11-07T12:43:21.031 Alert TYPE=TEMP_SPIKE VALUE=12.6 THRESHOLD=5.0
+2026-11-07T12:43:21.130 Processor sample=1079502 temp=34.5 humid=43.5 rolling_temp=32.940 rolling_humid=61.960 n=10
+2026-11-07T12:43:21.130 Alert TYPE=TEMP_SPIKE VALUE=7.8 THRESHOLD=5.0
+2026-11-07T12:43:21.230 Processor sample=1079602 temp=21.6 humid=46.1 rolling_temp=30.680 rolling_humid=57.580 n=10
+2026-11-07T12:43:21.230 Alert TYPE=TEMP_SPIKE VALUE=12.9 THRESHOLD=5.0
+2026-11-07T12:43:21.330 Processor sample=1079702 temp=40.1 humid=36.8 rolling_temp=32.010 rolling_humid=57.930 n=10
+2026-11-07T12:43:21.330 Alert TYPE=TEMP_HIGH VALUE=40.1 THRESHOLD=40.0
+2026-11-07T12:43:21.330 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:43:21.430 Processor sample=1079802 temp=39.0 humid=43.9 rolling_temp=33.660 rolling_humid=58.930 n=10
+2026-11-07T12:43:21.530 Processor sample=1079902 temp=30.5 humid=73.4 rolling_temp=32.550 rolling_humid=59.740 n=10
+2026-11-07T12:43:21.530 Alert TYPE=TEMP_SPIKE VALUE=8.5 THRESHOLD=5.0
+2026-11-07T12:43:21.630 Processor sample=1080002 temp=41.7 humid=37.5 rolling_temp=34.950 rolling_humid=56.890 n=10
+2026-11-07T12:43:21.630 Alert TYPE=TEMP_HIGH VALUE=41.7 THRESHOLD=40.0
+2026-11-07T12:43:21.631 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+2026-11-07T12:43:21.730 Processor sample=1080102 temp=28.5 humid=88.3 rolling_temp=35.040 rolling_humid=59.240 n=10
+2026-11-07T12:43:21.730 Alert TYPE=HUMID_HIGH VALUE=88.3 THRESHOLD=80.0
+2026-11-07T12:43:21.731 Alert TYPE=TEMP_SPIKE VALUE=13.2 THRESHOLD=5.0
+2026-11-07T12:43:21.830 Processor sample=1080202 temp=17.2 humid=40.2 rolling_temp=32.510 rolling_humid=55.530 n=10
+2026-11-07T12:43:21.831 Alert TYPE=TEMP_SPIKE VALUE=11.3 THRESHOLD=5.0
+2026-11-07T12:43:21.930 Processor sample=1080302 temp=36.8 humid=68.8 rolling_temp=33.220 rolling_humid=53.780 n=10
+2026-11-07T12:43:21.930 Alert TYPE=TEMP_SPIKE VALUE=19.6 THRESHOLD=5.0
+2026-11-07T12:43:22.030 Processor sample=1080402 temp=41.8 humid=59.7 rolling_temp=33.170 rolling_humid=53.820 n=10
+2026-11-07T12:43:22.030 Alert TYPE=TEMP_HIGH VALUE=41.8 THRESHOLD=40.0
+2026-11-07T12:43:22.130 Processor sample=1080502 temp=21.5 humid=39.0 rolling_temp=31.870 rolling_humid=53.370 n=10
+2026-11-07T12:43:22.130 Alert TYPE=TEMP_SPIKE VALUE=20.3 THRESHOLD=5.0
+2026-11-07T12:43:22.230 Processor sample=1080602 temp=44.6 humid=79.3 rolling_temp=34.170 rolling_humid=56.690 n=10
+2026-11-07T12:43:22.230 Alert TYPE=TEMP_HIGH VALUE=44.6 THRESHOLD=40.0
+2026-11-07T12:43:22.230 Alert TYPE=TEMP_SPIKE VALUE=23.1 THRESHOLD=5.0
+2026-11-07T12:43:22.330 Processor sample=1080702 temp=34.7 humid=53.7 rolling_temp=33.630 rolling_humid=58.380 n=10
+2026-11-07T12:43:22.330 Alert TYPE=TEMP_SPIKE VALUE=9.9 THRESHOLD=5.0
+2026-11-07T12:43:22.430 Processor sample=1080802 temp=41.4 humid=80.1 rolling_temp=33.870 rolling_humid=62.000 n=10
+2026-11-07T12:43:22.430 Alert TYPE=TEMP_HIGH VALUE=41.4 THRESHOLD=40.0
+2026-11-07T12:43:22.430 Alert TYPE=HUMID_HIGH VALUE=80.1 THRESHOLD=80.0
+2026-11-07T12:43:22.431 Alert TYPE=TEMP_SPIKE VALUE=6.7 THRESHOLD=5.0
+2026-11-07T12:43:22.530 Processor sample=1080902 temp=45.0 humid=85.6 rolling_temp=35.320 rolling_humid=63.220 n=10
+2026-11-07T12:43:22.530 Alert TYPE=TEMP_HIGH VALUE=45.0 THRESHOLD=40.0
+2026-11-07T12:43:22.531 Alert TYPE=HUMID_HIGH VALUE=85.6 THRESHOLD=80.0
+2026-11-07T12:43:22.630 Processor sample=1081002 temp=16.9 humid=32.1 rolling_temp=32.840 rolling_humid=62.680 n=10
+2026-11-07T12:43:22.630 Alert TYPE=TEMP_SPIKE VALUE=28.1 THRESHOLD=5.0
+2026-11-07T12:43:22.730 Processor sample=1081102 temp=32.6 humid=78.8 rolling_temp=33.250 rolling_humid=61.730 n=10
+2026-11-07T12:43:22.730 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:43:22.830 Processor sample=1081202 temp=39.7 humid=70.3 rolling_temp=35.500 rolling_humid=64.740 n=10
+2026-11-07T12:43:22.830 Alert TYPE=TEMP_SPIKE VALUE=7.1 THRESHOLD=5.0
+2026-11-07T12:43:22.930 Processor sample=1081302 temp=33.1 humid=65.8 rolling_temp=35.130 rolling_humid=64.440 n=10
+2026-11-07T12:43:22.930 Alert TYPE=TEMP_SPIKE VALUE=6.6 THRESHOLD=5.0
+2026-11-07T12:43:23.030 Processor sample=1081402 temp=38.8 humid=58.0 rolling_temp=34.830 rolling_humid=64.270 n=10
+2026-11-07T12:43:23.030 Alert TYPE=TEMP_SPIKE VALUE=5.7 THRESHOLD=5.0
+2026-11-07T12:43:23.130 Processor sample=1081502 temp=23.8 humid=63.4 rolling_temp=35.060 rolling_humid=66.710 n=10
+2026-11-07T12:43:23.130 Alert TYPE=TEMP_SPIKE VALUE=15.0 THRESHOLD=5.0
+2026-11-07T12:43:23.230 Processor sample=1081602 temp=30.7 humid=73.8 rolling_temp=33.670 rolling_humid=66.160 n=10
+2026-11-07T12:43:23.230 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:43:23.330 Processor sample=1081702 temp=15.8 humid=72.2 rolling_temp=31.780 rolling_humid=68.010 n=10
+2026-11-07T12:43:23.330 Alert TYPE=TEMP_SPIKE VALUE=14.9 THRESHOLD=5.0
+2026-11-07T12:43:23.430 Processor sample=1081802 temp=24.6 humid=56.1 rolling_temp=30.100 rolling_humid=65.610 n=10
+2026-11-07T12:43:23.430 Alert TYPE=TEMP_SPIKE VALUE=8.8 THRESHOLD=5.0
+2026-11-07T12:43:23.530 Processor sample=1081902 temp=42.6 humid=56.4 rolling_temp=29.860 rolling_humid=62.690 n=10
+2026-11-07T12:43:23.530 Alert TYPE=TEMP_HIGH VALUE=42.6 THRESHOLD=40.0
+2026-11-07T12:43:23.530 Alert TYPE=TEMP_SPIKE VALUE=18.0 THRESHOLD=5.0
+2026-11-07T12:43:23.630 Processor sample=1082002 temp=21.3 humid=66.5 rolling_temp=30.300 rolling_humid=66.130 n=10
+2026-11-07T12:43:23.630 Alert TYPE=TEMP_SPIKE VALUE=21.3 THRESHOLD=5.0
+2026-11-07T12:43:23.730 Processor sample=1082102 temp=41.0 humid=56.4 rolling_temp=31.140 rolling_humid=63.890 n=10
+2026-11-07T12:43:23.730 Alert TYPE=TEMP_HIGH VALUE=41.0 THRESHOLD=40.0
+2026-11-07T12:43:23.730 Alert TYPE=TEMP_SPIKE VALUE=19.7 THRESHOLD=5.0
+2026-11-07T12:43:23.830 Processor sample=1082202 temp=40.5 humid=41.1 rolling_temp=31.220 rolling_humid=60.970 n=10
+2026-11-07T12:43:23.830 Alert TYPE=TEMP_HIGH VALUE=40.5 THRESHOLD=40.0
+2026-11-07T12:43:23.930 Processor sample=1082302 temp=36.0 humid=71.9 rolling_temp=31.510 rolling_humid=61.580 n=10
+2026-11-07T12:43:24.030 Processor sample=1082402 temp=20.3 humid=33.9 rolling_temp=29.660 rolling_humid=59.170 n=10
+2026-11-07T12:43:24.030 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:43:24.130 Processor sample=1082502 temp=34.6 humid=68.2 rolling_temp=30.740 rolling_humid=59.650 n=10
+2026-11-07T12:43:24.130 Alert TYPE=TEMP_SPIKE VALUE=14.3 THRESHOLD=5.0
+2026-11-07T12:43:24.230 Processor sample=1082602 temp=21.2 humid=56.4 rolling_temp=29.790 rolling_humid=57.910 n=10
+2026-11-07T12:43:24.230 Alert TYPE=TEMP_SPIKE VALUE=13.4 THRESHOLD=5.0
+2026-11-07T12:43:24.330 Processor sample=1082702 temp=22.1 humid=74.7 rolling_temp=30.420 rolling_humid=58.160 n=10
+2026-11-07T12:43:24.430 Processor sample=1082802 temp=20.3 humid=73.7 rolling_temp=29.990 rolling_humid=59.920 n=10
+2026-11-07T12:43:24.530 Processor sample=1082902 temp=43.1 humid=82.2 rolling_temp=30.040 rolling_humid=62.500 n=10
+2026-11-07T12:43:24.530 Alert TYPE=TEMP_HIGH VALUE=43.1 THRESHOLD=40.0
+2026-11-07T12:43:24.531 Alert TYPE=HUMID_HIGH VALUE=82.2 THRESHOLD=80.0
+2026-11-07T12:43:24.533 Alert TYPE=TEMP_SPIKE VALUE=22.8 THRESHOLD=5.0
+2026-11-07T12:43:24.630 Processor sample=1083002 temp=24.6 humid=42.3 rolling_temp=30.370 rolling_humid=60.080 n=10
+2026-11-07T12:43:24.630 Alert TYPE=TEMP_SPIKE VALUE=18.5 THRESHOLD=5.0
+2026-11-07T12:43:24.730 Processor sample=1083102 temp=42.2 humid=54.2 rolling_temp=30.490 rolling_humid=59.860 n=10
+2026-11-07T12:43:24.730 Alert TYPE=TEMP_HIGH VALUE=42.2 THRESHOLD=40.0
+2026-11-07T12:43:24.731 Alert TYPE=TEMP_SPIKE VALUE=17.6 THRESHOLD=5.0
+2026-11-07T12:43:24.830 Processor sample=1083202 temp=41.2 humid=58.7 rolling_temp=30.560 rolling_humid=61.620 n=10
+2026-11-07T12:43:24.830 Alert TYPE=TEMP_HIGH VALUE=41.2 THRESHOLD=40.0
+2026-11-07T12:43:24.930 Processor sample=1083302 temp=30.8 humid=46.9 rolling_temp=30.040 rolling_humid=59.120 n=10
+2026-11-07T12:43:24.930 Alert TYPE=TEMP_SPIKE VALUE=10.4 THRESHOLD=5.0
+2026-11-07T12:43:25.030 Processor sample=1083402 temp=44.3 humid=52.4 rolling_temp=32.440 rolling_humid=60.970 n=10
+2026-11-07T12:43:25.030 Alert TYPE=TEMP_HIGH VALUE=44.3 THRESHOLD=40.0
+2026-11-07T12:43:25.031 Alert TYPE=TEMP_SPIKE VALUE=13.5 THRESHOLD=5.0
+2026-11-07T12:43:25.130 Processor sample=1083502 temp=16.3 humid=40.8 rolling_temp=30.610 rolling_humid=58.230 n=10
+2026-11-07T12:43:25.130 Alert TYPE=TEMP_SPIKE VALUE=28.0 THRESHOLD=5.0
+2026-11-07T12:43:25.230 Processor sample=1083602 temp=18.2 humid=44.0 rolling_temp=30.310 rolling_humid=56.990 n=10
+2026-11-07T12:43:25.330 Processor sample=1083702 temp=39.3 humid=88.5 rolling_temp=32.030 rolling_humid=58.370 n=10
+2026-11-07T12:43:25.330 Alert TYPE=HUMID_HIGH VALUE=88.5 THRESHOLD=80.0
+2026-11-07T12:43:25.330 Alert TYPE=TEMP_SPIKE VALUE=21.1 THRESHOLD=5.0
+2026-11-07T12:43:25.430 Processor sample=1083802 temp=44.9 humid=43.3 rolling_temp=34.490 rolling_humid=55.330 n=10
+2026-11-07T12:43:25.430 Alert TYPE=TEMP_HIGH VALUE=44.9 THRESHOLD=40.0
+2026-11-07T12:43:25.430 Alert TYPE=TEMP_SPIKE VALUE=5.6 THRESHOLD=5.0
+2026-11-07T12:43:25.530 Processor sample=1083902 temp=24.3 humid=84.5 rolling_temp=32.610 rolling_humid=55.560 n=10
+2026-11-07T12:43:25.531 Alert TYPE=HUMID_HIGH VALUE=84.5 THRESHOLD=80.0
+2026-11-07T12:43:25.531 Alert TYPE=TEMP_SPIKE VALUE=20.6 THRESHOLD=5.0
+2026-11-07T12:43:25.631 Processor sample=1084002 temp=34.3 humid=34.5 rolling_temp=33.580 rolling_humid=54.780 n=10
+2026-11-07T12:43:25.631 Alert TYPE=TEMP_SPIKE VALUE=10.0 THRESHOLD=5.0
+2026-11-07T12:43:25.730 Processor sample=1084102 temp=29.1 humid=52.1 rolling_temp=32.270 rolling_humid=54.570 n=10
+2026-11-07T12:43:25.730 Alert TYPE=TEMP_SPIKE VALUE=5.2 THRESHOLD=5.0
+2026-11-07T12:43:25.830 Processor sample=1084202 temp=20.8 humid=47.1 rolling_temp=30.230 rolling_humid=53.410 n=10
+2026-11-07T12:43:25.830 Alert TYPE=TEMP_SPIKE VALUE=8.3 THRESHOLD=5.0
+2026-11-07T12:43:25.930 Processor sample=1084302 temp=36.2 humid=39.6 rolling_temp=30.770 rolling_humid=52.680 n=10
+2026-11-07T12:43:25.930 Alert TYPE=TEMP_SPIKE VALUE=15.4 THRESHOLD=5.0
+2026-11-07T12:43:26.030 Processor sample=1084402 temp=35.6 humid=47.4 rolling_temp=29.900 rolling_humid=52.180 n=10
+2026-11-07T12:43:26.130 Processor sample=1084502 temp=18.7 humid=60.1 rolling_temp=30.140 rolling_humid=54.110 n=10
+2026-11-07T12:43:26.130 Alert TYPE=TEMP_SPIKE VALUE=16.9 THRESHOLD=5.0
+2026-11-07T12:43:26.230 Processor sample=1084602 temp=21.1 humid=78.3 rolling_temp=30.430 rolling_humid=57.540 n=10
+2026-11-07T12:43:26.330 Processor sample=1084702 temp=26.9 humid=80.9 rolling_temp=29.190 rolling_humid=56.780 n=10
+2026-11-07T12:43:26.330 Alert TYPE=HUMID_HIGH VALUE=80.9 THRESHOLD=80.0
+2026-11-07T12:43:26.331 Alert TYPE=TEMP_SPIKE VALUE=5.8 THRESHOLD=5.0
+2026-11-07T12:43:26.430 Processor sample=1084802 temp=42.6 humid=79.5 rolling_temp=28.960 rolling_humid=60.400 n=10
+2026-11-07T12:43:26.430 Alert TYPE=TEMP_HIGH VALUE=42.6 THRESHOLD=40.0
+2026-11-07T12:43:26.431 Alert TYPE=TEMP_SPIKE VALUE=15.7 THRESHOLD=5.0
+2026-11-07T12:43:26.530 Processor sample=1084902 temp=23.2 humid=58.5 rolling_temp=28.850 rolling_humid=57.800 n=10
+2026-11-07T12:43:26.530 Alert TYPE=TEMP_SPIKE VALUE=19.4 THRESHOLD=5.0
+2026-11-07T12:43:26.630 Processor sample=1085002 temp=25.7 humid=41.9 rolling_temp=27.990 rolling_humid=58.540 n=10
+2026-11-07T12:43:26.730 Processor sample=1085102 temp=18.8 humid=82.7 rolling_temp=26.960 rolling_humid=61.600 n=10
+2026-11-07T12:43:26.731 Alert TYPE=HUMID_HIGH VALUE=82.7 THRESHOLD=80.0
+2026-11-07T12:43:26.731 Alert TYPE=TEMP_SPIKE VALUE=6.9 THRESHOLD=5.0
+2026-11-07T12:43:26.830 Processor sample=1085202 temp=16.0 humid=74.4 rolling_temp=26.480 rolling_humid=64.330 n=10
+2026-11-07T12:43:26.930 Processor sample=1085302 temp=27.2 humid=80.0 rolling_temp=25.580 rolling_humid=68.370 n=10
+2026-11-07T12:43:26.931 Alert TYPE=TEMP_SPIKE VALUE=11.2 THRESHOLD=5.0
+2026-11-07T12:43:27.030 Processor sample=1085402 temp=36.7 humid=42.5 rolling_temp=25.690 rolling_humid=67.880 n=10
+2026-11-07T12:43:27.030 Alert TYPE=TEMP_SPIKE VALUE=9.5 THRESHOLD=5.0
+2026-11-07T12:43:27.130 Processor sample=1085502 temp=30.5 humid=49.8 rolling_temp=26.870 rolling_humid=66.850 n=10
+2026-11-07T12:43:27.131 Alert TYPE=TEMP_SPIKE VALUE=6.2 THRESHOLD=5.0
+2026-11-07T12:43:27.230 Processor sample=1085602 temp=31.7 humid=42.9 rolling_temp=27.930 rolling_humid=63.310 n=10
+2026-11-07T12:43:27.330 Processor sample=1085702 temp=22.2 humid=47.2 rolling_temp=27.460 rolling_humid=59.940 n=10
+2026-11-07T12:43:27.330 Alert TYPE=TEMP_SPIKE VALUE=9.5 THRESHOLD=5.0
+2026-11-07T12:43:27.430 Processor sample=1085802 temp=41.9 humid=85.6 rolling_temp=27.390 rolling_humid=60.550 n=10
+2026-11-07T12:43:27.430 Alert TYPE=TEMP_HIGH VALUE=41.9 THRESHOLD=40.0
+2026-11-07T12:43:27.431 Alert TYPE=HUMID_HIGH VALUE=85.6 THRESHOLD=80.0
+2026-11-07T12:43:27.431 Alert TYPE=TEMP_SPIKE VALUE=19.7 THRESHOLD=5.0

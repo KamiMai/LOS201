@@ -6,6 +6,7 @@
 #include <linux/mutex.h>
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
+#include <linux/slab.h>
 #include "asgn1_ioctl.h"
 #define MAJOR_NUMBER 241
 #define CAPACITY 1024
@@ -38,21 +39,23 @@ static ssize_t asgn_read(struct file *file, char __user *buf, size_t count, loff
 /* write: replace data, adding prefix in mode 0; errors leave previous data intact. */
 static ssize_t asgn_write(struct file *file, const char __user *buf, size_t count, loff_t *pos)
 {
-    char tmp[CAPACITY];
+    char *payload;
     size_t prefix, accepted;
     if (!count)
         return 0;
     mutex_lock(&data_lock);
     prefix = mode == 0 ? sizeof("[KERNEL]") - 1 : 0;
     accepted = min(count, (size_t)CAPACITY - 1 - prefix);
-    if (copy_from_user(tmp + prefix, buf, accepted)) {
+    payload = memdup_user(buf, accepted);
+    if (IS_ERR(payload)) {
         mutex_unlock(&data_lock);
-        return -EFAULT;
+        return PTR_ERR(payload);
     }
     if (prefix)
-        memcpy(tmp, "[KERNEL]", prefix);
-    tmp[prefix + accepted] = '\0';
-    memcpy(data, tmp, prefix + accepted + 1);
+        memcpy(data, "[KERNEL]", prefix);
+    memcpy(data + prefix, payload, accepted);
+    data[prefix + accepted] = '\0';
+    kfree(payload);
     stats.buffer_len = prefix + accepted;
     stats.last_write_size = accepted;
     stats.write_count++;

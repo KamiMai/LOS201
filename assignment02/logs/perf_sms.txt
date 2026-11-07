@@ -1,0 +1,781 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 556  of event 'cpu-clock'
+# Event count (approx.): 557673004
+#
+# Overhead  Command      Shared Object      Symbol                                     
+# ........  ...........  .................  ...........................................
+#
+     8.99%  sms_app_x86  [kernel.kallsyms]  [k] _raw_spin_unlock_irqrestore
+            |
+            ---_raw_spin_unlock_irqrestore
+               |          
+               |--8.27%--try_to_wake_up
+               |          wake_up_q
+               |          |          
+               |          |--4.50%--do_mq_timedsend
+               |          |          __x64_sys_mq_timedsend
+               |          |          x64_sys_call
+               |          |          do_syscall_64
+               |          |          entry_SYSCALL_64_after_hwframe
+               |          |          ___mq_timedsend_time64 (inlined)
+               |          |          |          
+               |          |          |--2.88%--app_log
+               |          |          |          |          
+               |          |          |          |--2.16%--processor_thread
+               |          |          |          |          start_thread
+               |          |          |          |          __clone3 (inlined)
+               |          |          |          |          
+               |          |          |           --0.72%--alert_thread
+               |          |          |                     start_thread
+               |          |          |                     __clone3 (inlined)
+               |          |          |          
+               |          |           --1.62%--detect_alert
+               |          |                     processor_thread
+               |          |                     start_thread
+               |          |                     __clone3 (inlined)
+               |          |          
+               |           --3.78%--futex_wake
+               |                     do_futex
+               |                     __x64_sys_futex
+               |                     x64_sys_call
+               |                     do_syscall_64
+               |                     entry_SYSCALL_64_after_hwframe
+               |                     |          
+               |                      --3.60%--futex_wake (inlined)
+               |                                ___pthread_cond_signal (inlined)
+               |                                buffer_push
+               |                                sensor_thread
+               |                                start_thread
+               |                                __clone3 (inlined)
+               |          
+                --0.72%--hrtimer_start_range_ns
+
+     7.91%  sms_app_x86  [kernel.kallsyms]  [k] finish_task_switch.isra.0
+            |
+            ---finish_task_switch.isra.0
+               __schedule
+               schedule
+               |          
+               |--3.24%--schedule_hrtimeout_range_clock
+               |          wq_sleep
+               |          do_mq_timedreceive
+               |          __x64_sys_mq_timedreceive
+               |          x64_sys_call
+               |          do_syscall_64
+               |          entry_SYSCALL_64_after_hwframe
+               |          ___mq_timedreceive_time64 (inlined)
+               |          ___mq_timedreceive_time64 (inlined)
+               |          |          
+               |          |--1.98%--logger_thread
+               |          |          start_thread
+               |          |          __clone3 (inlined)
+               |          |          
+               |           --1.26%--alert_thread
+               |                     start_thread
+               |                     __clone3 (inlined)
+               |          
+               |--2.34%--futex_do_wait
+               |          __futex_wait
+               |          futex_wait
+               |          do_futex
+               |          __x64_sys_futex
+               |          x64_sys_call
+               |          do_syscall_64
+               |          entry_SYSCALL_64_after_hwframe
+               |          __futex_abstimed_wait_common64 (inlined)
+               |          __futex_abstimed_wait_common (inlined)
+               |          __futex_abstimed_wait_cancelable64 (inlined)
+               |          __pthread_cond_wait_common (inlined)
+               |          ___pthread_cond_wait (inlined)
+               |          buffer_pop
+               |          processor_thread
+               |          start_thread
+               |          __clone3 (inlined)
+               |          
+               |--1.44%--do_nanosleep
+               |          hrtimer_nanosleep
+               |          |          
+               |           --1.08%--common_nsleep_timens
+               |                     __x64_sys_clock_nanosleep
+               |                     x64_sys_call
+               |                     do_syscall_64
+               |                     entry_SYSCALL_64_after_hwframe
+               |                     __clock_nanosleep (inlined)
+               |                     sensor_thread
+               |                     start_thread
+               |                     __clone3 (inlined)
+               |          
+                --0.90%--exit_to_user_mode_loop
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+
+     3.60%  sms_app_x86  libc.so.6          [.] __printf_buffer
+            |          
+             --3.06%--__printf_buffer
+                       |          
+                       |--1.98%--__vfprintf_internal
+                       |          __fprintf (inlined)
+                       |          |          
+                       |          |--1.08%--logger_thread
+                       |          |          start_thread
+                       |          |          __clone3 (inlined)
+                       |          |          
+                       |           --0.90%--alert_thread
+                       |                     start_thread
+                       |                     __clone3 (inlined)
+                       |          
+                        --0.72%--__printf_buffer_snprintf_done (inlined)
+                                  __vsnprintf_internal (inlined)
+                                  ___vsnprintf
+                                  app_log
+                                  |          
+                                   --0.54%--processor_thread
+                                             start_thread
+                                             __clone3 (inlined)
+
+     3.60%  sms_app_x86  libc.so.6          [.] clock_nanosleep@GLIBC_2.2.5
+            |
+            ---__clock_nanosleep (inlined)
+               |          
+                --3.06%--sensor_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     3.42%  sms_app_x86  libc.so.6          [.] __printf_fp_buffer_1.isra.0
+            |
+            ---__printf_fp_buffer_1 (inlined)
+               __printf_fp_l_buffer
+               __printf_buffer
+               |          
+               |--1.80%--__printf_buffer_snprintf_done (inlined)
+               |          __vsnprintf_internal (inlined)
+               |          ___vsnprintf
+               |          app_log
+               |          processor_thread
+               |          start_thread
+               |          __clone3 (inlined)
+               |          
+                --1.62%--__vfprintf_internal
+                          __fprintf (inlined)
+                          alert_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     2.52%  sms_app_x86  [kernel.kallsyms]  [k] do_mq_timedsend
+            |
+            ---do_mq_timedsend
+               |          
+               |--1.98%--__x64_sys_mq_timedsend
+               |          x64_sys_call
+               |          do_syscall_64
+               |          entry_SYSCALL_64_after_hwframe
+               |          ___mq_timedsend_time64 (inlined)
+               |          |          
+               |          |--1.44%--app_log
+               |          |          |          
+               |          |          |--0.72%--alert_thread
+               |          |          |          start_thread
+               |          |          |          __clone3 (inlined)
+               |          |          |          
+               |          |           --0.72%--processor_thread
+               |          |                     start_thread
+               |          |                     __clone3 (inlined)
+               |          |          
+               |           --0.54%--detect_alert
+               |                     processor_thread
+               |                     start_thread
+               |                     __clone3 (inlined)
+               |          
+                --0.54%--x64_sys_call
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+                          ___mq_timedsend_time64 (inlined)
+                          app_log
+
+     2.52%  sms_app_x86  libc.so.6          [.] __GI___pthread_disable_asynccancel
+            |
+            ---__pthread_disable_asynccancel (inlined)
+               |          
+               |--0.72%--__pthread_cond_wait_common (inlined)
+               |          ___pthread_cond_wait (inlined)
+               |          buffer_pop
+               |          processor_thread
+               |          start_thread
+               |          __clone3 (inlined)
+               |          
+               |--0.54%--logger_thread
+               |          start_thread
+               |          __clone3 (inlined)
+               |          
+                --0.54%--sensor_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     2.52%  sms_app_x86  libc.so.6          [.] mq_timedreceive@@GLIBC_2.34
+            |
+            ---___mq_timedreceive_time64 (inlined)
+               ___mq_timedreceive_time64 (inlined)
+               |          
+               |--1.62%--logger_thread
+               |          start_thread
+               |          __clone3 (inlined)
+               |          
+                --0.90%--alert_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     2.34%  sms_app_x86  [kernel.kallsyms]  [k] do_syscall_64
+            |
+            ---do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               |          
+               |--0.54%--___mq_timedsend_time64 (inlined)
+               |          
+                --0.54%--___mq_timedreceive_time64 (inlined)
+                          ___mq_timedreceive_time64 (inlined)
+
+     2.34%  sms_app_x86  libc.so.6          [.] __strftime_internal
+            |          
+             --2.16%--__strftime_internal
+                       __strftime_l
+                       logger_thread
+                       start_thread
+                       __clone3 (inlined)
+
+     1.62%  sms_app_x86  libc.so.6          [.] mq_timedsend@@GLIBC_2.34
+            |
+            ---___mq_timedsend_time64 (inlined)
+               |          
+                --1.26%--detect_alert
+                          processor_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     1.44%  sms_app_x86  [kernel.kallsyms]  [k] kfree
+            |
+            ---kfree
+               |          
+                --0.72%--security_msg_msg_free
+                          free_msg
+                          do_mq_timedreceive
+                          __x64_sys_mq_timedreceive
+                          x64_sys_call
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+                          ___mq_timedreceive_time64 (inlined)
+                          ___mq_timedreceive_time64 (inlined)
+                          logger_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     1.44%  sms_app_x86  libc.so.6          [.] __tzfile_compute
+            |
+            ---__tzfile_compute
+               |          
+                --1.08%--__tz_convert
+                          logger_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     1.26%  sms_app_x86  sms_app_x86        [.] sensor_thread
+            |
+            ---sensor_thread
+               start_thread
+               __clone3 (inlined)
+
+     1.08%  sms_app_x86  [kernel.kallsyms]  [k] fdget
+            |
+            ---fdget
+               |          
+                --0.72%--do_mq_timedsend
+                          __x64_sys_mq_timedsend
+                          x64_sys_call
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+                          ___mq_timedsend_time64 (inlined)
+                          |          
+                           --0.54%--app_log
+                                     processor_thread
+                                     start_thread
+                                     __clone3 (inlined)
+
+     1.08%  sms_app_x86  [kernel.kallsyms]  [k] fdget_pos
+            |
+            ---fdget_pos
+               |          
+                --0.54%--ksys_lseek
+                          __x64_sys_lseek
+                          x64_sys_call
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+                          __lseek64 (inlined)
+                          _IO_ftell
+                          logger_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     1.08%  sms_app_x86  libc.so.6          [.] __offtime
+            |
+            ---__offtime
+               |          
+               |--0.54%--__tz_convert
+               |          logger_thread
+               |          start_thread
+               |          __clone3 (inlined)
+               |          
+                --0.54%--logger_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     0.90%  sms_app_x86  [kernel.kallsyms]  [k] begin_current_label_crit_section
+            |
+            ---begin_current_label_crit_section
+               |          
+                --0.72%--apparmor_file_permission
+                          security_file_permission
+                          rw_verify_area
+                          vfs_write
+                          ksys_write
+                          __x64_sys_write
+                          x64_sys_call
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+                          __libc_write (inlined)
+                          __libc_write (inlined)
+                          _IO_new_file_write (inlined)
+                          new_do_write (inlined)
+                          _IO_new_file_xsputn (inlined)
+                          _IO_new_file_xsputn (inlined)
+                          __printf_buffer_flush_to_file (inlined)
+                          __printf_buffer_to_file_done
+                          __vfprintf_internal
+                          __fprintf (inlined)
+                          alert_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     0.90%  sms_app_x86  [kernel.kallsyms]  [k] futex_hash
+            |
+            ---futex_hash
+               |          
+                --0.54%--do_futex
+                          __x64_sys_futex
+                          x64_sys_call
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+
+     0.90%  sms_app_x86  [kernel.kallsyms]  [k] x64_sys_call
+            |
+            ---x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+
+     0.90%  sms_app_x86  libc.so.6          [.] __GI___futex_abstimed_wait_cancelable64
+            |          
+             --0.72%--__futex_abstimed_wait_common64 (inlined)
+                       __futex_abstimed_wait_common (inlined)
+                       __futex_abstimed_wait_cancelable64 (inlined)
+                       __pthread_cond_wait_common (inlined)
+                       ___pthread_cond_wait (inlined)
+                       buffer_pop
+                       processor_thread
+                       start_thread
+                       __clone3 (inlined)
+
+     0.90%  sms_app_x86  libc.so.6          [.] clock_gettime@@GLIBC_2.17
+            |
+            ---__clock_gettime (inlined)
+               |          
+                --0.54%--start_thread
+                          __clone3 (inlined)
+
+     0.72%  sms_app_x86  [kernel.kallsyms]  [k] __kmalloc_node_noprof
+            |
+            ---__kmalloc_node_noprof
+               load_msg
+               do_mq_timedsend
+               __x64_sys_mq_timedsend
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               ___mq_timedsend_time64 (inlined)
+               |          
+                --0.54%--app_log
+
+     0.72%  sms_app_x86  [kernel.kallsyms]  [k] __x64_sys_clock_nanosleep
+            |
+            ---__x64_sys_clock_nanosleep
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               __clock_nanosleep (inlined)
+               |          
+                --0.54%--sensor_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     0.72%  sms_app_x86  [kernel.kallsyms]  [k] common_nsleep_timens
+            |
+            ---common_nsleep_timens
+               |          
+                --0.54%--__x64_sys_clock_nanosleep
+                          x64_sys_call
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+                          __clock_nanosleep (inlined)
+                          sensor_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     0.72%  sms_app_x86  [kernel.kallsyms]  [k] filemap_get_entry
+            |
+            ---filemap_get_entry
+               __filemap_get_folio_mpol
+               ext4_da_write_begin
+               generic_perform_write
+               ext4_buffered_write_iter
+               ext4_file_write_iter
+               vfs_write
+               ksys_write
+               __x64_sys_write
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               __libc_write (inlined)
+               __libc_write (inlined)
+               _IO_new_file_write (inlined)
+               new_do_write (inlined)
+               _IO_new_file_xsputn (inlined)
+               _IO_new_file_xsputn (inlined)
+               __printf_buffer_flush_to_file (inlined)
+               __printf_buffer_to_file_done
+               __vfprintf_internal
+               __fprintf (inlined)
+               alert_thread
+               start_thread
+               __clone3 (inlined)
+
+     0.72%  sms_app_x86  [kernel.kallsyms]  [k] futex_wake
+            |
+            ---futex_wake
+               |          
+                --0.54%--do_futex
+                          __x64_sys_futex
+                          x64_sys_call
+                          do_syscall_64
+                          entry_SYSCALL_64_after_hwframe
+
+     0.72%  sms_app_x86  [kernel.kallsyms]  [k] mod_memcg_state
+            |
+            ---mod_memcg_state
+
+     0.72%  sms_app_x86  libc.so.6          [.] __mpn_divrem
+            |
+            ---__mpn_divrem
+               hack_digit
+               __printf_fp_buffer_1 (inlined)
+               __printf_fp_l_buffer
+               __printf_buffer
+
+     0.72%  sms_app_x86  libc.so.6          [.] __vfprintf_internal
+            |
+            ---__vfprintf_internal
+               __fprintf (inlined)
+               |          
+                --0.54%--logger_thread
+                          start_thread
+                          __clone3 (inlined)
+
+     0.72%  sms_app_x86  libc.so.6          [.] hack_digit
+            |
+            ---hack_digit
+               __printf_fp_buffer_1 (inlined)
+               __printf_fp_l_buffer
+               __printf_buffer
+
+     0.72%  sms_app_x86  libc.so.6          [.] llseek@GLIBC_2.2.5
+            |
+            ---__lseek64 (inlined)
+               _IO_ftell
+               logger_thread
+               start_thread
+               __clone3 (inlined)
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] __futex_hash
+            |
+            ---__futex_hash
+               futex_hash
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] __hrtimer_setup
+            |
+            ---__hrtimer_setup
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] __kmalloc_cache_noprof
+            |
+            ---__kmalloc_cache_noprof
+               do_mq_timedreceive
+               __x64_sys_mq_timedreceive
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               ___mq_timedreceive_time64 (inlined)
+               ___mq_timedreceive_time64 (inlined)
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] __kmalloc_noprof
+            |
+            ---__kmalloc_noprof
+               lsm_blob_alloc
+               security_msg_msg_alloc
+               load_msg
+               do_mq_timedsend
+               __x64_sys_mq_timedsend
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               ___mq_timedsend_time64 (inlined)
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] _copy_from_user
+            |
+            ---_copy_from_user
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] drain_obj_stock
+            |
+            ---drain_obj_stock
+               refill_obj_stock
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] ext4_fill_raw_inode
+            |
+            ---ext4_fill_raw_inode
+               ext4_do_update_inode.isra.0
+               ext4_mark_iloc_dirty
+               __ext4_mark_inode_dirty
+               ext4_dirty_inode
+               __mark_inode_dirty
+               file_update_time_flags
+               file_modified
+               ext4_buffered_write_iter
+               ext4_file_write_iter
+               vfs_write
+               ksys_write
+               __x64_sys_write
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               __libc_write (inlined)
+               __libc_write (inlined)
+               _IO_new_file_write (inlined)
+               new_do_write (inlined)
+               _IO_new_file_xsputn (inlined)
+               _IO_new_file_xsputn (inlined)
+               __printf_buffer_flush_to_file (inlined)
+               __printf_buffer_to_file_done
+               __vfprintf_internal
+               __fprintf (inlined)
+               alert_thread
+               start_thread
+               __clone3 (inlined)
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] rep_movs_alternative
+            |
+            ---rep_movs_alternative
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] schedule
+            |
+            ---schedule
+
+     0.54%  sms_app_x86  [kernel.kallsyms]  [k] security_msg_msg_alloc
+            |
+            ---security_msg_msg_alloc
+               do_mq_timedsend
+               __x64_sys_mq_timedsend
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               ___mq_timedsend_time64 (inlined)
+
+     0.54%  sms_app_x86  libc.so.6          [.] _IO_file_seekoff@@GLIBC_2.2.5
+            |
+            ---do_ftell (inlined)
+               _IO_new_file_seekoff (inlined)
+               _IO_ftell
+               logger_thread
+               start_thread
+               __clone3 (inlined)
+
+     0.54%  sms_app_x86  libc.so.6          [.] _IO_file_write@@GLIBC_2.2.5
+            |
+            ---_IO_new_file_write (inlined)
+
+     0.54%  sms_app_x86  libc.so.6          [.] __GI___libc_write
+            |
+            ---__libc_write (inlined)
+
+     0.54%  sms_app_x86  libc.so.6          [.] __libc_alloca_cutoff
+            |
+            ---__libc_alloca_cutoff
+               __printf_fp_l_buffer
+               __printf_buffer
+
+     0.54%  sms_app_x86  libc.so.6          [.] __memmove_avx_unaligned_erms
+            |
+            ---__memmove_avx_unaligned_erms
+
+     0.54%  sms_app_x86  libc.so.6          [.] __mpn_mul_1
+            |
+            ---__mpn_mul_1
+
+     0.54%  sms_app_x86  libc.so.6          [.] __printf_fp_l_buffer
+     0.54%  sms_app_x86  libc.so.6          [.] __strnlen_avx2
+            |
+            ---__strnlen_avx2
+               __vfprintf_internal
+               __fprintf (inlined)
+               logger_thread
+               start_thread
+               __clone3 (inlined)
+
+     0.54%  sms_app_x86  libc.so.6          [.] fprintf
+            |
+            ---__fprintf (inlined)
+
+     0.54%  sms_app_x86  libc.so.6          [.] strftime
+            |
+            ---strftime
+               start_thread
+               __clone3 (inlined)
+
+     0.54%  sms_app_x86  sms_app_x86        [.] logger_thread
+            |
+            ---logger_thread
+               start_thread
+               __clone3 (inlined)
+
+     0.54%  sms_app_x86  sms_app_x86        [.] processor_thread
+            |
+            ---processor_thread
+               start_thread
+               __clone3 (inlined)
+
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] __check_heap_object
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] __fsnotify_parent
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] __radix_tree_lookup
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] _raw_spin_lock
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] do_mq_timedreceive
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] ext4_block_write_begin
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] ext4_do_update_inode.isra.0
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] ext4_get_group_desc
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] ext4_llseek
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] futex_do_wait
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] futex_ref_get
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] futex_wait_setup
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] futex_wake_mark
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] handle_softirqs
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] hrtimer_nanosleep
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] kmem_cache_alloc_noprof
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] lookup_bh_lru
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] lsm_blob_alloc
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] memset_orig
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] refill_obj_stock
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] refill_stock
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] vfs_write
+     0.36%  sms_app_x86  [kernel.kallsyms]  [k] wake_q_add_safe
+     0.36%  sms_app_x86  [vdso]             [.] 0x000000000000099a
+     0.36%  sms_app_x86  libc.so.6          [.] _IO_file_xsputn@@GLIBC_2.2.5
+     0.36%  sms_app_x86  libc.so.6          [.] __GI___lll_lock_wake
+     0.36%  sms_app_x86  libc.so.6          [.] __mpn_cmp
+     0.36%  sms_app_x86  libc.so.6          [.] __mpn_extract_double
+     0.36%  sms_app_x86  libc.so.6          [.] __mpn_rshift
+     0.36%  sms_app_x86  libc.so.6          [.] __strchrnul_avx2
+     0.36%  sms_app_x86  libc.so.6          [.] __strcmp_avx2
+     0.36%  sms_app_x86  libc.so.6          [.] __strlen_avx2
+     0.36%  sms_app_x86  libc.so.6          [.] __tz_convert
+     0.36%  sms_app_x86  libc.so.6          [.] _itoa_word
+     0.36%  sms_app_x86  libc.so.6          [.] pthread_cond_signal@@GLIBC_2.3.2
+     0.36%  sms_app_x86  libc.so.6          [.] pthread_mutex_lock@@GLIBC_2.2.5
+     0.36%  sms_app_x86  libc.so.6          [.] pthread_mutex_unlock@@GLIBC_2.2.5
+     0.36%  sms_app_x86  sms_app_x86        [.] alert_thread
+     0.36%  sms_app_x86  sms_app_x86        [.] buffer_pop
+     0.36%  sms_app_x86  sms_app_x86        [.] detect_alert
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __brelse
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __ext4_get_inode_loc
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __futex_wait
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __memcg_slab_post_alloc_hook
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __nr_to_section
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __raw_spin_lock_irqsave
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __rcu_read_lock
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __schedule
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __virt_addr_valid
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __x64_sys_futex
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __x64_sys_lseek
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] __x64_sys_mq_timedsend
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] balance_dirty_pages_ratelimited_flags
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] block_write_end
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] check_heap_object
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] do_futex
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] drain_stock
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] ext4_buffered_write_iter
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] ext4_da_do_write_end.isra.0
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] ext4_da_get_block_prep
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] ext4_da_write_begin
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] ext4_da_write_end
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] ext4_file_write_iter
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] ext4_journal_check_start
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] ext4_nonda_switch
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] file_remove_privs_flags
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] file_update_time_flags
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] folio_wait_stable
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] fput
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] generic_perform_write
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] get_timespec64
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] handle_pte_fault
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] inode_set_ctime_to_ts
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] inode_to_bdi
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] intel_engine_get_busy_time
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] irqentry_exit
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] jbd2_journal_dirty_metadata
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] jbd2_journal_stop
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] kmem_cache_free
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] mnt_get_write_access_file
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] mod_memcg_lruvec_state
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] obj_cgroup_charge_account
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] page_copy_sane
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] page_counter_uncharge
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] propagate_protected_usage
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] queue_work_on
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] radix_tree_lookup
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] schedule_hrtimeout_range_clock
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] start_this_handle
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] up_write
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] wake_up_q
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] workqueue_softirq_action
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] wq_sleep
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] xas_load
+     0.18%  sms_app_x86  [kernel.kallsyms]  [k] xas_start
+     0.18%  sms_app_x86  [vdso]             [.] __vdso_clock_gettime
+     0.18%  sms_app_x86  [vdso]             [.] 0x0000000000000941
+     0.18%  sms_app_x86  [vdso]             [.] 0x0000000000000981
+     0.18%  sms_app_x86  libc.so.6          [.] _IO_file_overflow@@GLIBC_2.2.5
+     0.18%  sms_app_x86  libc.so.6          [.] _IO_ftell
+     0.18%  sms_app_x86  libc.so.6          [.] __GI___pthread_enable_asynccancel
+     0.18%  sms_app_x86  libc.so.6          [.] __GI___pthread_mutex_unlock_usercnt
+     0.18%  sms_app_x86  libc.so.6          [.] __memset_avx2_unaligned_erms
+     0.18%  sms_app_x86  libc.so.6          [.] __printf_buffer_to_file_switch
+     0.18%  sms_app_x86  libc.so.6          [.] __printf_buffer_write
+     0.18%  sms_app_x86  libc.so.6          [.] __pthread_mutex_cond_lock
+     0.18%  sms_app_x86  libc.so.6          [.] __strftime_l
+     0.18%  sms_app_x86  libc.so.6          [.] __tzstring_len
+     0.18%  sms_app_x86  libc.so.6          [.] memcpy@@GLIBC_2.14@plt
+     0.18%  sms_app_x86  libc.so.6          [.] mq_send@@GLIBC_2.34
+     0.18%  sms_app_x86  libc.so.6          [.] msort_with_tmp.part.0
+     0.18%  sms_app_x86  libc.so.6          [.] rand_r
+     0.18%  sms_app_x86  sms_app_x86        [.] clock_gettime@plt
+     0.18%  sms_app_x86  sms_app_x86        [.] main
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

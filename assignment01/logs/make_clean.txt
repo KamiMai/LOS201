@@ -1,0 +1,19 @@
+make: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl'
+make -C /home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15 M=/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- clean
+make[1]: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+  CLEAN   /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl/Module.symvers
+make[1]: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+rm -f ioctl_test
+make: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task1_ioctl'
+make: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc'
+make -C /home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15 M=/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- clean
+make[1]: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+  CLEAN   /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc/Module.symvers
+make[1]: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+make: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment01/task2_misc'
+make: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver'
+make -C /home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15 M=/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- clean
+make[1]: Entering directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+  CLEAN   /home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver/Module.symvers
+make[1]: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/work/assignments-kernel/linux-5.15'
+make: Leaving directory '/home/kaymai/Documents/Codex/2026-10-28/tao/outputs/embedded-linux-labs/assignment02/driver'

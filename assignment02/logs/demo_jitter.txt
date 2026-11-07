@@ -1,0 +1,3 @@
+backend=ARM_DRIVER policy=FIFO interval_ms=500 samples=229
+min_us=164 avg_us=308.777 max_us=2880 p99_us=1807
+[0,100)us=0 [100,500)us=217 [500,1000)us=8 [1000,+inf)us=4

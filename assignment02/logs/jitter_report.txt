@@ -1,0 +1,10 @@
+backend=ARM_DRIVER policy=FIFO interval_ms=100 samples=1000
+min_us=168 avg_us=361.003 max_us=5571 p99_us=2679
+[0,100)us=0 [100,500)us=936 [500,1000)us=37 [1000,+inf)us=27
+
+backend=ARM_DRIVER policy=OTHER interval_ms=100 samples=1000
+min_us=168 avg_us=472.038 max_us=6085 p99_us=3183
+[0,100)us=0 [100,500)us=856 [500,1000)us=101 [1000,+inf)us=43
+
+P99 reduction = (3183 - 2679) / 3183 * 100 = 15.83%
+Wake-up counts differ from accepted reads because of driver EAGAIN.

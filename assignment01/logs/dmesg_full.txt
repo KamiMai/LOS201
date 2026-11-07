@@ -49,8 +49,8 @@ clocksource: arm,sp804: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19
 Failed to initialize '/bus@40000000/motherboard-bus@40000000/iofpga@7,00000000/timer@12000': -22
 smp_twd: clock not found -2
 Console: colour dummy device 80x30
-Calibrating local timer... 93.25MHz.
-Calibrating delay loop... 775.37 BogoMIPS (lpj=3876864)
+Calibrating local timer... 91.58MHz.
+Calibrating delay loop... 749.56 BogoMIPS (lpj=3747840)
 pid_max: default: 32768 minimum: 301
 Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
 Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
@@ -65,7 +65,7 @@ CPU1: Spectre v2: using BPIALL workaround
 CPU2: failed to boot: -38
 CPU3: failed to boot: -38
 smp: Brought up 1 node, 2 CPUs
-SMP: Total of 2 processors activated (1515.11 BogoMIPS).
+SMP: Total of 2 processors activated (1481.93 BogoMIPS).
 CPU: All CPU(s) started in SVC mode.
 devtmpfs: initialized
 VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 0
@@ -110,7 +110,6 @@ io scheduler mq-deadline registered
 io scheduler kyber registered
 sii902x 0-0060: supply iovcc not found, using dummy regulator
 sii902x 0-0060: supply cvcc12 not found, using dummy regulator
-Freeing initrd memory: 5296K
 physmap-flash 40000000.flash: physmap platform flash device: [mem 0x40000000-0x43ffffff]
 40000000.flash: Found 2 x16 devices at 0x0 in 32-bit bank. Manufacturer ID 0x000000 Chip ID 0x000000
 Intel/Sharp Extended Query Table at 0x0031
@@ -125,6 +124,7 @@ Concatenating MTD devices:
 (0): "40000000.flash"
 (1): "40000000.flash"
 into device "40000000.flash"
+Freeing initrd memory: 5296K
 physmap-flash 48000000.psram: physmap platform flash device: [mem 0x48000000-0x49ffffff]
 libphy: Fixed MDIO Bus: probed
 libphy: smsc911x-mdio: probed
@@ -153,7 +153,7 @@ printk: console [ttyAMA0] enabled
 1000b000.uart: ttyAMA2 at MMIO 0x1000b000 (irq = 39, base_baud = 0) is a PL011 rev1
 1000c000.uart: ttyAMA3 at MMIO 0x1000c000 (irq = 40, base_baud = 0) is a PL011 rev1
 rtc-pl031 10017000.rtc: registered as rtc0
-rtc-pl031 10017000.rtc: setting system clock to 2026-11-07T05:41:10 UTC (1794030070)
+rtc-pl031 10017000.rtc: setting system clock to 2026-11-07T05:51:31 UTC (1794030691)
 amba 10020000.clcd: Fixing up cyclic dependency with 0-0039
 drm-clcd-pl111 10020000.clcd: DVI muxed to daughterboard 1 (core tile) CLCD
 drm-clcd-pl111 10020000.clcd: initializing Versatile Express PL111
@@ -166,11 +166,11 @@ drm-clcd-pl111 1001f000.clcd: core tile graphics present
 drm-clcd-pl111 1001f000.clcd: this device will be deactivated
 drm-clcd-pl111 1001f000.clcd: Versatile Express init failed - -19
 drm-clcd-pl111 10020000.clcd: DVI muxed to daughterboard 1 (core tile) CLCD
+input: AT Raw Set 2 keyboard as /devices/platform/bus@40000000/bus@40000000:motherboard-bus@40000000/bus@40000000:motherboard-bus@40000000:iofpga@7,00000000/10006000.kmi/serio0/input/input0
 drm-clcd-pl111 10020000.clcd: initializing Versatile Express PL111
 drm-clcd-pl111 10020000.clcd: found bridge on endpoint 0
 drm-clcd-pl111 10020000.clcd: Using non-panel bridge
 [drm] Initialized pl111 1.0.0 20170317 for 10020000.clcd on minor 0
-input: AT Raw Set 2 keyboard as /devices/platform/bus@40000000/bus@40000000:motherboard-bus@40000000/bus@40000000:motherboard-bus@40000000:iofpga@7,00000000/10006000.kmi/serio0/input/input0
 Console: switching to colour frame buffer device 128x48
 drm-clcd-pl111 10020000.clcd: [drm] fb0: pl111 frame buffer device
 ALSA device list:

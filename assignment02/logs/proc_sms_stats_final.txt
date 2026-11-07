@@ -1,0 +1,5 @@
+read_count: 2274
+last_temperature: 28.8
+last_humidity: 30.3
+uptime_seconds: 382
+interval_ms: 100
