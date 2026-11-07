@@ -16,8 +16,6 @@ for n in [1,2]:
         tar.add(lab/f'output/initramfs_asgn{n}.cpio.gz',arcname=f'{prefix}/output/initramfs_asgn{n}.cpio.gz')
         for path in sorted((repo/'assignment_support/kernel').iterdir()):
             tar.add(path,arcname=f'{prefix}/kernel/{path.name}')
-        for path in sorted((repo/'third-party-licenses').iterdir()):
-            if path.is_file():tar.add(path,arcname=f'{prefix}/third-party-licenses/{path.name}')
         def add_text(name,text,mode=0o644):
             data=text.encode();info=tarfile.TarInfo(f'{prefix}/{name}');info.size=len(data);info.mode=mode
             # Preserve a real filesystem timestamp for generated package instructions.

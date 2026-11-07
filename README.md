@@ -98,7 +98,7 @@ Repo chưa chứa log MTD hoàn chỉnh hoặc báo cáo PDF. Không có kết q
 - BusyBox 1.35.0: https://busybox.net/downloads/busybox-1.35.0.tar.bz2
 - U-Boot 2022.04: https://ftp.denx.de/pub/u-boot/u-boot-2022.04.tar.bz2
 
-Các phần mềm upstream giữ nguyên bản quyền và giấy phép tương ứng. Một số văn bản giấy phép được giữ trong `third-party-licenses`; đây không phải tuyên bố rằng toàn bộ phần mềm upstream do tác giả bài lab viết.
+Các phần mềm upstream giữ nguyên bản quyền và giấy phép tương ứng; phần mềm upstream không phải do tác giả bài lab viết.
 
 ## LAB03
 

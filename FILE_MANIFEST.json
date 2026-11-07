@@ -110,13 +110,5 @@
   {
     "path": "embedded_lab1/configs/uboot.config",
     "sha256": "f199de8f233a401593035437536e25682def8ac59adcc48d43a5484c594ae6e5"
-  },
-  {
-    "path": "third-party-licenses/BusyBox-LICENSE.txt",
-    "sha256": "bbfc9843646d483c334664f651c208b9839626891d8f17604db2146962f43548"
-  },
-  {
-    "path": "third-party-licenses/Linux-GPL-2.0.txt",
-    "sha256": "f6b78c087c3ebdf0f3c13415070dd480a3f35d8fc76f3d02180a407c1c812f79"
   }
 ]

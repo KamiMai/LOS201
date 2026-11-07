@@ -18,8 +18,7 @@ To use an already built tree instead:
 KDIR=/absolute/path/to/linux-5.15 bash assignment_support/scripts/build.sh
 ```
 
-Images reuse the LAB03 BusyBox and ARM runtime libraries. Their upstream
-licenses remain under the repository third-party notices. No HOST kernel is
+Images reuse the LAB03 BusyBox and ARM runtime libraries. No HOST kernel is
 replaced, and no experimental sensor module is loaded into the HOST.
 
 Run from a full checkout:
